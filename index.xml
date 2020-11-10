@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>低噪音</title>
@@ -8,7 +7,7 @@
     <language>en</language>
     <lastBuildDate>Fri, 30 Oct 2020 02:37:46 +0000</lastBuildDate>
     
-	<atom:link href="https://colarxu.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://colarxu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,25 +16,17 @@
       <pubDate>Mon, 02 Nov 2020 09:22:10 +0000</pubDate>
       
       <guid>https://colarxu.github.io/about/</guid>
-      <description>无业游民，每日读书散步，自得其乐，</description>
+      <description>&lt;p&gt;无业游民，每日读书散步，自得其乐，&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Git 学习笔记 00：写给自己的开篇</title>
-      <link>https://colarxu.github.io/posts/2020/git-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-00%E5%86%99%E7%BB%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%BC%80%E7%AF%87/</link>
+      <title>Posts</title>
+      <link>https://colarxu.github.io/posts/</link>
       <pubDate>Fri, 30 Oct 2020 02:37:46 +0000</pubDate>
       
-      <guid>https://colarxu.github.io/posts/2020/git-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-00%E5%86%99%E7%BB%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%BC%80%E7%AF%87/</guid>
-      <description>坊间传言，Github 是全球最大的同性交友网站👬，我偶尔也会进去瞧两眼。但毕竟不是搞技术的，就像女生进 Gay bar 一样，玩不出什么花样。 这周在学习用 Hugo 搭建自己的博客，最后一步，把本地文件夹部署到 Github，</description>
-    </item>
-    
-    <item>
-      <title>Git 学习笔记 01：什么是 Git？</title>
-      <link>https://colarxu.github.io/posts/2020/git-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-01%E4%BB%80%E4%B9%88%E6%98%AF-git/</link>
-      <pubDate>Fri, 30 Oct 2020 02:37:10 +0000</pubDate>
-      
-      <guid>https://colarxu.github.io/posts/2020/git-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-01%E4%BB%80%E4%B9%88%E6%98%AF-git/</guid>
-      <description>Git 是目前世界上最先进的分布式版本控制系统（没有之一）。 这话是 廖雪峰 说的，看起来很厉害，但有点难懂。 什么是「版本控制系统」？ 「分布式」又是什么意思？ 如果你想知道 Git 到底是什么？有什么用？ 还得从上面这两个陌</description>
+      <guid>https://colarxu.github.io/posts/</guid>
+      <description></description>
     </item>
     
   </channel>
