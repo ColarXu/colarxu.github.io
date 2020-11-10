@@ -50,7 +50,7 @@ a:link, a:visited {
 
 a:hover, a:active {
   color: #e42b2b;
-  font-size: 3em;
+  font-size: 1em;
 }
 
 h1,
@@ -261,6 +261,13 @@ hr {
   line-height: 2em;
   letter-spacing: 0.2px;
   margin-bottom: 20px;
+}
+
+.post .post_content h2::before {
+  content: "#";
+  margin-right: 6px;
+  : -10px;
+  color: #e42b2b;
 }
 
 .post .post_content a {
@@ -503,13 +510,6 @@ hr {
   font-size: 1.25em;
   padding-top: 15px
   ;
-}
-
-h2::before {
-  content: "#";
-  margin-right: 6px;
-  : -10px;
-  color: #e42b2b;
 }
 
 .markdown h3 {

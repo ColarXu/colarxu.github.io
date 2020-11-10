@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="许仙人" />
+	
+	
+	
+	<title>Git 学习笔记 01：什么是 Git？ ｜ 低噪音</title>
+	
+    
+    
+    <meta name="description" content="Git 是目前世界上最先进的分布式版本控制系统（没有之一）。 这话是 廖雪峰 说的，看起来很厉害，但有点难懂。 什么是「版本控制系统」？ 「分布式」又是什么意思？ 如果你想知道 Git 到底是什么？有什么用？ 还得从上面这两个陌" />
+    
+
+    
+    
+    <meta name="keywords" content="许仙人, 博客, 独立博客, 随笔, 科技, 人文" />
+    
+
+	
+    
+    <link rel="shortcut icon" href="https://colarxu.github.io/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/zozo.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/highlight.css" />
+
+    
+    
+</head>
+
+<body>
+    <div class="header">
+    <div class="site_title_container">
+        <div class="site_title">
+            <h1>
+                <a href="https://colarxu.github.io/">
+                    <span>低噪音</span>
+                </a>
+            </h1>
+        </div>
+    </div>
+    <a href="https://colarxu.github.io/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+        class="ri-rss-fill"></i></a>
+    <div class="nav_container">
+        <div class="site_nav" id="site_nav">
+            <ul>
+                
+                <li>
+                    <a href="/">主页</a>
+                </li>
+                
+                <li>
+                    <a href="/posts/">文库</a>
+                </li>
+                
+                <li>
+                    <a href="/tags/">标签</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">关于</a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="menu_icon">
+            <a id="menu_icon"><i class="ri-menu-line"></i></a>
+        </div>
+    </div>
+</div>
+    <div class="main">
+        <div class="content">
+            <div class="post_page">
+                <div class="post">
+                    <div class="post_title post_detail_title">
+                        <h1><a href='/posts/2020/git-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-01%E4%BB%80%E4%B9%88%E6%98%AF-git/'>Git 学习笔记 01：什么是 Git？</a></h1>
+                        <span class="date">2020.10.30</span>
+                    </div>
+                    <div class="post_content markdown"><blockquote>
+<p>Git 是目前世界上最先进的分布式版本控制系统（没有之一）。</p>
+</blockquote>
+<p>这话是 <a href="https://www.liaoxuefeng.com/wiki/896043488029600/896067008724000">廖雪峰</a> 说的，看起来很厉害，但有点难懂。</p>
+<ul>
+<li>什么是「版本控制系统」？</li>
+<li>「分布式」又是什么意思？</li>
+</ul>
+<p>如果你想知道 <strong>Git 到底是什么？有什么用？</strong> 还得从上面这两个陌生的概念入手。</p>
+<h2 id="版本控制系统">版本控制系统</h2>
+<p>作为一个文字工作者，我可以很肯定地说：<strong>好文章是改出来的</strong>。</p>
+<p>一篇文章，从写完到发表，通常要经过多次的修改和打磨。小到标点符号，大到文章结构和情节、案例，都可能发生变化。所以，文章的初稿（第一版）和成稿（最终版）之间，往往存在着若干个修改版本。这便引发了几个问题：</p>
+<ol>
+<li>明明是一篇文章，却需要保存多个不同版本的文件，桌面一片凌乱；</li>
+<li>想知道改了什么内容，只能一个个文件去查看，很是麻烦。</li>
+</ol>
+<p>如果有一个工具，让你<strong>只须保留一个文件，它来负责记录你对文件的历次改动，还能跟别人协作编辑</strong>，岂不是很省心？</p>
+<table>
+<thead>
+<tr>
+<th>版本</th>
+<th>文件名</th>
+<th>用户</th>
+<th>说明</th>
+<th>日期</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>写作计划.md</td>
+<td>许仙人</td>
+<td>增加了时间表</td>
+<td>10/5 9:13</td>
+</tr>
+<tr>
+<td>2</td>
+<td>写作计划.md</td>
+<td>卢奶奶</td>
+<td>删除了每日计划</td>
+<td>10/5 10:22</td>
+</tr>
+<tr>
+<td>3</td>
+<td>写作计划.md</td>
+<td>许仙人</td>
+<td>增加了完成奖励</td>
+<td>10/5 13:40</td>
+</tr>
+</tbody>
+</table>
+<p>Git 这个「版本控制系统」，干的就是这种活。但请注意哦，Git 不是所有文件类型都搞得定，<strong>它只服务文本文件，如 txt、Markdown 和各种代码</strong>，其他的非文本文件，就超出 Git 的服务范围了。</p>
+<h2 id="分布式和集中式">分布式和集中式</h2>
+<p>版本控制系统，主要分成两种类型：</p>
+<ol>
+<li>分布式：Git、BitKeeper</li>
+<li>集中式：CVS、SVN</li>
+</ol>
+<p>两者的最大区别，在于<strong>版本库的存放位置</strong>：</p>
+<ul>
+<li>如果系统为集中式，就会有一个中央服务器，你的版本库都保存在它那里。假设你新修改了一个版本，想共享给同事，先得把新版文件发送给服务器，同事再去服务器那里提取。如果文件很大，网速又很慢的话，那就慢慢等吧……</li>
+<li>如果系统为分布式，就没有中间人<del>赚差价</del>，你的版本库保留在自己电脑上，不联网就能使用。文件修改完之后，也不用上交给管理员。在有网络的前提下，同事可以直接上你这儿取，少了一个中间环节，速度自然更快。</li>
+</ul>
+<p>此外，两者在<strong>文件安全性</strong>方面也有点差异：</p>
+<ul>
+<li>集中式系统，版本库存放在中央服务器上，一旦服务器出问题，你的版本库就无法访问了。</li>
+<li>分布式系统，版本库存放在你和协作者的电脑上，万一你的电脑坏了，还可以去协作者的电脑里拿。</li>
+</ul>
+<p>如果你的文本项目需要反复修改，并跟其他人协作的话，Git 将会是一个非常好的选择。</p>
+<p>具体怎么使用？下篇文章再见👋</p>
+</div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://colarxu.github.io/tags/git/">Git</a>
+                                    
+                                    <a href="https://colarxu.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="doc_comments"></div>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    <footer class="footer">
+    <div class="powered_by">
+        <a href="https://varkai.com">Designed by VarKai,</a>
+        <a href="http://www.gohugo.io/">Proudly published with Hugo</a>
+    </div>
+
+    <div class="footer_slogan">
+        <span>许仙人的博客</span>
+    </div>
+</footer>
+    <script src="https://colarxu.github.io/js/jquery-3.5.1.min.js"></script>
+<link href="https://colarxu.github.io/css/fancybox.min.css" rel="stylesheet">
+<script src="https://colarxu.github.io/js/fancybox.min.js"></script>
+<script src="https://colarxu.github.io/js/zozo.js"></script>
+
+
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
+
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
+
+
+
+</body>
+
+</html>
