@@ -24,7 +24,7 @@ html::-webkit-scrollbar-thumb {
 body {
   color: #333333;
   font-family: -apple-system, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 16px;
+  font-size: 15px;
   width: 100%;
   background-color: #eeeeee;
   margin: 0;
@@ -240,7 +240,7 @@ hr {
 
 .post .post_title span.date {
   font-size: 12px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
 }
 
 .post .post_detail_title h1 {
@@ -273,7 +273,7 @@ hr {
   text-decoration: none;
   letter-spacing: 1px;
   color: #333333;
-  border-bottom: 2px solid #bbbbbb;
+  border-bottom: 2px solid #83ccd2;
 }
 
 .post .post_content a:hover {
@@ -325,7 +325,7 @@ hr {
 .page_tags  li {
   margin: 10px 15px;
   display: inline-block;
-  font-size: 1em;
+  font-size: 15px;
   color: #333333;
 }
 
@@ -440,6 +440,7 @@ hr {
   display: inline-block;
   width: 85%;
   color: #333333;
+  font-size: 15px;
 }
 
 .list_with_title .listing .listing_post .post_time {
@@ -450,7 +451,8 @@ hr {
 
 .list_with_title .listing .listing_post a:hover {
   color: #000000;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .pagination {
