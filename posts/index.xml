@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 低噪音</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2020 02:37:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Dec 2020 15:11:29 +0000</lastBuildDate>
     
 	<atom:link href="https://colarxu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>打喷嚏</title>
+      <link>https://colarxu.github.io/posts/2020/%E6%89%93%E5%96%B7%E5%9A%8F/</link>
+      <pubDate>Fri, 11 Dec 2020 15:11:29 +0000</pubDate>
+      
+      <guid>https://colarxu.github.io/posts/2020/%E6%89%93%E5%96%B7%E5%9A%8F/</guid>
+      <description>我的鼻子很奇怪，遇到冷空气，就想打喷嚏。 每次喷嚏一来，如同山洪爆发，又像小孩尿床，来不及伸手挡一挡，就一股脑打出去了。那些口水、细菌、病毒什么的，乘坐着鼻腔高速喷射机，洋洋洒洒地飞去四周遨游，降落到 A</description>
+    </item>
     
     <item>
       <title>Git 学习笔记 00：写给自己的开篇</title>
