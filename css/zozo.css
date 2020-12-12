@@ -69,11 +69,11 @@ hr {
 /*basic styles ends*/
 .main {
   background: #ffffff;
-  -webkit-box-shadow: 0 0px 0px 0 rgba(236, 236, 236, 0.86);
-          box-shadow: 0 0px 0px 0 rgba(236, 236, 236, 0.86);
-  width: 800px;
+  -webkit-box-shadow:0 0.75rem 1.5rem rgba(18,38,63,0.03);
+          box-shadow:0 0.75rem 1.5rem rgba(18,38,63,0.03);
+  width: 750px;
   margin: 0px auto 0;
-  padding-top: 100px;
+  padding-top: 50px;
   border-radius: 10px;
 }
 
@@ -89,8 +89,8 @@ hr {
 }
 
 .header {
-  width: 780px;
-  padding: 50px 0 70px 0;
+  width: 750px;
+  padding: 50px 0 100px 0;
   margin: 0 auto;
   background-size: cover;
 }
@@ -161,7 +161,7 @@ hr {
 }
 
 .nav_container {
-  width: 800px;
+  width: 760px;
   height: 0rem;
   margin: 0 auto;
   padding: 0px 0;
