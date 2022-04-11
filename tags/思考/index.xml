@@ -6,11 +6,15 @@
     <description>Recent content in 思考 on 低噪音</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+<<<<<<< HEAD
     <lastBuildDate>Fri, 05 Nov 2021 09:12:27 +0000</lastBuildDate>
     
 	<atom:link href="https://colarxu.github.io/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
     
     
+=======
+    <lastBuildDate>Fri, 05 Nov 2021 09:12:27 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 7bb7271... new posts
     <item>
       <title>榜样的力量</title>
       <link>https://colarxu.github.io/posts/2021/%E6%A6%9C%E6%A0%B7%E7%9A%84%E5%8A%9B%E9%87%8F/</link>
@@ -48,4 +52,8 @@
     </item>
     
   </channel>
+<<<<<<< HEAD
 </rss>
+=======
+</rss>
+>>>>>>> 7bb7271... new posts

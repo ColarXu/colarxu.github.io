@@ -6,10 +6,40 @@
     <description>Recent content in Posts on 低噪音</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+<<<<<<< HEAD
     <lastBuildDate>Sun, 07 Nov 2021 01:40:40 +0000</lastBuildDate>
     
 	<atom:link href="https://colarxu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+=======
+    <lastBuildDate>Mon, 11 Apr 2022 03:44:29 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>神没有创造什么 |《圣经》笔记 1</title>
+      <link>https://colarxu.github.io/posts/2021/%E7%A5%9E%E6%B2%A1%E6%9C%89%E5%88%9B%E9%80%A0%E4%BB%80%E4%B9%88-%C7%80%E5%9C%A3%E7%BB%8F%E7%AC%94%E8%AE%B0-1/</link>
+      <pubDate>Mon, 11 Apr 2022 03:44:29 +0000</pubDate>
+      
+      <guid>https://colarxu.github.io/posts/2021/%E7%A5%9E%E6%B2%A1%E6%9C%89%E5%88%9B%E9%80%A0%E4%BB%80%E4%B9%88-%C7%80%E5%9C%A3%E7%BB%8F%E7%AC%94%E8%AE%B0-1/</guid>
+      <description>看 @无法 在读《圣经》，想起自己也有一本，便趁机跟着读读。 我跟他出发点大概相同，都不是信徒，而是想以《圣经》为切入点来理解西方文化。所思所想，都是个人观点，并无恶意。如有冒犯，还请谅解。如有错误，还请指</description>
+    </item>
+    
+    <item>
+      <title>深圳小记</title>
+      <link>https://colarxu.github.io/posts/2022/%E6%B7%B1%E5%9C%B3%E5%B0%8F%E8%AE%B0/</link>
+      <pubDate>Sun, 10 Apr 2022 12:36:04 +0000</pubDate>
+      
+      <guid>https://colarxu.github.io/posts/2022/%E6%B7%B1%E5%9C%B3%E5%B0%8F%E8%AE%B0/</guid>
+      <description>在喜欢的人身边醒来，是一件开心的事。但一想到这段关系不可能成立，内心又变得复杂起来。 早上六点钟睁眼，胡乱地躺到七点。她还在睡，我轻手轻脚地起床，洗漱完毕，带着早餐，轻手轻脚地出了门。 住处不远有个香蜜湖</description>
+    </item>
+    
+    <item>
+      <title>出家这件事儿</title>
+      <link>https://colarxu.github.io/posts/2021/%E5%87%BA%E5%AE%B6%E8%BF%99%E4%BB%B6%E4%BA%8B%E5%84%BF/</link>
+      <pubDate>Wed, 08 Dec 2021 03:45:21 +0000</pubDate>
+      
+      <guid>https://colarxu.github.io/posts/2021/%E5%87%BA%E5%AE%B6%E8%BF%99%E4%BB%B6%E4%BA%8B%E5%84%BF/</guid>
+      <description>一 我动过无数次念头，想去寺庙待个一年半载。 当时在上海，附近的苏州有个海天禅寺，我观望了好一阵，可惜他们的佛学院只招男众，只好作罢。 以前看古装剧，里面出家的男男女女，多是遭遇了感情变故、家庭变故，然后心</description>
+    </item>
+>>>>>>> 7bb7271... new posts
     
     <item>
       <title>我脑袋里的怪东西 #1</title>
@@ -381,4 +411,8 @@
     </item>
     
   </channel>
+<<<<<<< HEAD
 </rss>
+=======
+</rss>
+>>>>>>> 7bb7271... new posts

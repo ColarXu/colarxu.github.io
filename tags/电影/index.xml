@@ -6,11 +6,15 @@
     <description>Recent content in 电影 on 低噪音</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+<<<<<<< HEAD
     <lastBuildDate>Tue, 09 Mar 2021 05:59:13 +0000</lastBuildDate>
     
 	<atom:link href="https://colarxu.github.io/tags/%E7%94%B5%E5%BD%B1/index.xml" rel="self" type="application/rss+xml" />
     
     
+=======
+    <lastBuildDate>Tue, 09 Mar 2021 05:59:13 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/tags/%E7%94%B5%E5%BD%B1/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 7bb7271... new posts
     <item>
       <title>娄烨 in Shanghai</title>
       <link>https://colarxu.github.io/posts/2021/%E5%A8%84%E7%83%A8-in-shanghai/</link>
@@ -21,4 +25,8 @@
     </item>
     
   </channel>
+<<<<<<< HEAD
 </rss>
+=======
+</rss>
+>>>>>>> 7bb7271... new posts

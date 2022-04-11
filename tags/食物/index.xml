@@ -6,11 +6,15 @@
     <description>Recent content in 食物 on 低噪音</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+<<<<<<< HEAD
     <lastBuildDate>Fri, 19 Feb 2021 06:36:35 +0000</lastBuildDate>
     
 	<atom:link href="https://colarxu.github.io/tags/%E9%A3%9F%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
     
     
+=======
+    <lastBuildDate>Fri, 19 Feb 2021 06:36:35 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/tags/%E9%A3%9F%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 7bb7271... new posts
     <item>
       <title>心碎蝴蝶酥</title>
       <link>https://colarxu.github.io/posts/2021/%E5%BF%83%E7%A2%8E%E8%9D%B4%E8%9D%B6%E9%85%A5/</link>
@@ -39,4 +43,8 @@
     </item>
     
   </channel>
+<<<<<<< HEAD
 </rss>
+=======
+</rss>
+>>>>>>> 7bb7271... new posts

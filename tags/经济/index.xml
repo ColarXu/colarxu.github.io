@@ -6,11 +6,15 @@
     <description>Recent content in 经济 on 低噪音</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+<<<<<<< HEAD
     <lastBuildDate>Tue, 15 Jun 2021 14:16:17 +0000</lastBuildDate>
     
 	<atom:link href="https://colarxu.github.io/tags/%E7%BB%8F%E6%B5%8E/index.xml" rel="self" type="application/rss+xml" />
     
     
+=======
+    <lastBuildDate>Tue, 15 Jun 2021 14:16:17 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/tags/%E7%BB%8F%E6%B5%8E/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 7bb7271... new posts
     <item>
       <title>认识拍卖</title>
       <link>https://colarxu.github.io/posts/2021/%E8%AE%A4%E8%AF%86%E6%8B%8D%E5%8D%96/</link>
@@ -21,4 +25,8 @@
     </item>
     
   </channel>
+<<<<<<< HEAD
 </rss>
+=======
+</rss>
+>>>>>>> 7bb7271... new posts

@@ -6,10 +6,31 @@
     <description>Recent content in 日常生活 on 低噪音</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+<<<<<<< HEAD
     <lastBuildDate>Wed, 27 Oct 2021 05:38:24 +0000</lastBuildDate>
     
 	<atom:link href="https://colarxu.github.io/tags/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     
+=======
+    <lastBuildDate>Sun, 10 Apr 2022 12:36:04 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/tags/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深圳小记</title>
+      <link>https://colarxu.github.io/posts/2022/%E6%B7%B1%E5%9C%B3%E5%B0%8F%E8%AE%B0/</link>
+      <pubDate>Sun, 10 Apr 2022 12:36:04 +0000</pubDate>
+      
+      <guid>https://colarxu.github.io/posts/2022/%E6%B7%B1%E5%9C%B3%E5%B0%8F%E8%AE%B0/</guid>
+      <description>在喜欢的人身边醒来，是一件开心的事。但一想到这段关系不可能成立，内心又变得复杂起来。 早上六点钟睁眼，胡乱地躺到七点。她还在睡，我轻手轻脚地起床，洗漱完毕，带着早餐，轻手轻脚地出了门。 住处不远有个香蜜湖</description>
+    </item>
+    
+    <item>
+      <title>出家这件事儿</title>
+      <link>https://colarxu.github.io/posts/2021/%E5%87%BA%E5%AE%B6%E8%BF%99%E4%BB%B6%E4%BA%8B%E5%84%BF/</link>
+      <pubDate>Wed, 08 Dec 2021 03:45:21 +0000</pubDate>
+      
+      <guid>https://colarxu.github.io/posts/2021/%E5%87%BA%E5%AE%B6%E8%BF%99%E4%BB%B6%E4%BA%8B%E5%84%BF/</guid>
+      <description>一 我动过无数次念头，想去寺庙待个一年半载。 当时在上海，附近的苏州有个海天禅寺，我观望了好一阵，可惜他们的佛学院只招男众，只好作罢。 以前看古装剧，里面出家的男男女女，多是遭遇了感情变故、家庭变故，然后心</description>
+    </item>
+>>>>>>> 7bb7271... new posts
     
     <item>
       <title>给衣服做换季</title>
@@ -219,4 +240,8 @@
     </item>
     
   </channel>
+<<<<<<< HEAD
 </rss>
+=======
+</rss>
+>>>>>>> 7bb7271... new posts

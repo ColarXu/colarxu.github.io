@@ -6,10 +6,22 @@
     <description>Recent content in 读书 on 低噪音</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+<<<<<<< HEAD
     <lastBuildDate>Mon, 23 Aug 2021 10:10:49 +0000</lastBuildDate>
     
 	<atom:link href="https://colarxu.github.io/tags/%E8%AF%BB%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
     
+=======
+    <lastBuildDate>Wed, 08 Dec 2021 03:45:21 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/tags/%E8%AF%BB%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>出家这件事儿</title>
+      <link>https://colarxu.github.io/posts/2021/%E5%87%BA%E5%AE%B6%E8%BF%99%E4%BB%B6%E4%BA%8B%E5%84%BF/</link>
+      <pubDate>Wed, 08 Dec 2021 03:45:21 +0000</pubDate>
+      
+      <guid>https://colarxu.github.io/posts/2021/%E5%87%BA%E5%AE%B6%E8%BF%99%E4%BB%B6%E4%BA%8B%E5%84%BF/</guid>
+      <description>一 我动过无数次念头，想去寺庙待个一年半载。 当时在上海，附近的苏州有个海天禅寺，我观望了好一阵，可惜他们的佛学院只招男众，只好作罢。 以前看古装剧，里面出家的男男女女，多是遭遇了感情变故、家庭变故，然后心</description>
+    </item>
+>>>>>>> 7bb7271... new posts
     
     <item>
       <title>《我的名字叫做红》读后感</title>
@@ -57,4 +69,8 @@
     </item>
     
   </channel>
+<<<<<<< HEAD
 </rss>
+=======
+</rss>
+>>>>>>> 7bb7271... new posts
