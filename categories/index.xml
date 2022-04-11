@@ -5,16 +5,6 @@
     <link>https://colarxu.github.io/categories/</link>
     <description>Recent content in Categories on 低噪音</description>
     <generator>Hugo -- gohugo.io</generator>
-<<<<<<< HEAD
-    <language>en</language>
-    
-	<atom:link href="https://colarxu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-  </channel>
-</rss>
-=======
     <language>en</language><atom:link href="https://colarxu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
->>>>>>> 7bb7271... new posts
