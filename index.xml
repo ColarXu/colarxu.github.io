@@ -6,7 +6,16 @@
     <description>Recent content on 低噪音</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Apr 2022 10:28:35 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Apr 2022 14:04:27 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Command Line 教程 03：新建文件和文件夹</title>
+      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Sat, 16 Apr 2022 14:04:27 +0000</pubDate>
+      
+      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/</guid>
+      <description>上一期我们学了三个命令： ls 查看当前目录下的文件和文件夹 cd 切换不同的文件目录 pwd 显示当前文件夹的路径 从此具备了在计算机的文件夹丛林里漫游的能力。 好吧，走也走了，看也看了。现在就来动动手，学习怎么往计算机里</description>
+    </item>
+    
     <item>
       <title>Command Line 教程 02：在计算机里散步</title>
       <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</link>
