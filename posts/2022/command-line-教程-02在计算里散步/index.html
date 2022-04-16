@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="许仙人" />
+	
+	
+	
+	<title>写给文科生的 Command Line 教程 02：在计算机里散步 ｜ 低噪音</title>
+	
+    
+    
+    <meta name="description" content="一台电脑，就是一个巨大的文件夹。 系统、软件、游戏、电影、文档、图片、音乐……不管什么东西，都是以文件和文件夹的形式，存放在电脑里。 这一期，我们就学习一些简单的 Command Line 命令，一起去计算机的文件丛林里散个步。" />
+    
+
+    
+    
+    <meta name="keywords" content="许仙人, 博客, 独立博客, 随笔, 科技, 人文" />
+    
+
+	
+    
+    <link rel="shortcut icon" href="https://colarxu.github.io/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/zozo.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/highlight.css" />
+
+    
+    
+</head>
+
+<body>
+    <div class="header">
+    <div class="site_title_container">
+        <div class="site_title">
+            <h1>
+                <a href="https://colarxu.github.io/">
+                    <span>低噪音</span>
+                </a>
+            </h1>
+        </div>
+    </div>
+    <a href="https://colarxu.github.io/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+        class="ri-rss-fill"></i></a>
+    <div class="nav_container">
+        <div class="site_nav" id="site_nav">
+            <ul>
+                
+                <li>
+                    <a href="/">主页</a>
+                </li>
+                
+                <li>
+                    <a href="/posts/">文库</a>
+                </li>
+                
+                <li>
+                    <a href="/tags/">标签</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">关于</a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="menu_icon">
+            <a id="menu_icon"><i class="ri-menu-line"></i></a>
+        </div>
+    </div>
+</div>
+    <div class="main">
+        <div class="content">
+            <div class="post_page">
+                <div class="post">
+                    <div class="post_title post_detail_title">
+                        <h1><a href='/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E9%87%8C%E6%95%A3%E6%AD%A5/'>写给文科生的 Command Line 教程 02：在计算机里散步</a></h1>
+                        <span class="date">2022.04.16</span>
+                    </div>
+                    <div class="post_content markdown"><p><strong>一台电脑，就是一个巨大的文件夹</strong>。</p>
+<p>系统、软件、游戏、电影、文档、图片、音乐……不管什么东西，都是以文件和文件夹的形式，存放在电脑里。</p>
+<p>这一期，我们就学习一些简单的 Command Line 命令，一起去计算机的文件丛林里散个步。</p>
+<h2 id="ls-命令看看文件夹里都有啥">ls 命令：看看文件夹里都有啥</h2>
+<p><code>ls</code> 是 lists 的缩写。</p>
+<p>输入 <code>ls</code> 命令，就能看到「当前所在文件夹」下的所有东西。</p>
+<p>每次打开 Terminal，我们默认所处的文件夹都是<strong>根目录，也就是整个计算机最大、最外层的那一个文件夹</strong>。 在 Terminal 中输入 <code>ls</code>，回车，就可以看到根目录下的所有文件夹。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">colarxu@MacBook-Air ~ % ls
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Applications	Downloads	Music		Public
+</span></span><span class="line"><span class="cl">Desktop		Library		Photo Framework	hugo
+</span></span><span class="line"><span class="cl">Documents	Movies		Pictures
+</span></span></code></pre></div><p>看，我的根目录下面有 11 个文件夹。</p>
+<p>如果你想看得更仔细，还可以额外加点料：</p>
+<ul>
+<li><code>ls -a</code> 显示所有文件和文件夹（包括隐藏起来的）</li>
+<li><code>ls -l</code> 显示文件和文件夹的详细信息</li>
+<li><code>ls -t</code> 按修改时间排序</li>
+</ul>
+<p>甚至还可以任意组合使用，比如 <code>ls -alt</code>，显示当前目录下的所有文件和文件夹，包括隐藏文件，包括详细信息，并按照修改时间排序。</p>
+<h2 id="cd-命令去各个文件夹串门">cd 命令：去各个文件夹串门</h2>
+<p><code>cd</code> 是 change directory 的缩写，<strong>它的作用是切换不同的文件夹（目录）</strong>。</p>
+<p>我们出去坐地铁，有起点和终点。<code>cd</code> 命令也一样，起点是当前所在的文件夹，终点是你要去往的文件夹。</p>
+<p>假设我们在根目录，下面有这些文件夹：</p>
+<p><img src="https://s3.bmp.ovh/imgs/2022/04/16/ed7229119a941312.png" alt="根目录下的文件夹"></p>
+<p>想去 Downloads 文件夹，直接在 Terminal 中输入 <code>cd downloads</code> 就行了。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">colarxu@MacBook-Air ~ % cd downloads
+</span></span><span class="line"><span class="cl">colarxu@MacBook-Air downloads % 
+</span></span></code></pre></div><p>大家看到上面的 <code>%</code> 符号了吗？</p>
+<p>符号左侧那一串 <code>colarxu@MacBook-Air</code> 是我的电脑账户名称，后面跟着的是「当前文件的位置」。第一行代码中的 <code>~</code>，指的是根目录，而第二行代码中的 <code>downloads</code> 则表示我已经在 Downloads 文件夹了。</p>
+<p>俗话说，饭要一口一口地吃，<code>cd 文件夹名称</code> 这个命令，也<strong>只能一步一步地走，不能乱飞</strong>。</p>
+<p>正因为 Downloads 文件夹在根目录的下一级，才能直接使用 <code>cd downloads</code> 命令。假设我想从根目录出发，去到 Downloads 下面的 Book 文件夹，用 <code>cd book</code> 命令是穿不去的，<strong>得老老实实地列出每一站的路线</strong> <code>cd downloads/book</code> 才行。</p>
+<p>那么，<strong>怎么走回头路呢</strong>？很简单，输入 <code>cd ..</code> 就可以返回上一级文件夹，输入 <code>cd ../..</code> 则可以返回上上一级的文件夹。</p>
+<p>假如玩累了，想<strong>回到最初的起点（根目录）</strong>，输入 <code>cd ~</code> 就好了。不管你在哪里，这个命令都能让你瞬间穿越回根目录。</p>
+<h2 id="pwd-命令我是谁我在哪">pwd 命令：我是谁？我在哪？</h2>
+<p>有时候走得太远，就会忘了来时的路。</p>
+<p>在计算机的世界也一样，虽然我们已经学会识别当前所在的文件夹（<code>%</code> 符号左侧），但这个文件夹具体在什么位置，它的上级和上上级是谁，我们并不知道。</p>
+<p>这个时候，就得靠 <code>pwd</code> 命令来找回初心了。</p>
+<p><code>pwd</code> 是 print working directory 的缩写。当你在 Terminal 感到迷惘的时候，输入 <code>pwd</code> 命令，就能看到<strong>从根目录一直延伸过来的路径</strong>。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">colarxu@MacBook-Air 2022 % pwd
+</span></span><span class="line"><span class="cl">/Users/colarxu/hugo/content/posts/2022
+</span></span></code></pre></div><h2 id="小结">小结</h2>
+<p>这一期，我们学了三组命令：</p>
+<p><code>ls</code> 显示「当前文件夹」下的所有文件、文件夹。</p>
+<ul>
+<li><code>ls -a</code> 显示所有文件和文件夹（包括隐藏文件和文件夹）</li>
+<li><code>ls -l</code> 显示文件和文件夹的详细信息</li>
+<li><code>ls -t</code> 按修改时间排序</li>
+<li><code>ls -alt</code> 显示当前目录下的所有文件和文件夹，包括隐藏文件，包括详细信息，并按照修改时间排序。</li>
+</ul>
+<p><code>cd</code> 切换文件目录。</p>
+<ul>
+<li><code>cd ..</code> 返回上一级文件目录</li>
+<li><code>cd ~</code> 返回根目录</li>
+</ul>
+<p><code>pwd</code> 显示当前文件夹的路径。</p>
+<p>怎样，是不是很简单？自己在电脑上试一试吧。</p>
+</div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://colarxu.github.io/tags/command-line%E6%95%99%E7%A8%8B/">Command Line，教程</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="doc_comments"></div>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    <footer class="footer">
+    <div class="powered_by">
+        <a href="https://varkai.com">Designed by VarKai,</a>
+        <a href="http://www.gohugo.io/">Proudly published with Hugo</a>
+    </div>
+
+    <div class="footer_slogan">
+        <span>许仙人的博客</span>
+    </div>
+</footer>
+    <script src="https://colarxu.github.io/js/jquery-3.5.1.min.js"></script>
+<link href="https://colarxu.github.io/css/fancybox.min.css" rel="stylesheet">
+<script src="https://colarxu.github.io/js/fancybox.min.js"></script>
+<script src="https://colarxu.github.io/js/zozo.js"></script>
+
+
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
+
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
+
+
+
+</body>
+
+</html>
