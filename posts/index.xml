@@ -8,16 +8,16 @@
     <language>en</language>
     <lastBuildDate>Sat, 16 Apr 2022 10:28:35 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>写给文科生的 Command Line 教程 02：在计算机里散步</title>
-      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E9%87%8C%E6%95%A3%E6%AD%A5/</link>
+      <title>Command Line 教程 02：在计算机里散步</title>
+      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</link>
       <pubDate>Sat, 16 Apr 2022 10:28:35 +0000</pubDate>
       
-      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E9%87%8C%E6%95%A3%E6%AD%A5/</guid>
+      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</guid>
       <description>一台电脑，就是一个巨大的文件夹。 系统、软件、游戏、电影、文档、图片、音乐……不管什么东西，都是以文件和文件夹的形式，存放在电脑里。 这一期，我们就学习一些简单的 Command Line 命令，一起去计算机的文件丛林里散个步。</description>
     </item>
     
     <item>
-      <title>写给文科生的 Command Line 教程 01：什么是 Command Line？</title>
+      <title>Command Line 教程 01：什么是 Command Line？</title>
       <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</link>
       <pubDate>Sat, 16 Apr 2022 10:28:29 +0000</pubDate>
       
