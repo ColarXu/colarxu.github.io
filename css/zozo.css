@@ -542,7 +542,7 @@ hr {
   color: #666666;
   padding: 4px 5px;
   border-radius: 2px;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .markdown pre code {
