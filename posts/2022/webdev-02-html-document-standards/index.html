@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="许仙人" />
+	
+	
+	
+	<title>WebDev 02: HTML Document Standards ｜ 低噪音</title>
+	
+    
+    
+    <meta name="description" content="Document Type Declaration &amp;lt;!DOCTYPE html&amp;gt;: the declaration specifying the version of HTML for the browser, put it on the first line of code to tell the browser what type of document to expect. HTML Structure &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; content that displayed to the screen. &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; &amp;lt;html&amp;gt;&amp;lt;/html&amp;gt;: enclose all the HTML code. &amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;: metadata, tell the browser about the page itself, not displayed on the webpage. &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt;: the title of the web page. &amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;: only content inside the opening and closing body tags can be displayed to the screen. Links absolute links: linking to other website" />
+    
+
+    
+    
+    <meta name="keywords" content="许仙人, 博客, 独立博客, 随笔, 科技, 人文" />
+    
+
+	
+    
+    <link rel="shortcut icon" href="https://colarxu.github.io/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/zozo.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/highlight.css" />
+
+    
+    
+</head>
+
+<body>
+    <div class="header">
+    <div class="site_title_container">
+        <div class="site_title">
+            <h1>
+                <a href="https://colarxu.github.io/">
+                    <span>低噪音</span>
+                </a>
+            </h1>
+        </div>
+    </div>
+    <a href="https://colarxu.github.io/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+        class="ri-rss-fill"></i></a>
+    <div class="nav_container">
+        <div class="site_nav" id="site_nav">
+            <ul>
+                
+                <li>
+                    <a href="/">主页</a>
+                </li>
+                
+                <li>
+                    <a href="/posts/">文库</a>
+                </li>
+                
+                <li>
+                    <a href="/tags/">标签</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">关于</a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="menu_icon">
+            <a id="menu_icon"><i class="ri-menu-line"></i></a>
+        </div>
+    </div>
+</div>
+    <div class="main">
+        <div class="content">
+            <div class="post_page">
+                <div class="post">
+                    <div class="post_title post_detail_title">
+                        <h1><a href='/posts/2022/webdev-02-html-document-standards/'>WebDev 02: HTML Document Standards</a></h1>
+                        <span class="date">2022.06.03</span>
+                    </div>
+                    <br>
+                    <div id="nekospeech"></div>
+                    <script src="https://speech.cdn.nekonode.com/nekospeech.js"></script>                    
+                    <div class="post_content markdown">
+                        <article><h2 id="document-type-declaration">Document Type Declaration</h2>
+<p><code>&lt;!DOCTYPE html&gt;</code>: the declaration specifying the version of HTML for the browser, put it on the first line of code to tell the browser what type of document to expect.</p>
+<h2 id="html-structure">HTML Structure</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;!DOCTYPE html&gt;
+</span></span><span class="line"><span class="cl">&lt;html&gt;
+</span></span><span class="line"><span class="cl">  &lt;head&gt;
+</span></span><span class="line"><span class="cl">    &lt;title&gt;&lt;/title&gt;
+</span></span><span class="line"><span class="cl">  &lt;/head&gt;
+</span></span><span class="line"><span class="cl">  &lt;body&gt;
+</span></span><span class="line"><span class="cl">    content that displayed to the screen.
+</span></span><span class="line"><span class="cl">  &lt;/body&gt;
+</span></span><span class="line"><span class="cl">&lt;/html&gt; 
+</span></span></code></pre></div><ul>
+<li><code>&lt;html&gt;&lt;/html&gt;</code>: enclose all the HTML code.</li>
+<li><code>&lt;head&gt;&lt;/head&gt;</code>: metadata, tell the browser about the page itself, not displayed on the webpage.</li>
+<li><code>&lt;title&gt;&lt;/title&gt;</code>: the title of the web page.</li>
+<li><code>&lt;body&gt;&lt;/body&gt;</code>: only content inside the opening and closing body tags can be displayed to the screen.</li>
+</ul>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>absolute links</strong>: linking to other website <code>&lt;a href=&quot;URL&quot; target=&quot;_blank&quot;&gt;text&lt;/a&gt;</code> href refers to hyperlink reference, <code>target=&quot;_blank&quot;</code> means opening the link in a new tab.</li>
+<li><strong>relative links</strong>: linking to internal path in the same folder <code>&lt;a href=&quot;internal path(./contact.html&quot;&gt;Contact&lt;/a&gt;</code>.</li>
+<li><strong>turn image into link</strong>: <code>&lt;a href=&quot;link&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;image-location&quot; alt=&quot;image despriction&quot;/&gt;&lt;/a&gt;</code></li>
+<li><strong>linking to same page</strong>: target <code>&lt;div id=&quot;name&quot;&gt;</code>, then <code>&lt;a href=&quot;#name&quot;&gt;&lt;/a&gt;</code>, click the link then scroll to the section you target.</li>
+</ul>
+<h3 id="comments">Comments</h3>
+<p><code>&lt;!-- comments --&gt;</code></p>
+<hr>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML Element Reference</a></p>
+</article>
+                    </div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://colarxu.github.io/tags/%E6%95%99%E7%A8%8B/">教程</a>
+                                    
+                                    <a href="https://colarxu.github.io/tags/webdev/">WebDev</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="doc_comments"></div>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    <footer class="footer">
+    <div class="powered_by">
+        <a href="https://varkai.com">Designed by VarKai,</a>
+        <a href="http://www.gohugo.io/">Proudly published with Hugo</a>
+    </div>
+
+    <div class="footer_slogan">
+        <span>许仙人的博客</span>
+    </div>
+</footer>
+    <script src="https://colarxu.github.io/js/jquery-3.5.1.min.js"></script>
+<link href="https://colarxu.github.io/css/fancybox.min.css" rel="stylesheet">
+<script src="https://colarxu.github.io/js/fancybox.min.js"></script>
+<script src="https://colarxu.github.io/js/zozo.js"></script>
+
+
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
+
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
+
+
+
+</body>
+
+</html>

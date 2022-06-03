@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="许仙人" />
+	
+	
+	
+	<title>WebDev 03: HTML Table ｜ 低噪音</title>
+	
+    
+    
+    <meta name="description" content="Table Code Structure &amp;lt;table&amp;gt; &amp;lt;thead&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th scope=&amp;#34;col&amp;#34;&amp;gt;&amp;lt;/th&amp;gt; &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/thead&amp;gt; &amp;lt;tbody&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tbody&amp;gt; &amp;lt;tfoot&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tfoot&amp;gt; &amp;lt;/table&amp;gt; Table Element &amp;lt;table&amp;gt;&amp;lt;/table&amp;gt;: contain all the tabular data. &amp;lt;thead&amp;gt;&amp;lt;/thead&amp;gt;: the heading of a long table. &amp;lt;tbody&amp;gt;&amp;lt;/tbady&amp;gt;: the body of the long table. &amp;lt;tr&amp;gt;&amp;lt;/tr&amp;gt;: add table rows. &amp;lt;th&amp;gt;&amp;lt;/th&amp;gt;: add table heading. &amp;lt;th scope=&amp;quot;col&amp;quot;&amp;gt;colum heading&amp;lt;/th&amp;gt;, &amp;lt;th scope=&amp;quot;row&amp;gt;row heading&amp;lt;/th&amp;gt;, &amp;lt;th&amp;gt;&amp;lt;/th&amp;gt; blank heading. &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;: add table data. &amp;lt;td colspan=&amp;quot;number&amp;quot;&amp;gt; let table data across several columns, &amp;lt;td rowspan=&amp;quot;number&amp;quot;&amp;gt; let table data across several rows. &amp;lt;tfoot&amp;gt;&amp;lt;/tfoot&amp;gt;: the bottom part of a long table." />
+    
+
+    
+    
+    <meta name="keywords" content="许仙人, 博客, 独立博客, 随笔, 科技, 人文" />
+    
+
+	
+    
+    <link rel="shortcut icon" href="https://colarxu.github.io/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/zozo.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/highlight.css" />
+
+    
+    
+</head>
+
+<body>
+    <div class="header">
+    <div class="site_title_container">
+        <div class="site_title">
+            <h1>
+                <a href="https://colarxu.github.io/">
+                    <span>低噪音</span>
+                </a>
+            </h1>
+        </div>
+    </div>
+    <a href="https://colarxu.github.io/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+        class="ri-rss-fill"></i></a>
+    <div class="nav_container">
+        <div class="site_nav" id="site_nav">
+            <ul>
+                
+                <li>
+                    <a href="/">主页</a>
+                </li>
+                
+                <li>
+                    <a href="/posts/">文库</a>
+                </li>
+                
+                <li>
+                    <a href="/tags/">标签</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">关于</a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="menu_icon">
+            <a id="menu_icon"><i class="ri-menu-line"></i></a>
+        </div>
+    </div>
+</div>
+    <div class="main">
+        <div class="content">
+            <div class="post_page">
+                <div class="post">
+                    <div class="post_title post_detail_title">
+                        <h1><a href='/posts/2022/webdev-03-html-table/'>WebDev 03: HTML Table</a></h1>
+                        <span class="date">2022.06.03</span>
+                    </div>
+                    <br>
+                    <div id="nekospeech"></div>
+                    <script src="https://speech.cdn.nekonode.com/nekospeech.js"></script>                    
+                    <div class="post_content markdown">
+                        <article><h2 id="table-code-structure">Table Code Structure</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;table&gt;
+</span></span><span class="line"><span class="cl">  &lt;thead&gt;
+</span></span><span class="line"><span class="cl">    &lt;tr&gt;
+</span></span><span class="line"><span class="cl">      &lt;th scope=&#34;col&#34;&gt;&lt;/th&gt;
+</span></span><span class="line"><span class="cl">      &lt;td&gt;&lt;/td&gt;
+</span></span><span class="line"><span class="cl">    &lt;/tr&gt;
+</span></span><span class="line"><span class="cl">  &lt;/thead&gt;
+</span></span><span class="line"><span class="cl">  &lt;tbody&gt;
+</span></span><span class="line"><span class="cl">    &lt;tr&gt;
+</span></span><span class="line"><span class="cl">    &lt;/tr&gt;
+</span></span><span class="line"><span class="cl">  &lt;/tbody&gt;
+</span></span><span class="line"><span class="cl">  &lt;tfoot&gt;
+</span></span><span class="line"><span class="cl">    &lt;tr&gt;
+</span></span><span class="line"><span class="cl">    &lt;/tr&gt;
+</span></span><span class="line"><span class="cl">  &lt;/tfoot&gt;
+</span></span><span class="line"><span class="cl">&lt;/table&gt;
+</span></span></code></pre></div><h2 id="table-element">Table Element</h2>
+<ul>
+<li><code>&lt;table&gt;&lt;/table&gt;</code>: contain all the tabular data.</li>
+<li><code>&lt;thead&gt;&lt;/thead&gt;</code>: the heading of a long table.</li>
+<li><code>&lt;tbody&gt;&lt;/tbady&gt;</code>: the body of the long table.</li>
+<li><code>&lt;tr&gt;&lt;/tr&gt;</code>: add table rows.</li>
+<li><code>&lt;th&gt;&lt;/th&gt;</code>: add table heading. <code>&lt;th scope=&quot;col&quot;&gt;colum heading&lt;/th&gt;</code>, <code>&lt;th scope=&quot;row&gt;row heading&lt;/th&gt;</code>, <code>&lt;th&gt;&lt;/th&gt;</code> blank heading.</li>
+<li><code>&lt;td&gt;&lt;/td&gt;</code>: add table data. <code>&lt;td colspan=&quot;number&quot;&gt;</code> let table data across several columns, <code>&lt;td rowspan=&quot;number&quot;&gt;</code> let table data across several rows.</li>
+<li><code>&lt;tfoot&gt;&lt;/tfoot&gt;</code>: the bottom part of a long table.</li>
+</ul>
+</article>
+                    </div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://colarxu.github.io/tags/%E6%95%99%E7%A8%8B/">教程</a>
+                                    
+                                    <a href="https://colarxu.github.io/tags/webdev/">WebDev</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="doc_comments"></div>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    <footer class="footer">
+    <div class="powered_by">
+        <a href="https://varkai.com">Designed by VarKai,</a>
+        <a href="http://www.gohugo.io/">Proudly published with Hugo</a>
+    </div>
+
+    <div class="footer_slogan">
+        <span>许仙人的博客</span>
+    </div>
+</footer>
+    <script src="https://colarxu.github.io/js/jquery-3.5.1.min.js"></script>
+<link href="https://colarxu.github.io/css/fancybox.min.css" rel="stylesheet">
+<script src="https://colarxu.github.io/js/fancybox.min.js"></script>
+<script src="https://colarxu.github.io/js/zozo.js"></script>
+
+
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
+
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
+
+
+
+</body>
+
+</html>
