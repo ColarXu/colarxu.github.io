@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>教程 on 低噪音</title>
-    <link>https://colarxu.github.io/tags/%E6%95%99%E7%A8%8B/</link>
-    <description>Recent content in 教程 on 低噪音</description>
+    <title>Web on 低噪音</title>
+    <link>https://colarxu.github.io/tags/web/</link>
+    <description>Recent content in Web on 低噪音</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Jun 2022 07:10:32 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jun 2022 07:10:32 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WebDev 04: Beginner CSS</title>
       <link>https://colarxu.github.io/posts/2022/webdev-04-beginner-css/</link>
@@ -41,42 +41,6 @@
       
       <guid>https://colarxu.github.io/posts/2022/webdev-01-introduction-to-html/</guid>
       <description>What is HTML? HTML stands for HypeText Markup Language, it provides structure to the content appearing on a website. HTML Elements tag: &amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt; element: &amp;lt;h1&amp;gt;Colar&amp;lt;/h1&amp;gt; basic ones &amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;: only content inside the opening and closing body tags can be displayed to the screen. &amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt; &amp;lt;h6&amp;gt;&amp;lt;/h6&amp;gt;: six different headings. &amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;: short for division, a container that divides the page into sections. &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;: plain text. &amp;lt;span&amp;gt;&amp;lt;/span&amp;gt;: separate a piece of content form other content. &amp;lt;p&amp;gt;&amp;lt;span&amp;gt;Self-driving cars&amp;lt;/span&amp;gt; are anticipated to replace up to 2 million jobs over the next two decades.&amp;lt;/p&amp;gt; styling text &amp;lt;em&amp;gt;&amp;lt;/em&amp;gt;: emphasize text, italic &amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;: highlight text &amp;lt;br&amp;gt;: line break.</description>
-    </item>
-    
-    <item>
-      <title>Command Line 教程 04：删除、移动、复制</title>
-      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</link>
-      <pubDate>Fri, 22 Apr 2022 08:52:46 +0000</pubDate>
-      
-      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</guid>
-      <description>有出生，就有死亡。 有生存，就有毁灭。 有新建，就有删除。 上一期，我们学习了如何用命令行新建文件和文件夹。那么这一期，就来学习如何把它们移开、复制，以及删掉。 rm 命令：删除一切 rm 是 remove 的缩写。 如果你看哪个文件</description>
-    </item>
-    
-    <item>
-      <title>Command Line 教程 03：新建文件和文件夹</title>
-      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/</link>
-      <pubDate>Sat, 16 Apr 2022 14:04:27 +0000</pubDate>
-      
-      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/</guid>
-      <description>上一期我们学了三个命令： ls 查看当前目录下的文件和文件夹 cd 切换不同的文件目录 pwd 显示当前文件夹的路径 从此具备了在计算机的文件夹丛林里漫游的能力。 好吧，走也走了，看也看了。现在就来动动手，学习怎么往计算机里</description>
-    </item>
-    
-    <item>
-      <title>Command Line 教程 02：在计算机里散步</title>
-      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</link>
-      <pubDate>Sat, 16 Apr 2022 10:28:35 +0000</pubDate>
-      
-      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</guid>
-      <description>一台电脑，就是一个巨大的文件夹。 系统、软件、游戏、电影、文档、图片、音乐……不管什么东西，都是以文件和文件夹的形式，存放在电脑里。 这一期，我们就学习一些简单的 Command Line 命令，一起去计算机的文件丛林里散个步。</description>
-    </item>
-    
-    <item>
-      <title>Command Line 教程 01：什么是 Command Line？</title>
-      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</link>
-      <pubDate>Sat, 16 Apr 2022 10:28:29 +0000</pubDate>
-      
-      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</guid>
-      <description>你一定在电影上看过，黑客们是怎样用电脑的。 跟我们拿着鼠标到处点点点不一样，他们通常会对着一个满是代码的屏幕，疯狂地敲击键盘。 这种「使唤」电脑的方式，便涉及到本文的主角 Command Line。 什么是 Command Line？ Command L</description>
     </item>
     
   </channel>
