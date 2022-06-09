@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="许仙人" />
+	
+	
+	
+	<title>WebDev 05: CSS Color ｜ 低噪音</title>
+	
+    
+    
+    <meta name="description" content="Hex and RGB Hex value: #8FBC8F RGB value: rgb(143, 188, 143) These two kinds of vuales are interchangeable, but it is wise to use just one value in coding. HSL color: hsl(120, 60%, 70%); shorts for hue-saturation-lightness. Hue: the first number, represents the degree of the hue, between 0 and 360. Saturation: refers to the intensity or purity of the color, value ranges from 0% to 100%, the higher the color becomes richer, or grayer. Lightness: refers to the light or dark of color, value ranges from 0% to 100%, the higher the color becomes lighter, or dimmer. Opacity and" />
+    
+
+    
+    
+    <meta name="keywords" content="许仙人, 博客, 独立博客, 随笔, 科技, 人文" />
+    
+
+	
+    
+    <link rel="shortcut icon" href="https://colarxu.github.io/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/zozo.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://colarxu.github.io/css/highlight.css" />
+
+    
+    
+
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;400;700;900&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div class="header">
+    <div class="site_title_container">
+        <div class="site_title">
+            <h1>
+                <a href="https://colarxu.github.io/">
+                    <span>低噪音</span>
+                </a>
+            </h1>
+        </div>
+    </div>
+    <a href="https://colarxu.github.io/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+        class="ri-rss-fill"></i></a>
+    <div class="nav_container">
+        <div class="site_nav" id="site_nav">
+            <ul>
+                
+                <li>
+                    <a href="/">主页</a>
+                </li>
+                
+                <li>
+                    <a href="/posts/">文库</a>
+                </li>
+                
+                <li>
+                    <a href="/tags/">标签</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">关于</a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="menu_icon">
+            <a id="menu_icon"><i class="ri-menu-line"></i></a>
+        </div>
+    </div>
+</div>
+    <div class="main">
+        <div class="content">
+            <div class="post_page">
+                <div class="post">
+                    <div class="post_title post_detail_title">
+                        <h1><a href='/posts/2022/webdev-05-css-color/'>WebDev 05: CSS Color</a></h1>
+                        <span class="date">2022.06.07</span>
+                    </div>
+                    <br>
+                    <div id="nekospeech"></div>
+                    <script src="https://speech.cdn.nekonode.com/nekospeech.js"></script>                    
+                    <div class="post_content markdown">
+                        <article><h2 id="hex-and-rgb">Hex and RGB</h2>
+<ul>
+<li>Hex value: #8FBC8F</li>
+<li>RGB value: rgb(143, 188, 143)</li>
+</ul>
+<p>These two kinds of vuales are interchangeable, but it is wise to use just one value in coding.</p>
+<h2 id="hsl">HSL</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">color</span><span class="o">:</span> <span class="nt">hsl</span><span class="o">(</span><span class="nt">120</span><span class="o">,</span> <span class="nt">60</span><span class="o">%,</span> <span class="nt">70</span><span class="o">%);</span>
+</span></span></code></pre></div><p>shorts for hue-saturation-lightness.</p>
+<ul>
+<li>Hue: the first number, represents the degree of the hue, between 0 and 360.</li>
+<li>Saturation: refers to the intensity or purity of the color, value ranges from 0% to 100%, the higher the color becomes richer, or grayer.</li>
+<li>Lightness: refers to the light or dark of color, value ranges from 0% to 100%, the higher the color becomes lighter, or dimmer.</li>
+</ul>
+<h2 id="opacity-and--alpha">Opacity and  Alpha</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">color</span><span class="o">:</span> <span class="nt">hsla</span><span class="o">(</span><span class="nt">34</span><span class="o">,</span> <span class="nt">100</span><span class="o">%,</span> <span class="nt">50</span><span class="o">%,</span> <span class="nt">0</span><span class="p">.</span><span class="nc">1</span><span class="o">);</span>
+</span></span></code></pre></div><p>The fourth value <code>a</code> alpha, means opacity. It ranges from 0 to 1, if the alpha is 0, the color will be completely transparent; if the alpha is 1, the color would be opaque.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">color</span> <span class="o">:</span> <span class="nt">rbga</span><span class="o">(</span><span class="nt">234</span><span class="o">,</span> <span class="nt">45</span><span class="o">,</span> <span class="nt">98</span><span class="o">,</span> <span class="nt">0</span><span class="p">.</span><span class="nc">33</span><span class="o">);</span>
+</span></span></code></pre></div><p>When it comes to RBG color, just add a fourth at the end of rbg value to represent opacity.</p>
+<p>When it comes to Hex color, you can add two-digit at the end of the value to represent opacity. It ranges from 00(transparent) to FF(opaque).</p>
+<p>Alpha can only be used with HSL, GRB and hex colors. We cannot add the alpha value to name colors like green.</p>
+</article>
+                    </div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://colarxu.github.io/tags/%E6%95%99%E7%A8%8B/">教程</a>
+                                    
+                                    <a href="https://colarxu.github.io/tags/web/">Web</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="doc_comments"></div>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    <footer class="footer">
+    <div class="powered_by">
+        <a href="https://varkai.com">Designed by VarKai,</a>
+        <a href="http://www.gohugo.io/">Proudly published with Hugo</a>
+    </div>
+
+    <div class="footer_slogan">
+        <span>许仙人的博客</span>
+    </div>
+</footer>
+    <script src="https://colarxu.github.io/js/jquery-3.5.1.min.js"></script>
+<link href="https://colarxu.github.io/css/fancybox.min.css" rel="stylesheet">
+<script src="https://colarxu.github.io/js/fancybox.min.js"></script>
+<script src="https://colarxu.github.io/js/zozo.js"></script>
+
+
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
+
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
+
+
+
+</body>
+
+</html>

@@ -6,7 +6,16 @@
     <description>Recent content in 教程 on 低噪音</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Jun 2022 07:10:32 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jun 2022 14:38:14 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WebDev 05: CSS Color</title>
+      <link>https://colarxu.github.io/posts/2022/webdev-05-css-color/</link>
+      <pubDate>Tue, 07 Jun 2022 14:38:14 +0000</pubDate>
+      
+      <guid>https://colarxu.github.io/posts/2022/webdev-05-css-color/</guid>
+      <description>Hex and RGB Hex value: #8FBC8F RGB value: rgb(143, 188, 143) These two kinds of vuales are interchangeable, but it is wise to use just one value in coding. HSL color: hsl(120, 60%, 70%); shorts for hue-saturation-lightness. Hue: the first number, represents the degree of the hue, between 0 and 360. Saturation: refers to the intensity or purity of the color, value ranges from 0% to 100%, the higher the color becomes richer, or grayer. Lightness: refers to the light or dark of color, value ranges from 0% to 100%, the higher the color becomes lighter, or dimmer. Opacity and</description>
+    </item>
+    
     <item>
       <title>WebDev 04: Beginner CSS</title>
       <link>https://colarxu.github.io/posts/2022/webdev-04-beginner-css/</link>
