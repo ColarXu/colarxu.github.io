@@ -6,7 +6,16 @@
     <description>Recent content in Tags on 低噪音</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Dec 2022 11:19:51 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Dec 2022 09:19:44 +0000</lastBuildDate><atom:link href="https://colarxu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《圣经》笔记</title>
+      <link>https://colarxu.github.io/tags/%E5%9C%A3%E7%BB%8F%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sun, 18 Dec 2022 09:19:44 +0000</pubDate>
+      
+      <guid>https://colarxu.github.io/tags/%E5%9C%A3%E7%BB%8F%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>年度问卷</title>
       <link>https://colarxu.github.io/tags/%E5%B9%B4%E5%BA%A6%E9%97%AE%E5%8D%B7/</link>
@@ -17,18 +26,9 @@
     </item>
     
     <item>
-      <title>看展记</title>
-      <link>https://colarxu.github.io/tags/%E7%9C%8B%E5%B1%95%E8%AE%B0/</link>
-      <pubDate>Thu, 15 Dec 2022 12:29:56 +0000</pubDate>
-      
-      <guid>https://colarxu.github.io/tags/%E7%9C%8B%E5%B1%95%E8%AE%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>1066 and All That</title>
       <link>https://colarxu.github.io/tags/1066-and-all-that/</link>
-      <pubDate>Thu, 15 Dec 2022 12:23:20 +0000</pubDate>
+      <pubDate>Fri, 16 Dec 2022 03:42:04 +0000</pubDate>
       
       <guid>https://colarxu.github.io/tags/1066-and-all-that/</guid>
       <description></description>
@@ -37,7 +37,7 @@
     <item>
       <title>翻译</title>
       <link>https://colarxu.github.io/tags/%E7%BF%BB%E8%AF%91/</link>
-      <pubDate>Thu, 15 Dec 2022 12:23:20 +0000</pubDate>
+      <pubDate>Fri, 16 Dec 2022 03:42:04 +0000</pubDate>
       
       <guid>https://colarxu.github.io/tags/%E7%BF%BB%E8%AF%91/</guid>
       <description></description>
@@ -46,9 +46,18 @@
     <item>
       <title>英国史</title>
       <link>https://colarxu.github.io/tags/%E8%8B%B1%E5%9B%BD%E5%8F%B2/</link>
-      <pubDate>Thu, 15 Dec 2022 12:23:20 +0000</pubDate>
+      <pubDate>Fri, 16 Dec 2022 03:42:04 +0000</pubDate>
       
       <guid>https://colarxu.github.io/tags/%E8%8B%B1%E5%9B%BD%E5%8F%B2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>看展记</title>
+      <link>https://colarxu.github.io/tags/%E7%9C%8B%E5%B1%95%E8%AE%B0/</link>
+      <pubDate>Thu, 15 Dec 2022 12:29:56 +0000</pubDate>
+      
+      <guid>https://colarxu.github.io/tags/%E7%9C%8B%E5%B1%95%E8%AE%B0/</guid>
       <description></description>
     </item>
     
@@ -76,15 +85,6 @@
       <pubDate>Tue, 23 Aug 2022 13:14:09 +0000</pubDate>
       
       <guid>https://colarxu.github.io/tags/%E6%97%A5%E5%B8%B8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>《圣经》笔记</title>
-      <link>https://colarxu.github.io/tags/%E5%9C%A3%E7%BB%8F%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Wed, 17 Aug 2022 14:56:39 +0000</pubDate>
-      
-      <guid>https://colarxu.github.io/tags/%E5%9C%A3%E7%BB%8F%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     
@@ -319,6 +319,15 @@
       <pubDate>Fri, 10 Jul 2020 02:04:28 +0000</pubDate>
       
       <guid>https://colarxu.github.io/tags/%E6%A2%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>《圣经》笔记/出埃及记</title>
+      <link>https://colarxu.github.io/tags/%E5%9C%A3%E7%BB%8F%E7%AC%94%E8%AE%B0/%E5%87%BA%E5%9F%83%E5%8F%8A%E8%AE%B0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://colarxu.github.io/tags/%E5%9C%A3%E7%BB%8F%E7%AC%94%E8%AE%B0/%E5%87%BA%E5%9F%83%E5%8F%8A%E8%AE%B0/</guid>
       <description></description>
     </item>
     
