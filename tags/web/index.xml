@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Web on 低噪音</title>
-    <link>https://colarxu.github.com/tags/web/</link>
+    <link>https://colarxu.github.io/tags/web/</link>
     <description>Recent content in Web on 低噪音</description>
     <generator>Hugo -- 0.126.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 07 Jun 2022 14:38:14 +0000</lastBuildDate>
-    <atom:link href="https://colarxu.github.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://colarxu.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WebDev 05: CSS Color</title>
-      <link>https://colarxu.github.com/posts/2022/webdev-05-css-color/</link>
+      <link>https://colarxu.github.io/posts/2022/webdev-05-css-color/</link>
       <pubDate>Sat, 04 Jun 2022 07:29:01 +0000</pubDate>
-      <guid>https://colarxu.github.com/posts/2022/webdev-05-css-color/</guid>
+      <guid>https://colarxu.github.io/posts/2022/webdev-05-css-color/</guid>
       <description>Hex and RGB Hex value: #8FBC8F RGB value: rgb(143, 188, 143) These two kinds of vuales are interchangeable, but it is wise to use just one value in coding. HSL color: hsl(120, 60%, 70%); shorts for hue-saturation-lightness. Hue: the first number, represents the degree of the hue, between 0 and 360. Saturation: refers to the intensity or purity of the color, value ranges from 0% to 100%, the higher the</description>
     </item>
     <item>
       <title>WebDev 04: Beginner CSS</title>
-      <link>https://colarxu.github.com/posts/2022/webdev-04-beginner-css/</link>
+      <link>https://colarxu.github.io/posts/2022/webdev-04-beginner-css/</link>
       <pubDate>Sat, 04 Jun 2022 06:17:08 +0000</pubDate>
-      <guid>https://colarxu.github.com/posts/2022/webdev-04-beginner-css/</guid>
+      <guid>https://colarxu.github.io/posts/2022/webdev-04-beginner-css/</guid>
       <description>CSS add styles to web page. Each element have several style properties. Basic Propeties font-famiy h1 { font-family: Georgia; } the specific font must be installed use Web safe fonts, or the font you choose may not appear the same between all browsers and operating system. when the name of a typeface consists of more than one word, enclose the name in quotes, like &amp;lsquo;Courier New&amp;rsquo;. font-size p { font-size:</description>
     </item>
     <item>
       <title>WebDev 03: HTML Table</title>
-      <link>https://colarxu.github.com/posts/2022/webdev-03-html-table/</link>
+      <link>https://colarxu.github.io/posts/2022/webdev-03-html-table/</link>
       <pubDate>Fri, 03 Jun 2022 02:44:07 +0000</pubDate>
-      <guid>https://colarxu.github.com/posts/2022/webdev-03-html-table/</guid>
+      <guid>https://colarxu.github.io/posts/2022/webdev-03-html-table/</guid>
       <description>Table Code Structure &amp;lt;table&amp;gt; &amp;lt;thead&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th scope=&amp;#34;col&amp;#34;&amp;gt;&amp;lt;/th&amp;gt; &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/thead&amp;gt; &amp;lt;tbody&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tbody&amp;gt; &amp;lt;tfoot&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tfoot&amp;gt; &amp;lt;/table&amp;gt; Table Element &amp;lt;table&amp;gt;&amp;lt;/table&amp;gt;: contain all the tabular data. &amp;lt;thead&amp;gt;&amp;lt;/thead&amp;gt;: the heading of a long table. &amp;lt;tbody&amp;gt;&amp;lt;/tbady&amp;gt;: the body of the long table. &amp;lt;tr&amp;gt;&amp;lt;/tr&amp;gt;: add table rows. &amp;lt;th&amp;gt;&amp;lt;/th&amp;gt;: add table heading. &amp;lt;th scope=&amp;quot;col&amp;quot;&amp;gt;colum heading&amp;lt;/th&amp;gt;, &amp;lt;th scope=&amp;quot;row&amp;gt;row heading&amp;lt;/th&amp;gt;, &amp;lt;th&amp;gt;&amp;lt;/th&amp;gt; blank heading. &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;: add table data. &amp;lt;td colspan=&amp;quot;number&amp;quot;&amp;gt; let table data across several</description>
     </item>
     <item>
       <title>WebDev 02: HTML Document Standards</title>
-      <link>https://colarxu.github.com/posts/2022/webdev-02-html-document-standards/</link>
+      <link>https://colarxu.github.io/posts/2022/webdev-02-html-document-standards/</link>
       <pubDate>Thu, 02 Jun 2022 19:54:35 +0000</pubDate>
-      <guid>https://colarxu.github.com/posts/2022/webdev-02-html-document-standards/</guid>
+      <guid>https://colarxu.github.io/posts/2022/webdev-02-html-document-standards/</guid>
       <description>Document Type Declaration &amp;lt;!DOCTYPE html&amp;gt;: the declaration specifying the version of HTML for the browser, put it on the first line of code to tell the browser what type of document to expect. HTML Structure &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; content that displayed to the screen. &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; &amp;lt;html&amp;gt;&amp;lt;/html&amp;gt;: enclose all the HTML code. &amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;: metadata, tell the browser about the page itself, not displayed on the webpage.</description>
     </item>
     <item>
       <title>WebDev 01: Introduction to HTML</title>
-      <link>https://colarxu.github.com/posts/2022/webdev-01-introduction-to-html/</link>
+      <link>https://colarxu.github.io/posts/2022/webdev-01-introduction-to-html/</link>
       <pubDate>Thu, 02 Jun 2022 18:50:47 +0000</pubDate>
-      <guid>https://colarxu.github.com/posts/2022/webdev-01-introduction-to-html/</guid>
+      <guid>https://colarxu.github.io/posts/2022/webdev-01-introduction-to-html/</guid>
       <description>What is HTML? HTML stands for HypeText Markup Language, it provides structure to the content appearing on a website. HTML Elements tag: &amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt; element: &amp;lt;h1&amp;gt;Colar&amp;lt;/h1&amp;gt; basic ones &amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;: only content inside the opening and closing body tags can be displayed to the screen. &amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt; &amp;lt;h6&amp;gt;&amp;lt;/h6&amp;gt;: six different headings. &amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;: short for division, a container that divides the page into sections. &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;: plain text. &amp;lt;span&amp;gt;&amp;lt;/span&amp;gt;: separate a piece of content form</description>
     </item>
   </channel>
