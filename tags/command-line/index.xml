@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Command Line on 低噪音</title>
+    <link>https://colarxu.github.com/tags/command-line/</link>
+    <description>Recent content in Command Line on 低噪音</description>
+    <generator>Hugo -- 0.126.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 22 Apr 2022 08:52:46 +0000</lastBuildDate>
+    <atom:link href="https://colarxu.github.com/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Command Line 教程 04：删除、移动、复制</title>
+      <link>https://colarxu.github.com/posts/2022/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</link>
+      <pubDate>Sat, 16 Apr 2022 14:03:35 +0000</pubDate>
+      <guid>https://colarxu.github.com/posts/2022/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</guid>
+      <description>有出生，就有死亡。 有生存，就有毁灭。 有新建，就有删除。 上一期，我们学习了如何用命令行新建文件和文件夹。那么这一期，就来学习如何把它们移开、复</description>
+    </item>
+    <item>
+      <title>Command Line 教程 03：新建文件和文件夹</title>
+      <link>https://colarxu.github.com/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Sat, 16 Apr 2022 10:03:02 +0000</pubDate>
+      <guid>https://colarxu.github.com/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/</guid>
+      <description>上一期我们学了三个命令： ls 查看当前目录下的文件和文件夹 cd 切换不同的文件目录 pwd 显示当前文件夹的路径 从此具备了在计算机的文件夹丛林里漫游的能力。</description>
+    </item>
+    <item>
+      <title>Command Line 教程 02：在计算机里散步</title>
+      <link>https://colarxu.github.com/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</link>
+      <pubDate>Fri, 15 Apr 2022 16:31:01 +0000</pubDate>
+      <guid>https://colarxu.github.com/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</guid>
+      <description>一台电脑，就是一个巨大的文件夹。 系统、软件、游戏、电影、文档、图片、音乐……不管什么东西，都是以文件和文件夹的形式，存放在电脑里。 这一期，我</description>
+    </item>
+    <item>
+      <title>Command Line 教程 01：什么是 Command Line？</title>
+      <link>https://colarxu.github.com/posts/2022/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</link>
+      <pubDate>Wed, 13 Apr 2022 14:38:18 +0000</pubDate>
+      <guid>https://colarxu.github.com/posts/2022/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</guid>
+      <description>你一定在电影上看过，黑客们是怎样用电脑的。 跟我们拿着鼠标到处点点点不一样，他们通常会对着一个满是代码的屏幕，疯狂地敲击键盘。 这种「使唤」电脑</description>
+    </item>
+  </channel>
+</rss>

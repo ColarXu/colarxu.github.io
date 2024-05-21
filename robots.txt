@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://colarxu.github.com/sitemap.xml
