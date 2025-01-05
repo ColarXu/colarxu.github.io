@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Command Line on 低噪音</title>
-    <link>http://localhost:1313/tags/command-line/</link>
+    <link>https://colarxu.github.io/tags/command-line/</link>
     <description>Recent content in Command Line on 低噪音</description>
     <generator>Hugo -- 0.140.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 22 Apr 2022 08:52:46 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://colarxu.github.io/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Command Line 教程 04：删除、移动、复制</title>
-      <link>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</link>
+      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</link>
       <pubDate>Sat, 16 Apr 2022 14:03:35 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</guid>
+      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</guid>
       <description>&lt;p&gt;有出生，就有死亡。
 有生存，就有毁灭。
 有新建，就有删除。&lt;/p&gt;
@@ -24,9 +24,9 @@
     </item>
     <item>
       <title>Command Line 教程 03：新建文件和文件夹</title>
-      <link>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/</link>
+      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/</link>
       <pubDate>Sat, 16 Apr 2022 10:03:02 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/&#34;&gt;上一期&lt;/a&gt;我们学了三个命令：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;ls&lt;/code&gt; 查看当前目录下的文件和文件夹&lt;/li&gt;
@@ -38,18 +38,18 @@
     </item>
     <item>
       <title>Command Line 教程 02：在计算机里散步</title>
-      <link>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</link>
+      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</link>
       <pubDate>Fri, 15 Apr 2022 16:31:01 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</guid>
+      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</guid>
       <description>&lt;p&gt;&lt;strong&gt;一台电脑，就是一个巨大的文件夹&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;系统、软件、游戏、电影、文档、图片、音乐……不管什么东西，都是以文件和文件夹的形式，存放在电脑里。&lt;/p&gt;
 &lt;p&gt;这一期，我们就学习一些简单的 Command Line 命令，一起去计算机的文件丛林里散个步。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Command Line 教程 01：什么是 Command Line？</title>
-      <link>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</link>
+      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</link>
       <pubDate>Wed, 13 Apr 2022 14:38:18 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</guid>
+      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</guid>
       <description>&lt;p&gt;你一定在电影上看过，&lt;strong&gt;黑客们是怎样用电脑的&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;跟我们拿着鼠标到处点点点不一样，他们通常会对着一个满是代码的屏幕，疯狂地敲击键盘。&lt;/p&gt;
 &lt;p&gt;这种「使唤」电脑的方式，便涉及到本文的主角 Command Line。&lt;/p&gt;</description>

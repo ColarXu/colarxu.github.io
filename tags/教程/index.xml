@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>教程 on 低噪音</title>
-    <link>http://localhost:1313/tags/%E6%95%99%E7%A8%8B/</link>
+    <link>https://colarxu.github.io/tags/%E6%95%99%E7%A8%8B/</link>
     <description>Recent content in 教程 on 低噪音</description>
     <generator>Hugo -- 0.140.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 07 Jun 2022 14:38:14 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://colarxu.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WebDev 05: CSS Color</title>
-      <link>http://localhost:1313/posts/2022/webdev-05-css-color/</link>
+      <link>https://colarxu.github.io/posts/2022/webdev-05-css-color/</link>
       <pubDate>Sat, 04 Jun 2022 07:29:01 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022/webdev-05-css-color/</guid>
+      <guid>https://colarxu.github.io/posts/2022/webdev-05-css-color/</guid>
       <description>&lt;h2 id=&#34;hex-and-rgb&#34;&gt;Hex and RGB&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Hex value: #8FBC8F&lt;/li&gt;
@@ -33,9 +33,9 @@
     </item>
     <item>
       <title>WebDev 04: Beginner CSS</title>
-      <link>http://localhost:1313/posts/2022/webdev-04-beginner-css/</link>
+      <link>https://colarxu.github.io/posts/2022/webdev-04-beginner-css/</link>
       <pubDate>Sat, 04 Jun 2022 06:17:08 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022/webdev-04-beginner-css/</guid>
+      <guid>https://colarxu.github.io/posts/2022/webdev-04-beginner-css/</guid>
       <description>&lt;p&gt;CSS add styles to web page. Each element have several style properties.&lt;/p&gt;
 &lt;h2 id=&#34;basic-propeties&#34;&gt;Basic Propeties&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;font-famiy&lt;/strong&gt;&lt;/p&gt;
@@ -58,9 +58,9 @@
     </item>
     <item>
       <title>WebDev 03: HTML Table</title>
-      <link>http://localhost:1313/posts/2022/webdev-03-html-table/</link>
+      <link>https://colarxu.github.io/posts/2022/webdev-03-html-table/</link>
       <pubDate>Fri, 03 Jun 2022 02:44:07 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022/webdev-03-html-table/</guid>
+      <guid>https://colarxu.github.io/posts/2022/webdev-03-html-table/</guid>
       <description>&lt;h2 id=&#34;table-code-structure&#34;&gt;Table Code Structure&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;table&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;thead&lt;/span&gt;&amp;gt;
@@ -91,9 +91,9 @@
     </item>
     <item>
       <title>WebDev 02: HTML Document Standards</title>
-      <link>http://localhost:1313/posts/2022/webdev-02-html-document-standards/</link>
+      <link>https://colarxu.github.io/posts/2022/webdev-02-html-document-standards/</link>
       <pubDate>Thu, 02 Jun 2022 19:54:35 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022/webdev-02-html-document-standards/</guid>
+      <guid>https://colarxu.github.io/posts/2022/webdev-02-html-document-standards/</guid>
       <description>&lt;h2 id=&#34;document-type-declaration&#34;&gt;Document Type Declaration&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/code&gt;: the declaration specifying the version of HTML for the browser, put it on the first line of code to tell the browser what type of document to expect.&lt;/p&gt;
 &lt;h2 id=&#34;html-structure&#34;&gt;HTML Structure&lt;/h2&gt;
@@ -124,9 +124,9 @@
     </item>
     <item>
       <title>WebDev 01: Introduction to HTML</title>
-      <link>http://localhost:1313/posts/2022/webdev-01-introduction-to-html/</link>
+      <link>https://colarxu.github.io/posts/2022/webdev-01-introduction-to-html/</link>
       <pubDate>Thu, 02 Jun 2022 18:50:47 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022/webdev-01-introduction-to-html/</guid>
+      <guid>https://colarxu.github.io/posts/2022/webdev-01-introduction-to-html/</guid>
       <description>&lt;h2 id=&#34;what-is-html&#34;&gt;What is HTML?&lt;/h2&gt;
 &lt;p&gt;HTML stands for HypeText Markup Language, it provides structure to the content appearing on a website.&lt;/p&gt;
 &lt;h2 id=&#34;html-elements&#34;&gt;HTML Elements&lt;/h2&gt;
@@ -175,9 +175,9 @@
     </item>
     <item>
       <title>Command Line 教程 04：删除、移动、复制</title>
-      <link>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</link>
+      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</link>
       <pubDate>Sat, 16 Apr 2022 14:03:35 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</guid>
+      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</guid>
       <description>&lt;p&gt;有出生，就有死亡。
 有生存，就有毁灭。
 有新建，就有删除。&lt;/p&gt;
@@ -189,9 +189,9 @@
     </item>
     <item>
       <title>Command Line 教程 03：新建文件和文件夹</title>
-      <link>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/</link>
+      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/</link>
       <pubDate>Sat, 16 Apr 2022 10:03:02 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/&#34;&gt;上一期&lt;/a&gt;我们学了三个命令：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;ls&lt;/code&gt; 查看当前目录下的文件和文件夹&lt;/li&gt;
@@ -203,18 +203,18 @@
     </item>
     <item>
       <title>Command Line 教程 02：在计算机里散步</title>
-      <link>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</link>
+      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</link>
       <pubDate>Fri, 15 Apr 2022 16:31:01 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</guid>
+      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</guid>
       <description>&lt;p&gt;&lt;strong&gt;一台电脑，就是一个巨大的文件夹&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;系统、软件、游戏、电影、文档、图片、音乐……不管什么东西，都是以文件和文件夹的形式，存放在电脑里。&lt;/p&gt;
 &lt;p&gt;这一期，我们就学习一些简单的 Command Line 命令，一起去计算机的文件丛林里散个步。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Command Line 教程 01：什么是 Command Line？</title>
-      <link>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</link>
+      <link>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</link>
       <pubDate>Wed, 13 Apr 2022 14:38:18 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</guid>
+      <guid>https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</guid>
       <description>&lt;p&gt;你一定在电影上看过，&lt;strong&gt;黑客们是怎样用电脑的&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;跟我们拿着鼠标到处点点点不一样，他们通常会对着一个满是代码的屏幕，疯狂地敲击键盘。&lt;/p&gt;
 &lt;p&gt;这种「使唤」电脑的方式，便涉及到本文的主角 Command Line。&lt;/p&gt;</description>
