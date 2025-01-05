@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web on 低噪音</title>
+    <link>http://localhost:1313/tags/web/</link>
+    <description>Recent content in Web on 低噪音</description>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 07 Jun 2022 14:38:14 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WebDev 05: CSS Color</title>
+      <link>http://localhost:1313/posts/2022/webdev-05-css-color/</link>
+      <pubDate>Sat, 04 Jun 2022 07:29:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022/webdev-05-css-color/</guid>
+      <description>&lt;h2 id=&#34;hex-and-rgb&#34;&gt;Hex and RGB&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hex value: #8FBC8F&lt;/li&gt;
+&lt;li&gt;RGB value: rgb(143, 188, 143)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These two kinds of vuales are interchangeable, but it is wise to use just one value in coding.&lt;/p&gt;
+&lt;h2 id=&#34;hsl&#34;&gt;HSL&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;hsl&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;120&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;60&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;%,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;70&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;%);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;shorts for hue-saturation-lightness.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hue: the first number, represents the degree of the hue, between 0 and 360.&lt;/li&gt;
+&lt;li&gt;Saturation: refers to the intensity or purity of the color, value ranges from 0% to 100%, the higher the color becomes richer, or grayer.&lt;/li&gt;
+&lt;li&gt;Lightness: refers to the light or dark of color, value ranges from 0% to 100%, the higher the color becomes lighter, or dimmer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;opacity-and--alpha&#34;&gt;Opacity and  Alpha&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;hsla&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;34&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;%,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;50&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;%,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;0&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The fourth value &lt;code&gt;a&lt;/code&gt; alpha, means opacity. It ranges from 0 to 1, if the alpha is 0, the color will be completely transparent; if the alpha is 1, the color would be opaque.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WebDev 04: Beginner CSS</title>
+      <link>http://localhost:1313/posts/2022/webdev-04-beginner-css/</link>
+      <pubDate>Sat, 04 Jun 2022 06:17:08 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022/webdev-04-beginner-css/</guid>
+      <description>&lt;p&gt;CSS add styles to web page. Each element have several style properties.&lt;/p&gt;
+&lt;h2 id=&#34;basic-propeties&#34;&gt;Basic Propeties&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;font-famiy&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;font-family&lt;/span&gt;: Georgia;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;the specific font must be installed&lt;/li&gt;
+&lt;li&gt;use &lt;a href=&#34;https://www.cssfontstack.com/&#34;&gt;Web safe fonts&lt;/a&gt;, or the font you choose may not appear the same between all browsers and operating system.&lt;/li&gt;
+&lt;li&gt;when the name of a typeface consists of more than one word, enclose the name in quotes, like &amp;lsquo;Courier New&amp;rsquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;font-size&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;font-size&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;18&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;px&lt;/code&gt; means pixels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;font-weight&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WebDev 03: HTML Table</title>
+      <link>http://localhost:1313/posts/2022/webdev-03-html-table/</link>
+      <pubDate>Fri, 03 Jun 2022 02:44:07 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022/webdev-03-html-table/</guid>
+      <description>&lt;h2 id=&#34;table-code-structure&#34;&gt;Table Code Structure&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;table&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;thead&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;th&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;scope&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;col&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;th&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;thead&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tbody&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tbody&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tfoot&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tfoot&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;table&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;table-element&#34;&gt;Table Element&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;table&amp;gt;&amp;lt;/table&amp;gt;&lt;/code&gt;: contain all the tabular data.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;thead&amp;gt;&amp;lt;/thead&amp;gt;&lt;/code&gt;: the heading of a long table.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;tbody&amp;gt;&amp;lt;/tbady&amp;gt;&lt;/code&gt;: the body of the long table.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;tr&amp;gt;&amp;lt;/tr&amp;gt;&lt;/code&gt;: add table rows.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;th&amp;gt;&amp;lt;/th&amp;gt;&lt;/code&gt;: add table heading. &lt;code&gt;&amp;lt;th scope=&amp;quot;col&amp;quot;&amp;gt;colum heading&amp;lt;/th&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;th scope=&amp;quot;row&amp;gt;row heading&amp;lt;/th&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;th&amp;gt;&amp;lt;/th&amp;gt;&lt;/code&gt; blank heading.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;&lt;/code&gt;: add table data. &lt;code&gt;&amp;lt;td colspan=&amp;quot;number&amp;quot;&amp;gt;&lt;/code&gt; let table data across several columns, &lt;code&gt;&amp;lt;td rowspan=&amp;quot;number&amp;quot;&amp;gt;&lt;/code&gt; let table data across several rows.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;tfoot&amp;gt;&amp;lt;/tfoot&amp;gt;&lt;/code&gt;: the bottom part of a long table.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>WebDev 02: HTML Document Standards</title>
+      <link>http://localhost:1313/posts/2022/webdev-02-html-document-standards/</link>
+      <pubDate>Thu, 02 Jun 2022 19:54:35 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022/webdev-02-html-document-standards/</guid>
+      <description>&lt;h2 id=&#34;document-type-declaration&#34;&gt;Document Type Declaration&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/code&gt;: the declaration specifying the version of HTML for the browser, put it on the first line of code to tell the browser what type of document to expect.&lt;/p&gt;
+&lt;h2 id=&#34;html-structure&#34;&gt;HTML Structure&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    content that displayed to the screen.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;html&amp;gt;&amp;lt;/html&amp;gt;&lt;/code&gt;: enclose all the HTML code.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&lt;/code&gt;: metadata, tell the browser about the page itself, not displayed on the webpage.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;title&amp;gt;&amp;lt;/title&amp;gt;&lt;/code&gt;: the title of the web page.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;&lt;/code&gt;: only content inside the opening and closing body tags can be displayed to the screen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;absolute links&lt;/strong&gt;: linking to other website &lt;code&gt;&amp;lt;a href=&amp;quot;URL&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;text&amp;lt;/a&amp;gt;&lt;/code&gt; href refers to hyperlink reference, &lt;code&gt;target=&amp;quot;_blank&amp;quot;&lt;/code&gt; means opening the link in a new tab.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;relative links&lt;/strong&gt;: linking to internal path in the same folder &lt;code&gt;&amp;lt;a href=&amp;quot;internal path(./contact.html&amp;quot;&amp;gt;Contact&amp;lt;/a&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;turn image into link&lt;/strong&gt;: &lt;code&gt;&amp;lt;a href=&amp;quot;link&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;image-location&amp;quot; alt=&amp;quot;image despriction&amp;quot;/&amp;gt;&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;linking to same page&lt;/strong&gt;: target &lt;code&gt;&amp;lt;div id=&amp;quot;name&amp;quot;&amp;gt;&lt;/code&gt;, then &lt;code&gt;&amp;lt;a href=&amp;quot;#name&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;/code&gt;, click the link then scroll to the section you target.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;!-- comments --&amp;gt;&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WebDev 01: Introduction to HTML</title>
+      <link>http://localhost:1313/posts/2022/webdev-01-introduction-to-html/</link>
+      <pubDate>Thu, 02 Jun 2022 18:50:47 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022/webdev-01-introduction-to-html/</guid>
+      <description>&lt;h2 id=&#34;what-is-html&#34;&gt;What is HTML?&lt;/h2&gt;
+&lt;p&gt;HTML stands for HypeText Markup Language, it provides structure to the content appearing on a website.&lt;/p&gt;
+&lt;h2 id=&#34;html-elements&#34;&gt;HTML Elements&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;tag&lt;/strong&gt;: &lt;code&gt;&amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt;&lt;/code&gt;
+&lt;strong&gt;element&lt;/strong&gt;: &lt;code&gt;&amp;lt;h1&amp;gt;Colar&amp;lt;/h1&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;basic-ones&#34;&gt;basic ones&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;&lt;/code&gt;: only content inside the opening and closing body tags can be displayed to the screen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt; &amp;lt;h6&amp;gt;&amp;lt;/h6&amp;gt;&lt;/code&gt;: six different headings.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;: short for division, a container that divides the page into sections.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt;: plain text.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;span&amp;gt;&amp;lt;/span&amp;gt;&lt;/code&gt;: separate a piece of content form other content. &lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;span&amp;gt;Self-driving cars&amp;lt;/span&amp;gt; are anticipated to replace up to 2 million jobs over the next two decades.&amp;lt;/p&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;styling-text&#34;&gt;styling text&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;em&amp;gt;&amp;lt;/em&amp;gt;&lt;/code&gt;: emphasize text, italic&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;&lt;/code&gt;: highlight text&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt;: line break.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lists&#34;&gt;lists&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;unordered lists&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;ul&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;&amp;gt;apple&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;&amp;gt;pineapple&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;&amp;gt;watermelon&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;ul&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ordered lists&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;ol&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;&amp;gt;one&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;&amp;gt;two&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;&amp;gt;three&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;ol&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;other-content&#34;&gt;other content&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;image&lt;/strong&gt;: &lt;code&gt;&amp;lt;img src=&amp;quot;image-location&amp;quot; alt=&amp;quot;image-description&amp;quot; /&amp;gt;&lt;/code&gt;, src is short for source, alt is short for alternative text.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;video&lt;/strong&gt;: &lt;code&gt;&amp;lt;video src=&amp;quot;video-location&amp;quot; width=&amp;quot;320&amp;quot; height=&amp;quot;240&amp;quot; controls&amp;gt; Video not supported &amp;lt;/video&amp;gt;&lt;/code&gt; controls instruct the browser to include basic video controls such as pausing and playing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;attribute&#34;&gt;attribute&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;intro&amp;quot;&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

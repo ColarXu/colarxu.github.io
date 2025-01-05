@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>写作 on 低噪音</title>
+    <link>http://localhost:1313/tags/%E5%86%99%E4%BD%9C/</link>
+    <description>Recent content in 写作 on 低噪音</description>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 25 Dec 2021 02:29:24 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>影评的另一种写法</title>
+      <link>http://localhost:1313/posts/2021/%E5%BD%B1%E8%AF%84%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E5%86%99%E6%B3%95/</link>
+      <pubDate>Fri, 24 Dec 2021 01:24:22 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2021/%E5%BD%B1%E8%AF%84%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E5%86%99%E6%B3%95/</guid>
+      <description>&lt;p&gt;平时空闲，总会看点什么，无论是电影、电视剧，还是纪录片。&lt;/p&gt;
+&lt;p&gt;每看完一部，就会想，要不要写点东西？一旦提笔，又踟蹰不前。写了又改，改了又删，最后的结局多半是「算了算了」。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>一篇好的序言</title>
+      <link>http://localhost:1313/posts/2021/%E4%B8%80%E7%AF%87%E5%A5%BD%E7%9A%84%E5%BA%8F%E8%A8%80/</link>
+      <pubDate>Sat, 30 Oct 2021 01:49:25 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2021/%E4%B8%80%E7%AF%87%E5%A5%BD%E7%9A%84%E5%BA%8F%E8%A8%80/</guid>
+      <description>&lt;p&gt;一&lt;/p&gt;
+&lt;p&gt;我看过不少好书，但很少看到精彩的序言。&lt;/p&gt;
+&lt;p&gt;开头那几页纸，来来去去就这几种类型：&lt;/p&gt;
+&lt;p&gt;1）例行公事的序：作者例行公事地跟读者打个招呼，再例行公事地感谢一大串名单（结果就是例行公事般的无聊）。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Git on 低噪音</title>
+    <link>http://localhost:1313/tags/git/</link>
+    <description>Recent content in Git on 低噪音</description>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 30 Oct 2020 02:37:46 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git 学习笔记 01：什么是 Git？</title>
+      <link>http://localhost:1313/posts/2020/git-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-01%E4%BB%80%E4%B9%88%E6%98%AF-git/</link>
+      <pubDate>Fri, 30 Oct 2020 07:59:22 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2020/git-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-01%E4%BB%80%E4%B9%88%E6%98%AF-git/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Git 是目前世界上最先进的分布式版本控制系统（没有之一）。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这话是 &lt;a href=&#34;https://www.liaoxuefeng.com/wiki/896043488029600/896067008724000&#34;&gt;廖雪峰&lt;/a&gt; 说的，看起来很厉害，但有点难懂。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;什么是「版本控制系统」？&lt;/li&gt;
+&lt;li&gt;「分布式」又是什么意思？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你想知道 &lt;strong&gt;Git 到底是什么？有什么用？&lt;/strong&gt; 还得从上面这两个陌生的概念入手。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Git 学习笔记 00：写给自己的开篇</title>
+      <link>http://localhost:1313/posts/2020/git-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-00%E5%86%99%E7%BB%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%BC%80%E7%AF%87/</link>
+      <pubDate>Thu, 29 Oct 2020 06:53:31 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2020/git-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-00%E5%86%99%E7%BB%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%BC%80%E7%AF%87/</guid>
+      <description>&lt;p&gt;坊间传言，&lt;a href=&#34;https://github.com/&#34;&gt;Github&lt;/a&gt;  是全球最大的同性交友网站👬，我偶尔也会进去瞧两眼。但毕竟不是搞技术的，就像女生进 Gay bar 一样，玩不出什么花样。&lt;/p&gt;
+&lt;p&gt;这周在学习用 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 搭建自己的博客，最后一步，把本地文件夹部署到 Github，需要在 Terminal（终端）上输入几个 &lt;code&gt;git&lt;/code&gt; 命令。其实，照着网上的教程，简单几步就能搞定。但我这人有个毛病，当不了纯粹的&lt;strong&gt;执行机器&lt;/strong&gt;。你说要这么做，但不说清楚为什么要这么做，我就一肚子问号，非得弄明白了才心安。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
