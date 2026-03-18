@@ -1,8 +1,12 @@
 ---
-tags: [Command Line, 教程]
-title: "Command Line 教程 02：在计算机里散步"
-publishDate: '2022-04-15T16:31:01.997Z'
+description: '**一台电脑，就是一个巨大的文件夹**。  系统、软件、游戏、电影、文档、图片、音乐……不管什么东西，都是以文件和文件夹的形式，存放在电脑里。  这一期，我们就学习一些简单的
+  Command Line 命令，一起去计算机的文件丛林里散个步。...'
 lastmod: '2022-04-16T10:28:35.176Z'
+publishDate: '2022-04-15T16:31:01.997Z'
+tags:
+- Command Line
+- 教程
+title: Command Line 教程 02：在计算机里散步
 ---
 
 **一台电脑，就是一个巨大的文件夹**。
@@ -96,4 +100,3 @@ colarxu@MacBook-Air 2022 % pwd
 `pwd` 显示当前文件夹的路径。
 
 怎样，是不是很简单？自己在电脑上试一试吧。
-

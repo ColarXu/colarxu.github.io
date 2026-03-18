@@ -1,8 +1,12 @@
 ---
-tags: [教程, Web]
-title: 'WebDev 05: CSS Color'
-publishDate: '2022-06-04T07:29:01.242Z'
+description: 'Hex and RGB  Hex value: #8FBC8F  RGB value: rgb(143, 188, 143)  These
+  two kinds of vuales are interchangeable, but it is...'
 lastmod: '2022-06-07T14:38:14.744Z'
+publishDate: '2022-06-04T07:29:01.242Z'
+tags:
+- 教程
+- Web
+title: 'WebDev 05: CSS Color'
 ---
 
 ## Hex and RGB
@@ -41,5 +45,3 @@ When it comes to RBG color, just add a fourth at the end of rbg value to represe
 When it comes to Hex color, you can add two-digit at the end of the value to represent opacity. It ranges from 00(transparent) to FF(opaque).
 
 Alpha can only be used with HSL, GRB and hex colors. We cannot add the alpha value to name colors like green.
-
-

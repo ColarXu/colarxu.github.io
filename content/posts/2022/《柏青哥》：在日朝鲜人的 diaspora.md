@@ -1,8 +1,11 @@
 ---
-tags: [电影, 读书]
-title: 《柏青哥》：在日朝鲜人的 diaspora
-publishDate: '2022-04-18T07:45:27.505Z'
+description: 看完，也就是热门剧集的原著后，**我的内心涌出一个词——diaspora**。  Diaspora，指的是犹太人被迫离开家园，散居在世界各处，他们既没能融入新的居住地，也无法返回自己的故土。每当念到这个词的时候，难免会产生一丝漂浮的忧郁，如...
 lastmod: '2022-04-19T13:19:17.004Z'
+publishDate: '2022-04-18T07:45:27.505Z'
+tags:
+- 电影
+- 读书
+title: 《柏青哥》：在日朝鲜人的 diaspora
 ---
 
 看完[《柏青哥》](https://book.douban.com/subject/30424101/)，也就是热门剧集[《弹子球游戏》](https://movie.douban.com/subject/30489824/)的原著后，**我的内心涌出一个词——diaspora**。

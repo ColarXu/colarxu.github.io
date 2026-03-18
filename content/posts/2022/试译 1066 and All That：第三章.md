@@ -1,8 +1,13 @@
 ---
-tags: [1066 and All That, 翻译, 英国史]
-title: 试译 1066 and All That：第三章
-publishDate: '2022-12-10T04:24:18.541Z'
+description: The Conversion of England  英格兰的皈依  NOTICING some fair-haired children
+  in the slave market one morning, Pope Gregory, the...
 lastmod: '2022-12-14T10:35:40.833Z'
+publishDate: '2022-12-10T04:24:18.541Z'
+tags:
+- 1066 and All That
+- 翻译
+- 英国史
+title: 试译 1066 and All That：第三章
 ---
 
 ## The Conversion of England
@@ -32,5 +37,3 @@ Soon after this event Egg-Kings were found on the thrones of all these kingdoms,
 [^1]: 即格里高利一世（约 540-604 年），罗马天主教第 64 任教皇。
 [^2]: 即坎特伯雷的圣奥古斯丁（?－604 年），是第一任坎特伯雷大主教。 
 [^3]: 比德（673-735 年），是一位基督教僧侣、历史学家，著有《英吉利教会史》。
-
-

@@ -1,8 +1,11 @@
 ---
-tags: [Command Line, 教程]
-title: "Command Line \b教程 03：新建文件和文件夹"
-publishDate: '2022-04-16T10:03:02.200Z'
+description: 我们学了三个命令：  ls 查看当前目录下的文件和文件夹 cd 切换不同的文件目录 pwd 显示当前文件夹的路径  从此具备了在计算机的文件夹丛林里漫游的能力。  好吧，走也走了，看也看了。现在就来动动手，学习怎么往计算机里加东西吧。  m...
 lastmod: '2022-04-16T14:04:27.202Z'
+publishDate: '2022-04-16T10:03:02.200Z'
+tags:
+- Command Line
+- 教程
+title: "Command Line \b教程 03：新建文件和文件夹"
 ---
 
 [上一期](https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/)我们学了三个命令：

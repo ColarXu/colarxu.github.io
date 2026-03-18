@@ -1,8 +1,11 @@
 ---
-tags: [1066 and All That]
-title: 试译 1066 and All That：第十四章
-publishDate: '2023-01-16T06:08:02.887Z'
+description: The Dreadful Story of Stephen and his Aunt Matilda (or Maud) 史蒂芬和他姑妈玛蒂尔达（或叫莫德）的糟糕往事  THE
+  moment Stephen came to the thro...
 lastmod: '2023-01-16T06:33:19.155Z'
+publishDate: '2023-01-16T06:08:02.887Z'
+tags:
+- 1066 and All That
+title: 试译 1066 and All That：第十四章
 ---
 
 ## The Dreadful Story of Stephen and his Aunt Matilda (or Maud)

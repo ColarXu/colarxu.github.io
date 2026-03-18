@@ -1,8 +1,13 @@
 ---
-tags: [1066 and All That, 翻译, 英国史]
-title: 试译 1066 and All That：第二章
-publishDate: '2022-12-10T04:22:46.963Z'
+description: Britain Conquered Again 不列颠又被征服了  THE withdrawal of the Roman legions
+  to take part in Gibbon's Decline and Fall of the R...
 lastmod: '2022-12-14T04:40:50.549Z'
+publishDate: '2022-12-10T04:22:46.963Z'
+tags:
+- 1066 and All That
+- 翻译
+- 英国史
+title: 试译 1066 and All That：第二章
 ---
 
 ## Britain Conquered Again
@@ -37,5 +42,3 @@ The brutal Saxon invaders drove the Britons westward into Wales and compelled th
 [^7]: 星期四，雷神之日，源于北欧神话中的雷神索尔（Thor）。
 [^8]: 星期五，弗里格之日，源于北欧神话中的女神弗里格（Frigg）。
 [^9]: 星期六，农神之日，源于古罗马神话的农神萨图尔（Saturn）。
-
-

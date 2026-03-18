@@ -1,8 +1,11 @@
 ---
-tags: [1066 and All That]
-title: 试译 1066 and All That：第九章
-publishDate: '2022-12-15T13:28:51.594Z'
+description: Canute, an Experimental King  卡努特，一位实验性的国王  THIS memorable monarch, having
+  set out from Norway to collect some Danegeld,...
 lastmod: '2022-12-17T13:31:52.971Z'
+publishDate: '2022-12-15T13:28:51.594Z'
+tags:
+- 1066 and All That
+title: 试译 1066 and All That：第九章
 ---
 
 ## Canute, an Experimental King

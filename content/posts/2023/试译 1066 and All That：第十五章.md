@@ -1,8 +1,11 @@
 ---
-tags: [1066 and All That]
-title: 试译 1066 and All That：第十五章
-publishDate: '2023-02-06T02:50:35.102Z'
+description: 'Henry II: A Just King 亨利二世：一名公正的国王  HENRY II was a great Lawgiver, and
+  it was he who laid down the great Legal Principle...'
 lastmod: '2023-02-06T03:30:48.642Z'
+publishDate: '2023-02-06T02:50:35.102Z'
+tags:
+- 1066 and All That
+title: 试译 1066 and All That：第十五章
 ---
 
 ## Henry II: A Just King
@@ -36,5 +39,3 @@ It was at this time that Thomas à Belloc, the great religious leader, claimed t
 Shortly afterwards Henry died of despair on receiving news that his sons were all revolting.
 
 此事刚过不久，亨利二世收到消息，自己所有的儿子都起来反叛。他便在绝望中去世了。
-
-

@@ -1,8 +1,12 @@
 ---
-tags: [Command Line, 教程]
-title: "Command Line \b教程 04：删除、移动、复制"
-publishDate: '2022-04-16T14:03:35.747Z'
+description: 有出生，就有死亡。 有生存，就有毁灭。 有新建，就有删除。  ，我们学习了如何用命令行新建文件和文件夹。那么这一期，就来学习如何把它们移开、复制，以及删掉。  rm
+  命令：删除一切  rm 是 remove 的缩写。  如果你看哪个文件不顺...
 lastmod: '2022-04-22T08:52:46.468Z'
+publishDate: '2022-04-16T14:03:35.747Z'
+tags:
+- Command Line
+- 教程
+title: "Command Line \b教程 04：删除、移动、复制"
 ---
 
 有出生，就有死亡。
@@ -80,9 +84,3 @@ lastmod: '2022-04-22T08:52:46.468Z'
 - `cp xx.txt xxx.txt yyy` 将名为 xx 和 xxx 的 txt 文档复制到 yyy 文件夹
 
 看起来很头晕，但上手起来很简单。来，你也来试一试吧！
-
-
-
-
-
-

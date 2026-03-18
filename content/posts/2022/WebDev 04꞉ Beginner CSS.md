@@ -1,8 +1,12 @@
 ---
-tags: [教程, Web]
-title: 'WebDev 04: Beginner CSS'
-publishDate: '2022-06-04T06:17:08.960Z'
+description: CSS add styles to web page. Each element have several style properties.  Basic
+  Propeties  **font-famiy*css h1 {   font-f...
 lastmod: '2022-06-04T07:10:32.266Z'
+publishDate: '2022-06-04T06:17:08.960Z'
+tags:
+- 教程
+- Web
+title: 'WebDev 04: Beginner CSS'
 ---
 
 CSS add styles to web page. Each element have several style properties.
@@ -92,7 +96,4 @@ p {
 }
 ```
 
-- override other any style. 
-
-
-
+- override other any style.

@@ -1,8 +1,11 @@
 ---
-tags: [1066 and All That]
-title: 试译 1066 and All That：第十七章
-publishDate: '2023-02-08T05:42:00.289Z'
+description: 'Richard I: A Wild King 理查一世：一名疯狂的国王  RICHARD I was a hairy King with
+  a Lion''s Heart; he went roaring about the Desert ma...'
 lastmod: '2023-02-09T02:29:33.099Z'
+publishDate: '2023-02-08T05:42:00.289Z'
+tags:
+- 1066 and All That
+title: 试译 1066 and All That：第十七章
 ---
 
 ## Richard I: A Wild King

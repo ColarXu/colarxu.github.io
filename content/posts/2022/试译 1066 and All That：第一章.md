@@ -1,9 +1,15 @@
 ---
-tags: [1066 and All That, 翻译, 英国史]
-title: 试译 1066 and All That：第一章
-publishDate: '2022-12-09T09:27:32.266Z'
+description: Caesar Invades Britain 凯撒入侵不列颠  THE first datein English History is 55
+  B.C ., in which year Julius Caesar (the memorable...
 lastmod: '2022-12-10T02:00:41.902Z'
+publishDate: '2022-12-09T09:27:32.266Z'
+tags:
+- 1066 and All That
+- 翻译
+- 英国史
+title: 试译 1066 and All That：第一章
 ---
+
 ## Caesar Invades Britain
 ## 凯撒入侵不列颠
 

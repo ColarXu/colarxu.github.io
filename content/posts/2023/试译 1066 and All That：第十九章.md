@@ -1,8 +1,11 @@
 ---
-tags: [1066 and All That]
-title: 试译 1066 and All That：第十九章
-publishDate: '2023-04-11T01:48:50.450Z'
+description: Magna Charter 大宪章  THERE also happened in this reign the memorable Charta,
+  known as Magna Charter on account of the Lati...
 lastmod: '2023-04-11T02:22:02.246Z'
+publishDate: '2023-04-11T01:48:50.450Z'
+tags:
+- 1066 and All That
+title: 试译 1066 and All That：第十九章
 ---
 
 ## Magna Charter

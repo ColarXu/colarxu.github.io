@@ -1,8 +1,11 @@
 ---
-tags: [1066 and All That]
-title: 试译 1066 and All That：第十二章
-publishDate: '2023-01-11T06:45:44.458Z'
+description: 'Rufus: A Ruddy King 鲁弗斯：红国王  THIS monarch was always very angry and
+  red in the face and was therefore unpopular, so that...'
 lastmod: '2023-01-11T07:00:02.170Z'
+publishDate: '2023-01-11T06:45:44.458Z'
+tags:
+- 1066 and All That
+title: 试译 1066 and All That：第十二章
 ---
 
 ## Rufus: A Ruddy King

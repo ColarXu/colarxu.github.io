@@ -1,8 +1,12 @@
 ---
-tags: [教程, Web]
-title: 'WebDev 01: Introduction to HTML'
-publishDate: '2022-06-02T18:50:47.594Z'
+description: What is HTML?  HTML stands for HypeText Markup Language, it provides
+  structure to the content appearing on a website....
 lastmod: '2022-06-03T15:54:59.802Z'
+publishDate: '2022-06-02T18:50:47.594Z'
+tags:
+- 教程
+- Web
+title: 'WebDev 01: Introduction to HTML'
 ---
 
 ## What is HTML?

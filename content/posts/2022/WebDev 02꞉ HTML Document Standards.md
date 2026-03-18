@@ -1,8 +1,12 @@
 ---
-tags: [教程, Web]
-title: 'WebDev 02: HTML Document Standards'
-publishDate: '2022-06-02T19:54:35.828Z'
+description: 'Document Type Declaration  : the declaration specifying the version
+  of HTML for the browser, put it on the first line of...'
 lastmod: '2022-06-03T15:55:14.724Z'
+publishDate: '2022-06-02T19:54:35.828Z'
+tags:
+- 教程
+- Web
+title: 'WebDev 02: HTML Document Standards'
 ---
 
 ## Document Type Declaration

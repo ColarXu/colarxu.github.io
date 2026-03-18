@@ -1,8 +1,11 @@
 ---
-tags: [1066 and All That]
-title: 试译 1066 and All That：第十一章
-publishDate: '2023-01-10T02:41:22.771Z'
+description: 'William I: A Conquering King 威廉一世：征服之君  IN the year 1066 occurred the
+  other memorable date in English History, viz. Will...'
 lastmod: '2023-01-10T04:01:22.376Z'
+publishDate: '2023-01-10T02:41:22.771Z'
+tags:
+- 1066 and All That
+title: 试译 1066 and All That：第十一章
 ---
 
 ## William I: A Conquering King

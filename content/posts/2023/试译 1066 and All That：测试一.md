@@ -1,8 +1,11 @@
 ---
-tags: [1066 and All That]
-title: 试译 1066 and All That：测试一
-publishDate: '2023-01-09T04:23:59.657Z'
+description: Up to the End of 1066  截止到 1066 年  1. Which do you consider were the
+  more alike, Caesar or Pompey, or vice versa? (Be br...
 lastmod: '2023-01-09T06:38:52.474Z'
+publishDate: '2023-01-09T04:23:59.657Z'
+tags:
+- 1066 and All That
+title: 试译 1066 and All That：测试一
 ---
 
 ## Up to the End of 1066
@@ -113,4 +116,3 @@ Does it matter?
 N.B. – Do not attempt to answer more than one question at a time.
 
 注意：请答完一题，再看下一道。
-

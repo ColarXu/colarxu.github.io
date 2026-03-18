@@ -1,8 +1,13 @@
 ---
-tags: [1066 and All That, 翻译, 英国史]
-title: 试译 1066 and All That：第五章
-publishDate: '2022-12-12T12:58:47.509Z'
+description: Alfred the Cake 蛋糕[^1]阿尔弗雷德  KING ALFRED was the first Good King, with
+  the exception of Good King Wenceslas, who, though...
 lastmod: '2022-12-16T03:42:04.028Z'
+publishDate: '2022-12-12T12:58:47.509Z'
+tags:
+- 1066 and All That
+- 翻译
+- 英国史
+title: 试译 1066 and All That：第五章
 ---
 
 ## Alfred the Cake
@@ -29,4 +34,3 @@ Arthur, Lord Tennyson.
 [^3]: 好国王温切拉斯（Good King Wenceslas）是一首圣诞颂歌。
 [^4]: 亚瑟王是一名领导古不列颠人反抗盎格鲁-撒克逊人的凯尔特国王。围绕他有许多传奇的故事，比如巫师梅林，从石头中拔出的宝剑埃克斯卡利伯，以及圆桌骑士等等。他是一个文学虚构人物，还是历史上确有其人，现在也无法确定。
 [^5]: 实际上是阿尔弗雷德，特尼森勋爵（Alfred, Lord Tennyson，1809–1892 年），第一任特尼森伯爵，是英国维多利亚时代的一名诗人。本书作者希望大家不要把阿尔弗雷德和亚瑟弄混，但却故意把这两个名字混用。
-

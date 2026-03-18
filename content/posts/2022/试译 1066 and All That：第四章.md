@@ -1,8 +1,13 @@
 ---
-tags: [1066 and All That, 翻译, 英国史]
-title: 试译 1066 and All That：第四章
-publishDate: '2022-12-10T08:14:49.160Z'
+description: Britain Conquered Again 不列颠第三次被征服  THE conversion of Britain was followed
+  by a Wave of Danes, accompanied by their siste...
 lastmod: '2022-12-15T12:23:20.120Z'
+publishDate: '2022-12-10T08:14:49.160Z'
+tags:
+- 1066 and All That
+- 翻译
+- 英国史
+title: 试译 1066 and All That：第四章
 ---
 
 ## Britain Conquered Again
@@ -51,5 +56,3 @@ Swingéd Cnut Cyng with swung sword Howléd Witane hellë but hearkened his word
 [^2]: 估计是蓝牙哈拉尔（Harald Bluetooth），丹麦国王，也曾短暂地担任挪威国王。他把基督教引进了丹麦。后世的蓝牙技术即以他命名。
 [^3]: 即好人马格努斯（Magnus the Good，1024-1047 年），曾担任丹麦国王。
 [^4]: 不知道是谁！
-
-

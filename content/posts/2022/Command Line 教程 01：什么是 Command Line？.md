@@ -1,8 +1,12 @@
 ---
-tags: [Command Line, 教程]
-title: "Command Line 教程 01：什么是 Command Line？"
-publishDate: '2022-04-13T14:38:18.382Z'
+description: 你一定在电影上看过，**黑客们是怎样用电脑的**。  跟我们拿着鼠标到处点点点不一样，他们通常会对着一个满是代码的屏幕，疯狂地敲击键盘。  这种「使唤」电脑的方式，便涉及到本文的主角
+  Command Line。  什么是 Command L...
 lastmod: '2022-04-16T10:28:29.188Z'
+publishDate: '2022-04-13T14:38:18.382Z'
+tags:
+- Command Line
+- 教程
+title: Command Line 教程 01：什么是 Command Line？
 ---
 
 你一定在电影上看过，**黑客们是怎样用电脑的**。

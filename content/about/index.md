@@ -1,7 +1,9 @@
 ---
-title: 许仙人
 created: '2020-11-02T09:15:53.454Z'
+description: "\U0001F44B 你好，我是许仙人，现居广州。  分享一些喜欢的东西，权作自我介绍。  \U0001F527 **App*：类 Alfred
+  的启动器工具 ：双链大纲笔记软件 ：稍后阅读(已经没了，有替代请告知)   \U0001F3AE **游戏*\U0001F4AC **翻译的字幕*..."
 modified: '2020-11-02T09:22:10.866Z'
+title: 许仙人
 ---
 
 👋 你好，我是许仙人，现居广州。
@@ -35,4 +37,3 @@ modified: '2020-11-02T09:22:10.866Z'
 - [好兆头 第二季](https://www.icezmz.com/detail/655)
 - [探秘博物馆 第三季](https://www.icezmz.com/detail/607)
 - [剖析丑闻](https://www.icezmz.com/detail/613)
-
