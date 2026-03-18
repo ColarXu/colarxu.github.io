@@ -1,0 +1,130 @@
+.post-entry .entry-header h2 {
+    font-size: 1.4rem;        /* 稍微调大标题 */
+    font-weight: 600;         /* 增加厚度 */
+    letter-spacing: 0.02em;   /* 增加一点呼吸感 */
+    margin-bottom: 8px;       /* 与日期拉开距离 */
+}
+
+/* 2. 强制正文宽度为 600px */
+.post-content, 
+.post-header,
+.post-footer {
+    max-width: 640px !important;    /* 统一修改为 600px */
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* 1. 精准控制正文行间距 */
+.post-content {
+    /* 2.1 比例非常适合中文长文，能有效减少阅读疲劳 */
+    line-height: 2.1 !important; 
+    /* 稍微调整字号以配合大行距，建议在 17px - 18px */
+    font-size: 1.05rem !important; 
+    color: #2c3e50 !important;
+}
+
+/* 2. 调整段落间距（段与段之间的距离） */
+.post-content p, 
+.post-content blockquote, 
+.post-content ul, 
+.post-content ol, 
+.post-content dl,
+.post-content table {
+    /* 使用 em 单位可以随字号自动缩放，2em 约等于空出两个空行 */
+    margin-top: 1.75em !important;
+    margin-bottom: 1.75em !important;
+}
+
+/* 3. 特殊处理：首段顶部不需要额外间距 */
+.post-content p:first-child {
+    margin-top: 0 !important;
+}
+
+/* 4. 列表内部的行距微调，防止列表项之间太松散 */
+.post-content li {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+    line-height: 1.5 !important; /* 列表通常比正文稍紧凑一点更美观 */
+}
+
+/* 3. 图片精准对齐 600px 边界 */
+.post-content img {
+    display: block;
+    width: 100% !important;         /* 撑满 600px 容器 */
+    max-width: 100% !important; 
+    margin: 1.5rem auto !important;   /* 回归紧凑的上下间距 */
+    
+    /* 维持加强版阴影 */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15), 0 8px 10px rgba(0, 0, 0, 0.1) !important; 
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+    border-radius: 3% !important;
+}
+
+/* 4. 响应式处理：确保在手机上不会溢出 */
+@media screen and (max-width: 640px) {
+    .post-content, .post-header, .post-footer {
+        max-width: 90% !important;  /* 手机端留出 10% 的边距 */
+    }
+}
+
+/* 调整标题与下方元数据（日期、作者等）的间距 */
+.post-meta {
+    margin-top: 12px !important;    /* 增加向上边距，数值可根据喜好调整 */
+    margin-bottom: 30px !important; /* 同时微调与正文起始处的距离，保持比例 */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;                      /* 如果有多项信息，增加它们横向的间距 */
+    align-items: center;
+}
+
+/* 确保标题本身的底部边距不会干扰 */
+.post-title {
+    margin-bottom: 0 !important; 
+    line-height: 1.3;
+}
+
+/* 针对正文内的有序和无序列表 */
+.post-content ul, 
+.post-content ol {
+    padding-inline-start: 4em !important; /* 核心：缩进两个字符距离 */
+    margin-bottom: var(--content-gap);   /* 保持与主题一致的段落间距 */
+}
+
+/* 确保列表项内部的排版紧凑 */
+.post-content li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* 如果列表内有嵌套列表，保持一致的缩进节奏 */
+.post-content li > ul, 
+.post-content li > ol {
+    padding-inline-start: 2em !important;
+    margin-top: 5px;
+}
+
+/* 1. 针对正文内的链接 */
+.post-content a {
+    /* 将模拟下划线的阴影颜色改为蓝色 */
+    /* 你可以根据喜好调整这个蓝色的深浅，例如 #0070f3 或 #2563eb */
+    box-shadow: 0 3px 0 #00bef3 !important; 
+    color: inherit; /* 保持文字颜色跟随正文，仅下划线变蓝 */
+    transition: all 0.2s ease;
+}
+
+/* 2. 鼠标悬停时的效果（可选，增加交互感） */
+.post-content a:hover {
+    box-shadow: 0 3px 0 #00bef3 !important; /* 悬停时下划线加粗 */
+    color: #00bef3 !important;             /* 悬停时文字也变蓝 */
+}
+
+/* 3. 排除掉代码块中的链接，避免干扰代码配色 */
+.post-content code a {
+    box-shadow: none !important;
+}
+
+.post-signature {
+    font-size: 0.8em;
+    opacity: 0.6;
+    letter-spacing: 2px;
+}

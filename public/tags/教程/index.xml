@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>教程 on 低噪音</title>
-    <link>https://colarxu.github.io/tags/%E6%95%99%E7%A8%8B/</link>
+    <link>https://ColarXu.github.io/tags/%E6%95%99%E7%A8%8B/</link>
     <description>Recent content in 教程 on 低噪音</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <lastBuildDate>Tue, 07 Jun 2022 14:38:14 +0000</lastBuildDate>
-    <atom:link href="https://colarxu.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ColarXu.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WebDev 05: CSS Color</title>
-      <link>https://colarxu.github.io/webdev-05-css-color/</link>
+      <link>https://ColarXu.github.io/webdev-05-css-color/</link>
       <pubDate>Sat, 04 Jun 2022 07:29:01 +0000</pubDate>
-      <guid>https://colarxu.github.io/webdev-05-css-color/</guid>
+      <guid>https://ColarXu.github.io/webdev-05-css-color/</guid>
       <description>&lt;h2 id=&#34;hex-and-rgb&#34;&gt;Hex and RGB&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Hex value: #8FBC8F&lt;/li&gt;
@@ -33,9 +33,9 @@
     </item>
     <item>
       <title>WebDev 04: Beginner CSS</title>
-      <link>https://colarxu.github.io/webdev-04-beginner-css/</link>
+      <link>https://ColarXu.github.io/webdev-04-beginner-css/</link>
       <pubDate>Sat, 04 Jun 2022 06:17:08 +0000</pubDate>
-      <guid>https://colarxu.github.io/webdev-04-beginner-css/</guid>
+      <guid>https://ColarXu.github.io/webdev-04-beginner-css/</guid>
       <description>&lt;p&gt;CSS add styles to web page. Each element have several style properties.&lt;/p&gt;
 &lt;h2 id=&#34;basic-propeties&#34;&gt;Basic Propeties&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;font-famiy&lt;/strong&gt;&lt;/p&gt;
@@ -58,9 +58,9 @@
     </item>
     <item>
       <title>WebDev 03: HTML Table</title>
-      <link>https://colarxu.github.io/webdev-03-html-table/</link>
+      <link>https://ColarXu.github.io/webdev-03-html-table/</link>
       <pubDate>Fri, 03 Jun 2022 02:44:07 +0000</pubDate>
-      <guid>https://colarxu.github.io/webdev-03-html-table/</guid>
+      <guid>https://ColarXu.github.io/webdev-03-html-table/</guid>
       <description>&lt;h2 id=&#34;table-code-structure&#34;&gt;Table Code Structure&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;table&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;thead&lt;/span&gt;&amp;gt;
@@ -91,9 +91,9 @@
     </item>
     <item>
       <title>WebDev 02: HTML Document Standards</title>
-      <link>https://colarxu.github.io/webdev-02-html-document-standards/</link>
+      <link>https://ColarXu.github.io/webdev-02-html-document-standards/</link>
       <pubDate>Thu, 02 Jun 2022 19:54:35 +0000</pubDate>
-      <guid>https://colarxu.github.io/webdev-02-html-document-standards/</guid>
+      <guid>https://ColarXu.github.io/webdev-02-html-document-standards/</guid>
       <description>&lt;h2 id=&#34;document-type-declaration&#34;&gt;Document Type Declaration&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/code&gt;: the declaration specifying the version of HTML for the browser, put it on the first line of code to tell the browser what type of document to expect.&lt;/p&gt;
 &lt;h2 id=&#34;html-structure&#34;&gt;HTML Structure&lt;/h2&gt;
@@ -124,9 +124,9 @@
     </item>
     <item>
       <title>WebDev 01: Introduction to HTML</title>
-      <link>https://colarxu.github.io/webdev-01-introduction-to-html/</link>
+      <link>https://ColarXu.github.io/webdev-01-introduction-to-html/</link>
       <pubDate>Thu, 02 Jun 2022 18:50:47 +0000</pubDate>
-      <guid>https://colarxu.github.io/webdev-01-introduction-to-html/</guid>
+      <guid>https://ColarXu.github.io/webdev-01-introduction-to-html/</guid>
       <description>&lt;h2 id=&#34;what-is-html&#34;&gt;What is HTML?&lt;/h2&gt;
 &lt;p&gt;HTML stands for HypeText Markup Language, it provides structure to the content appearing on a website.&lt;/p&gt;
 &lt;h2 id=&#34;html-elements&#34;&gt;HTML Elements&lt;/h2&gt;
@@ -175,9 +175,9 @@
     </item>
     <item>
       <title>Command Line 教程 04：删除、移动、复制</title>
-      <link>https://colarxu.github.io/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</link>
+      <link>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</link>
       <pubDate>Sat, 16 Apr 2022 14:03:35 +0000</pubDate>
-      <guid>https://colarxu.github.io/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</guid>
+      <guid>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</guid>
       <description>&lt;p&gt;有出生，就有死亡。
 有生存，就有毁灭。
 有新建，就有删除。&lt;/p&gt;
@@ -185,27 +185,13 @@
 &lt;h2 id=&#34;rm-命令删除一切&#34;&gt;rm 命令：删除一切&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;rm&lt;/code&gt; 是 remove 的缩写。&lt;/p&gt;
 &lt;p&gt;如果你看哪个文件不顺眼，就用 &lt;code&gt;rm&lt;/code&gt; 命令把它狠狠删掉吧。&lt;/p&gt;
-&lt;p&gt;具体这么操作：&lt;code&gt;rm 文件名称.文件类型&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;假如，你想删除的文件不在当前文件夹下面，就在命令中把文件路径加进去，比如 &lt;code&gt;rm ~/xxx/xxx/文件夹名称.文件类型&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;要是你想一次性删一堆文件，就需要用到 &lt;code&gt;*&lt;/code&gt; 全选符号。比如，我想把 Downloads 文件夹中的 jpg 图片全部删掉，就用 &lt;code&gt;rm ~/downloads/*.jpg&lt;/code&gt; 命令。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;要是你想删除一个文件夹的话&lt;/strong&gt;，单纯的 &lt;code&gt;rm&lt;/code&gt; 命令起不到作用了，要在后面多加一个 &lt;code&gt;-r&lt;/code&gt;，也就是 recursive，让它循环删除，直到删无可删。&lt;/p&gt;
-&lt;p&gt;举个例子：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;rm -r hugo&lt;/code&gt; 删除一个名为 hugo 的文件夹&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;rm -r hugo/*&lt;/code&gt; 删除 hugo 文件夹里的所有内容，但不删文件夹本身&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;最后，大家在使用 &lt;code&gt;rm&lt;/code&gt; 命令时，一定要谨慎，因为删了就彻底删了，连回收站不会进哦。&lt;/p&gt;
-&lt;h2 id=&#34;mv-命令转移一切&#34;&gt;mv 命令：转移一切&lt;/h2&gt;
-&lt;p&gt;说实话，Command Line 这些命令，平时我基本用不上，但 &lt;code&gt;mv&lt;/code&gt; 命令除外，它真的很实用。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;移动一个文件&lt;/strong&gt;：&lt;code&gt;mv 文件名称.文件类型 文件夹名称&lt;/code&gt; 该命令可以把让你把某一文件，移动到某一个文件夹中。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;移动一堆文件&lt;/strong&gt;：&lt;code&gt;mv *.文件类型 文件夹名&lt;/code&gt; 这是个人很喜欢用的一个命令。&lt;/p&gt;
-&lt;p&gt;我经常在网上找一些资源，比如电子书。电子书主要有三种格式：mobi, epub 和 pdf，默认下载在 Download 的文件夹里。文件一多，就要整理，相比一个一个选中，拉去另一个文件夹，不如直接用 &lt;code&gt;mv ~/downloads/*.mobi ~/documents/book/&lt;/code&gt; 命令，瞬间就能把所有 mobi 格式的书，放在我想让它们待的文件夹。&lt;/p&gt;</description>
+&lt;p&gt;具体这么操作：&lt;code&gt;rm 文件名称.文件类型&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Command Line 教程 03：新建文件和文件夹</title>
-      <link>https://colarxu.github.io/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</link>
+      <link>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</link>
       <pubDate>Sat, 16 Apr 2022 10:03:02 +0000</pubDate>
-      <guid>https://colarxu.github.io/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</guid>
+      <guid>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/&#34;&gt;上一期&lt;/a&gt;我们学了三个命令：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;ls&lt;/code&gt; 查看当前目录下的文件和文件夹&lt;/li&gt;
@@ -213,94 +199,25 @@
 &lt;li&gt;&lt;code&gt;pwd&lt;/code&gt; 显示当前文件夹的路径&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;从此具备了在计算机的文件夹丛林里漫游的能力。&lt;/p&gt;
-&lt;p&gt;好吧，走也走了，看也看了。现在就来动动手，学习怎么往计算机里加东西吧。&lt;/p&gt;
-&lt;h2 id=&#34;mkdir-命令新建文件夹&#34;&gt;mkdir 命令：新建文件夹&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;mkdir&lt;/code&gt; 即 make directory，新建文件夹（目录）的意思。&lt;/p&gt;
-&lt;p&gt;在 Terminal 中输入 &lt;code&gt;mkdir 文件夹名称&lt;/code&gt;，就可以在当前文件夹下，新建一个子文件夹。&lt;/p&gt;
-&lt;p&gt;很简单对吧？感觉比用鼠标右键新建文件夹要更快呢。&lt;/p&gt;
-&lt;p&gt;如果你想把文件夹建在别的地方，就这样来： &lt;code&gt;mkdir ~/xxx/xxx/xxx/文件夹名称&lt;/code&gt;。&lt;code&gt;~&lt;/code&gt; 指的是根目录，那些 xxx 就是你目标文件夹的路径。&lt;/p&gt;
-&lt;h2 id=&#34;touch-命令新建文件&#34;&gt;touch 命令：新建文件&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;touch&lt;/code&gt; 命令跟 &lt;code&gt;mkdir&lt;/code&gt; 的原理是一样的。只不过前者是新建文件，后者是新建文件夹。&lt;/p&gt;
-&lt;p&gt;请注意，&lt;code&gt;touch&lt;/code&gt; 命令只能新建&lt;strong&gt;纯文本文件&lt;/strong&gt;，比如 txt 和 md 文件，其他类型的文件可是建不了的。&lt;/p&gt;
-&lt;p&gt;举个例子，&lt;code&gt;touch ~/desktop/note.md&lt;/code&gt;，便是在桌面新建一个名为 note 的 markdown 文档（&lt;code&gt;~&lt;/code&gt; 是根目录，桌面 desktop 是根目录的子文件夹）。&lt;/p&gt;
-&lt;p&gt;对了，&lt;strong&gt;当新建一个文件的时候，一定不要忘记加上文件的后缀名&lt;/strong&gt;。漏了后缀名，电脑可是不会搭理这个命令的哟。&lt;/p&gt;
-&lt;h2 id=&#34;cat-命令查看文件内容&#34;&gt;cat 命令：查看文件内容&lt;/h2&gt;
-&lt;p&gt;在 Terminal 中，我们无需打开文件，就可以查看文件里的内容。&lt;/p&gt;
-&lt;p&gt;我悄悄地在刚才新建的文件 note.md 中贴了一行诗，现在就去看看吧。&lt;/p&gt;
-&lt;p&gt;输入命令 &lt;code&gt;cat ~/desktop/note.md&lt;/code&gt;（如果你在 desktop 这个文件目录，输入 &lt;code&gt;cat note.md&lt;/code&gt; 就行了）。&lt;/p&gt;
-&lt;p&gt;然后你会看见：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;colarxu@MacBook-Air ~ % cat ~/desktop/note.md
-
-O friends, I am mad with love, and no one sees.    
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;See？不用真的打开文件，在 Terminal 里面就可以看到那句诗了。&lt;/p&gt;</description>
+&lt;p&gt;好吧，走也走了，看也看了。现在就来动动手，学习怎么往计算机里加东西吧。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Command Line 教程 02：在计算机里散步</title>
-      <link>https://colarxu.github.io/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</link>
+      <link>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</link>
       <pubDate>Fri, 15 Apr 2022 16:31:01 +0000</pubDate>
-      <guid>https://colarxu.github.io/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</guid>
+      <guid>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</guid>
       <description>&lt;p&gt;&lt;strong&gt;一台电脑，就是一个巨大的文件夹&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;系统、软件、游戏、电影、文档、图片、音乐……不管什么东西，都是以文件和文件夹的形式，存放在电脑里。&lt;/p&gt;
-&lt;p&gt;这一期，我们就学习一些简单的 Command Line 命令，一起去计算机的文件丛林里散个步。&lt;/p&gt;
-&lt;h2 id=&#34;ls-命令看看文件夹里都有啥&#34;&gt;ls 命令：看看文件夹里都有啥&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;ls&lt;/code&gt; 是 lists 的缩写。&lt;/p&gt;
-&lt;p&gt;输入 &lt;code&gt;ls&lt;/code&gt; 命令，就能看到「当前所在文件夹」下的所有东西。&lt;/p&gt;
-&lt;p&gt;每次打开 Terminal，我们默认所处的文件夹都是&lt;strong&gt;根目录，也就是整个计算机最大、最外层的那一个文件夹&lt;/strong&gt;。 在 Terminal 中输入 &lt;code&gt;ls&lt;/code&gt;，回车，就可以看到根目录下的所有文件夹。&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;colarxu@MacBook-Air ~ % ls
-
-Applications	Downloads	Music		Public
-Desktop		Library		Photo Framework	hugo
-Documents	Movies		Pictures
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;看，我的根目录下面有 11 个文件夹。&lt;/p&gt;
-&lt;p&gt;如果你想看得更仔细，还可以额外加点料：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;ls -a&lt;/code&gt; 显示所有文件和文件夹（包括隐藏起来的）&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ls -l&lt;/code&gt; 显示文件和文件夹的详细信息&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ls -t&lt;/code&gt; 按修改时间排序&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;甚至还可以任意组合使用，比如 &lt;code&gt;ls -alt&lt;/code&gt;，显示当前目录下的所有文件和文件夹，包括隐藏文件，包括详细信息，并按照修改时间排序。&lt;/p&gt;
-&lt;h2 id=&#34;cd-命令去各个文件夹串门&#34;&gt;cd 命令：去各个文件夹串门&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;cd&lt;/code&gt; 是 change directory 的缩写，&lt;strong&gt;它的作用是切换不同的文件夹（目录）&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;我们出去坐地铁，有起点和终点。&lt;code&gt;cd&lt;/code&gt; 命令也一样，起点是当前所在的文件夹，终点是你要去往的文件夹。&lt;/p&gt;
-&lt;p&gt;假设我们在根目录，下面有这些文件夹：&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;根目录下的文件夹&#34; loading=&#34;lazy&#34; src=&#34;https://s3.bmp.ovh/imgs/2022/04/16/ed7229119a941312.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;想去 Downloads 文件夹，直接在 Terminal 中输入 &lt;code&gt;cd downloads&lt;/code&gt; 就行了。&lt;/p&gt;</description>
+&lt;p&gt;这一期，我们就学习一些简单的 Command Line 命令，一起去计算机的文件丛林里散个步。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Command Line 教程 01：什么是 Command Line？</title>
-      <link>https://colarxu.github.io/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</link>
+      <link>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</link>
       <pubDate>Wed, 13 Apr 2022 14:38:18 +0000</pubDate>
-      <guid>https://colarxu.github.io/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</guid>
+      <guid>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</guid>
       <description>&lt;p&gt;你一定在电影上看过，&lt;strong&gt;黑客们是怎样用电脑的&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;跟我们拿着鼠标到处点点点不一样，他们通常会对着一个满是代码的屏幕，疯狂地敲击键盘。&lt;/p&gt;
-&lt;p&gt;这种「使唤」电脑的方式，便涉及到本文的主角 Command Line。&lt;/p&gt;
-&lt;h2 id=&#34;什么是-command-line&#34;&gt;什么是 Command Line？&lt;/h2&gt;
-&lt;p&gt;Command Line，也就是「命令行」，一行一行命令的意思。&lt;/p&gt;
-&lt;p&gt;这些命令，指的是&lt;strong&gt;我们给计算机下的指令&lt;/strong&gt;。比如播放音乐、打开文件夹、放大图片、退出软件……这些都是「命令」。&lt;/p&gt;
-&lt;p&gt;电脑是个很聪明的玩意，但同时也很呆板，跟它们的祖先算盘一个德性——&lt;strong&gt;拨一下，才会动一下&lt;/strong&gt;。如果没有人给电脑下命令，它们就会翘着脚，啥事都不干。&lt;/p&gt;
-&lt;p&gt;平时我们用鼠标和手指，在屏幕上点这点那，便是在「指挥」电脑干这干那。近些年兴起的智能语音助手，比如 Siri、Cortana、Alexa，更是让我们可以直接「喊」电脑来做事。&lt;/p&gt;
-&lt;p&gt;本文的主角 &lt;strong&gt;Command Line，则是一种最古早、最经典的命令手段&lt;/strong&gt;，也是开发者经常使用的一种命令手段。&lt;/p&gt;
-&lt;p&gt;但想要用好它，还得额外花一些力气：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;首先，你得用键盘敲一行命令，告诉电脑该去做什么事。&lt;/li&gt;
-&lt;li&gt;其次，由于电脑不会说人话，所以沟通的时候得使用「计算机语言」，也就是「代码」，电脑才能理解你想要它干嘛。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;command-line-有什么用&#34;&gt;Command Line 有什么用？&lt;/h2&gt;
-&lt;p&gt;既然这么麻烦，为什么要学 Command Line 呢？&lt;/p&gt;
-&lt;p&gt;首先必须得承认，&lt;strong&gt;如果你不是开发者，学习 Command Line 基本没啥用&lt;/strong&gt;。就像不读柏拉图，不读孔老庄，依然可以毫无阻碍地过完自己的一生。&lt;/p&gt;
-&lt;p&gt;但如果你对编程感兴趣，对计算机运行的原理感兴趣，或是想在疫情封闭期间，找根棍子来搅动自己死水一般的大脑的话，学习 Command Line 可能会是一种乐趣。一旦掌握了这种命令手段，你会发现，&lt;strong&gt;当批量处理文件时，用 Command Line 确实比用鼠标拖拽方便得多&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;前两年我搭了个博客，每次发布文章都需要敲几行代码，这是我跟 Command Line 接触的源起。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;现在这篇文章，主要也是写给自己&lt;/strong&gt;——当以后忘掉 Command Line 怎么用时，还能知道去哪里重新捡起来。&lt;/p&gt;
-&lt;p&gt;如果有人看了这篇文章，顺便学会了 Command Line 的一些基本操作，那便是我的荣幸了。&lt;/p&gt;
-&lt;h2 id=&#34;准备工作&#34;&gt;准备工作&lt;/h2&gt;
-&lt;p&gt;好了，在学习如何用 Command Line 给电脑「发命令」之前，我们先得知道去哪里发。&lt;/p&gt;
-&lt;p&gt;以 Mac 为例，系统里专门有一个软件来做这件事，它的名字叫 &lt;strong&gt;Terminal（终端）&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;有两种方式可以找到它。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;方法一&lt;/strong&gt;：打开 Lauchpad（启动台），在「其他」中，找到 Terminal。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;启动台找终端&#34; loading=&#34;lazy&#34; src=&#34;https://s3.bmp.ovh/imgs/2022/04/15/436298661ee28ea1.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;方法二&lt;/strong&gt;：用 Spotlight（聚焦） 直接搜索 Terminal。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;聚焦搜索终端&#34; loading=&#34;lazy&#34; src=&#34;https://pic.dogimg.com/2022/04/16/625a711e218c7.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这个黑不溜秋的 Terminal，就是能让我们跟电脑「聊天」的灵媒。&lt;/p&gt;</description>
+&lt;p&gt;这种「使唤」电脑的方式，便涉及到本文的主角 Command Line。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
