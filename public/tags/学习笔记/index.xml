@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>学习笔记 on 低噪音</title>
+    <link>http://localhost:1313/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 学习笔记 on 低噪音</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 30 Oct 2020 02:37:46 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git 学习笔记 01：什么是 Git？</title>
+      <link>http://localhost:1313/git-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-01%E4%BB%80%E4%B9%88%E6%98%AF-git/</link>
+      <pubDate>Fri, 30 Oct 2020 07:59:22 +0000</pubDate>
+      <guid>http://localhost:1313/git-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-01%E4%BB%80%E4%B9%88%E6%98%AF-git/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Git 是目前世界上最先进的分布式版本控制系统（没有之一）。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这话是 &lt;a href=&#34;https://www.liaoxuefeng.com/wiki/896043488029600/896067008724000&#34;&gt;廖雪峰&lt;/a&gt; 说的，看起来很厉害，但有点难懂。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;什么是「版本控制系统」？&lt;/li&gt;
+&lt;li&gt;「分布式」又是什么意思？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你想知道 &lt;strong&gt;Git 到底是什么？有什么用？&lt;/strong&gt; 还得从上面这两个陌生的概念入手。&lt;/p&gt;
+&lt;h2 id=&#34;版本控制系统&#34;&gt;版本控制系统&lt;/h2&gt;
+&lt;p&gt;作为一个文字工作者，我可以很肯定地说：&lt;strong&gt;好文章是改出来的&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;一篇文章，从写完到发表，通常要经过多次的修改和打磨。小到标点符号，大到文章结构和情节、案例，都可能发生变化。所以，文章的初稿（第一版）和成稿（最终版）之间，往往存在着若干个修改版本。这便引发了几个问题：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;明明是一篇文章，却需要保存多个不同版本的文件，桌面一片凌乱；&lt;/li&gt;
+&lt;li&gt;想知道改了什么内容，只能一个个文件去查看，很是麻烦。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如果有一个工具，让你&lt;strong&gt;只须保留一个文件，它来负责记录你对文件的历次改动，还能跟别人协作编辑&lt;/strong&gt;，岂不是很省心？&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;版本&lt;/th&gt;
+          &lt;th&gt;文件名&lt;/th&gt;
+          &lt;th&gt;用户&lt;/th&gt;
+          &lt;th&gt;说明&lt;/th&gt;
+          &lt;th&gt;日期&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;写作计划.md&lt;/td&gt;
+          &lt;td&gt;许仙人&lt;/td&gt;
+          &lt;td&gt;增加了时间表&lt;/td&gt;
+          &lt;td&gt;10/5 9:13&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;写作计划.md&lt;/td&gt;
+          &lt;td&gt;卢奶奶&lt;/td&gt;
+          &lt;td&gt;删除了每日计划&lt;/td&gt;
+          &lt;td&gt;10/5 10:22&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;写作计划.md&lt;/td&gt;
+          &lt;td&gt;许仙人&lt;/td&gt;
+          &lt;td&gt;增加了完成奖励&lt;/td&gt;
+          &lt;td&gt;10/5 13:40&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Git 这个「版本控制系统」，干的就是这种活。但请注意哦，Git 不是所有文件类型都搞得定，&lt;strong&gt;它只服务文本文件，如 txt、Markdown 和各种代码&lt;/strong&gt;，其他的非文本文件，就超出 Git 的服务范围了。&lt;/p&gt;
+&lt;h2 id=&#34;分布式和集中式&#34;&gt;分布式和集中式&lt;/h2&gt;
+&lt;p&gt;版本控制系统，主要分成两种类型：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;分布式：Git、BitKeeper&lt;/li&gt;
+&lt;li&gt;集中式：CVS、SVN&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;两者的最大区别，在于&lt;strong&gt;版本库的存放位置&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果系统为集中式，就会有一个中央服务器，你的版本库都保存在它那里。假设你新修改了一个版本，想共享给同事，先得把新版文件发送给服务器，同事再去服务器那里提取。如果文件很大，网速又很慢的话，那就慢慢等吧……&lt;/li&gt;
+&lt;li&gt;如果系统为分布式，就没有中间人&lt;del&gt;赚差价&lt;/del&gt;，你的版本库保留在自己电脑上，不联网就能使用。文件修改完之后，也不用上交给管理员。在有网络的前提下，同事可以直接上你这儿取，少了一个中间环节，速度自然更快。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;此外，两者在&lt;strong&gt;文件安全性&lt;/strong&gt;方面也有点差异：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;集中式系统，版本库存放在中央服务器上，一旦服务器出问题，你的版本库就无法访问了。&lt;/li&gt;
+&lt;li&gt;分布式系统，版本库存放在你和协作者的电脑上，万一你的电脑坏了，还可以去协作者的电脑里拿。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你的文本项目需要反复修改，并跟其他人协作的话，Git 将会是一个非常好的选择。&lt;/p&gt;
+&lt;p&gt;具体怎么使用？下篇文章再见👋&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Git 学习笔记 00：写给自己的开篇</title>
+      <link>http://localhost:1313/git-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-00%E5%86%99%E7%BB%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%BC%80%E7%AF%87/</link>
+      <pubDate>Thu, 29 Oct 2020 06:53:31 +0000</pubDate>
+      <guid>http://localhost:1313/git-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-00%E5%86%99%E7%BB%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%BC%80%E7%AF%87/</guid>
+      <description>&lt;p&gt;坊间传言，&lt;a href=&#34;https://github.com/&#34;&gt;Github&lt;/a&gt;  是全球最大的同性交友网站👬，我偶尔也会进去瞧两眼。但毕竟不是搞技术的，就像女生进 Gay bar 一样，玩不出什么花样。&lt;/p&gt;
+&lt;p&gt;这周在学习用 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 搭建自己的博客，最后一步，把本地文件夹部署到 Github，需要在 Terminal（终端）上输入几个 &lt;code&gt;git&lt;/code&gt; 命令。其实，照着网上的教程，简单几步就能搞定。但我这人有个毛病，当不了纯粹的&lt;strong&gt;执行机器&lt;/strong&gt;。你说要这么做，但不说清楚为什么要这么做，我就一肚子问号，非得弄明白了才心安。&lt;/p&gt;
+&lt;p&gt;所以，今天临时决定把博客放一放，好好学一下 Git——反正后面肯定会用到。&lt;/p&gt;
+&lt;p&gt;我选择了 &lt;a href=&#34;https://www.liaoxuefeng.com/wiki/896043488029600&#34;&gt;廖雪峰的 Git 教程&lt;/a&gt;，结合&lt;strong&gt;费曼学习法&lt;/strong&gt;，每学完一部分，就用自己的语言「传授」一遍，以巩固自己的学习成果。这一系列文章，既是我的学习笔记，也是我站在廖雪峰的肩膀上🙇🏻，以文字工作者的视角，重新编写的 Git 教程。&lt;/p&gt;
+&lt;p&gt;就这样吧，&lt;strong&gt;重新开始系统学习，重新开始坚持写作&lt;/strong&gt;，是以为记。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《周易》拖拉机的第 1 讲：《周易》极简史</title>
+      <link>http://localhost:1313/%E5%91%A8%E6%98%93%E6%8B%96%E6%8B%89%E6%9C%BA%E7%9A%84%E7%AC%AC-1-%E8%AE%B2%E5%91%A8%E6%98%93%E6%9E%81%E7%AE%80%E5%8F%B2/</link>
+      <pubDate>Mon, 10 Aug 2020 08:21:48 +0000</pubDate>
+      <guid>http://localhost:1313/%E5%91%A8%E6%98%93%E6%8B%96%E6%8B%89%E6%9C%BA%E7%9A%84%E7%AC%AC-1-%E8%AE%B2%E5%91%A8%E6%98%93%E6%9E%81%E7%AE%80%E5%8F%B2/</guid>
+      <description>&lt;p&gt;很久很久以前，有一个叫伏羲的人。&lt;/p&gt;
+&lt;p&gt;他除了发明渔网，教会人们捕鱼之外，还仰观天文、俯察地理、近取诸身、远取诸物，把天地万物之道理，绘成了八个长长短短的符号。&lt;strong&gt;从此，「八卦」诞生了。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;商朝末年，有一个叫姬昌（周文王）的人。&lt;/p&gt;
+&lt;p&gt;他是周人的领袖，商人的囚犯。在被商纣王囚禁期间，他在狱中潜心研究伏羲八卦，领悟到天地万物「变化」之道理。&lt;strong&gt;他将「八卦」推演成「六十四卦」，给每一卦作了「卦辞」&lt;/strong&gt;，并决定造反。&lt;/p&gt;
+&lt;p&gt;周朝初年，有一个叫姬旦（周公）的人。&lt;/p&gt;
+&lt;p&gt;他是姬昌的第四个儿子，他的二哥姬发（周武王），继承了父亲姬昌的遗志，率军灭掉商朝。次年，武王去世，姬旦接过担子，辅佐年幼的侄儿姬诵（周成王）平定叛乱、治理朝政，「周公吐哺，天下归心」。&lt;/p&gt;
+&lt;p&gt;姬旦在治国之余，还进一步发展了《周易》。他在父亲姬昌的基础上，&lt;strong&gt;给「六十四卦」每一卦的每一爻（yáo），都作了「爻辞」。从此，《周易》的《易经》部分正式完稿，一本算卦书成型了。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;但，还没完～&lt;/p&gt;
+&lt;p&gt;春秋末年，又有一个叫孔丘（孔子）的人。&lt;/p&gt;
+&lt;p&gt;他晚年迷上了《周易》，自己玩味之余，还写了十篇「读后感」来阐释《周易》的思想，&lt;strong&gt;直接把《周易》从算卦界引入了哲学界&lt;/strong&gt;。那十篇「读后感」被后人称为**《十翼》（十只小翅膀😊），也称为《易传》。**&lt;/p&gt;
+&lt;p&gt;我们平时所说的《周易》，就包括《易经》和《易传》这两个部分：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;《易经》：卦辞、爻辞；&lt;/li&gt;
+&lt;li&gt;《易传》：彖辞（上下两篇）、象辞（上下两篇）、系辞（上下两篇））、说卦、序卦、杂卦、文言。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;其中，「传」是对「经」的解释。如果把《易经》理解为教材的话，《易传》就可以看作是教辅材料。&lt;/p&gt;
+&lt;p&gt;我们再简单回顾一下《周易》的发展史：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;伏羲画「八卦」；&lt;/li&gt;
+&lt;li&gt;周文王推演「六十四卦」，作「卦辞」；&lt;/li&gt;
+&lt;li&gt;周公作「系辞」；&lt;/li&gt;
+&lt;li&gt;孔子撰《易传》。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;记住了吗？&lt;/p&gt;
+&lt;p&gt;哈，记不住就算啦！因为&lt;strong&gt;这些历史，并没有「证据」&lt;/strong&gt;。伏羲到底是一个人，还是一个部落的名称？《易传》是春秋时期的孔子写的，还是战国人写的呢？很多疑点，史学界尚没有定论。所以，你可以选择相信，也可以把它当作是传说。&lt;/p&gt;
+&lt;p&gt;虽然不知道版权人是谁，但《周易》还是流传了下来，并在历史中扮演了重要角色。&lt;/p&gt;
+&lt;p&gt;正史现在开始👇&lt;/p&gt;
+&lt;p&gt;在周王朝时期，有个位次「三公」的高级职位，叫做「太卜」。&lt;/p&gt;
+&lt;p&gt;他们是卜卦技艺的官方指定传承人，也是国君决策团队的首席风控专家。每当遇到国家大事，比如在要哪里修建都城啊，要不要跟 A 国打战啊，要不要娶 B 国的公主啊？国君不能自己拍脑袋，得找卜官问一问，算一算，看看是吉是凶，老天同不同意，再作决定。&lt;/p&gt;
+&lt;p&gt;PS：我个人有点儿怀疑，《周易》的卦辞和爻辞，会不会是这些卜官们一代代的经验总结，最后冠上大领导文王和周公的名字呢？&lt;/p&gt;
+&lt;p&gt;到了有秦一代，为了营造风清气正的舆论环境，朝廷开始大规模禁书删帖，清理胡言乱语的知识分子，鼓励大家以理工男为师，学习技术建设富强国家。结果，诸子百家们的书被一把火烧了。而《周易》是算卦书，逃过一劫。&lt;/p&gt;
+&lt;p&gt;等到刘邦当上皇帝，改朝换代，前朝禁掉的书，又慢慢重现江湖。&lt;/p&gt;
+&lt;p&gt;**为了传承古代典籍（以及拉拢知识分子），汉武帝在位时设置了「五经博士」。**博士是一种学官，年薪六百石，级别跟现在的厅级干部差不多。&lt;/p&gt;
+&lt;p&gt;「五经博士」专门传授五部先秦古书：《诗》、《书》、《礼》、《易》、《春秋》，「四书五经」中的「五经」，指的就是它们。&lt;/p&gt;
+&lt;p&gt;因为这几本书被官方尊称为「经」嘛，后世称呼它们时候，会在书名后加个「经」字，比如把《诗》叫做《诗经》，把《易》叫做《易经》。「经」是一种尊称，不是所有的书都能叫作「经」。想起前段时间风口浪尖上的那本《平安经》，容我再给它一个白眼🙄️&lt;/p&gt;
+&lt;p&gt;顺便再加一嘴，据说《易》其实有三个版本，是三种不同的算卦流派，分别是**《连山》、《归藏》、《周易》**。但前两者没流传下来，所以当我们说《易经》的时候，一般指的是《周易》。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;《周易》在汉代被封为儒家经典&lt;/strong&gt;，成为读书人跻身知识圈层的必读书目，后世对它的解读作品层出不穷。&lt;/p&gt;
+&lt;p&gt;到了唐朝，科举制逐渐成型，平民也可以自由报考「公务员」了。但作为考公参考书的「五经」，学界存在着不同的理论派别。于是，唐太宗给当时的国子监祭酒，也就是教育部部长孔颖达，下达了一个任务————编纂《五经正义》，意思是出一套官方标准教材。&lt;/p&gt;
+&lt;p&gt;我现在看的《周易正义》，就是当时的成果之一，适合打基础入门。&lt;/p&gt;
+&lt;p&gt;好了，第一讲就到这里（长舒一口气）。如有任何错误和建议，请毫不留情地指出。拖了这么久，对不起大家了🙇‍♀️&lt;/p&gt;
+&lt;p&gt;还有兴趣一起学《周易》的小伙伴，来领一下教材吧👇&lt;/p&gt;
+&lt;p&gt;链接: &lt;a href=&#34;https://pan.baidu.com/s/1Xxpsg7MZegAOHd6MF9Y1Qg&#34;&gt;https://pan.baidu.com/s/1Xxpsg7MZegAOHd6MF9Y1Qg&lt;/a&gt;&lt;br&gt;
+密码: n7er&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

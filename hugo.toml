@@ -1,0 +1,92 @@
+baseURL = "https://colarxu.github.io/"
+title = "低噪音"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 5
+
+languageCode = "zh-cn"
+hasCJKLanguage = true       # 核心：确保中文搜索和字数统计准确
+enableEmoji = true
+enableRobotsTXT = true
+
+[minify]
+  disableXML = true
+  minifyOutput = true       # 性能：压缩输出文件
+
+[permalinks]
+  posts = "/:title/"        # 极简：URL 只保留标题，去掉日期层级
+
+
+[[menu.main]]
+    identifier = "search"
+    name = "🔍"
+    url = "/search/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "archives"
+    name = "文库"
+    url = "/archives/"
+    weight = 20
+
+[[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 30
+
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"] # 必须：生成搜索所需的 JSON 索引
+
+[fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 100
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+
+[params]
+    env = "production"
+    title = "低噪音"
+    description = "世界很大，我们小声说话。"
+    author = "许仙人"
+    dateFormat = "2006-01-02"
+    defaultTheme = "auto"
+    
+    # 界面控制
+    ShowReadingTime = false
+    ShowWordCount = true
+    ShowCodeCopyButtons = true
+    ShowLastMod = true
+    ShowShareButtons = false    # 隐私：关闭社交追踪插件
+    ShowBreadCrumbs = false
+    disableThemeToggle = false
+    
+    # 首页信息模式 (Home Info)
+    [params.homeInfoParams]
+        Title = "Hey 👋"
+        Content = "我是许仙人，很高兴认识你。世界很大，我们小声说话。"
+
+    # 社交图标 (推荐使用 Proton 别名或不显眼链接)
+    [[params.socialIcons]]
+        name = "email"
+        url = "mailto:colarxu@icloud.com" # 建议未来换成你的 Proton 别名
+    
+    [[params.socialIcons]]
+        name = "rss"
+        url = "/index.xml"
+
+    # 静态资源处理
+    [params.assets]
+        favicon = "/favicon.ico"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # 允许在 Markdown 中写 HTML

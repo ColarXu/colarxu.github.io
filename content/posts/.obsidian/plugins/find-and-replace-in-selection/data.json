@@ -1,0 +1,6 @@
+{
+  "findText": "created",
+  "findRegexp": " ",
+  "regexpFlags": "gmi",
+  "replace": "publishDate"
+}

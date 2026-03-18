@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "c5d7de7b23d69004",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb025e04b4c4ca4e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3631676720fda9e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2022/仙人周刊 01：试刊号.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "15b5470158fb0de6",
+    "type": "split",
+    "children": [
+      {
+        "id": "796754ffb8ae1c0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "954795dc10403154",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "398631f003582f06",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "xianren",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "030a9822af3783c1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3541c3fed9fecee0",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed4b078b30cd773d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d8d3841ea82861a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2022/仙人周刊 01：试刊号.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f8156adaa5afa663",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2022/仙人周刊 01：试刊号.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6ef6c5d878f60709",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a85f1a50d25868ff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2022/仙人周刊 01：试刊号.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "dbfolder:Create a new database table": false
+    }
+  },
+  "active": "3631676720fda9e0",
+  "lastOpenFiles": [
+    "2022/去往迦南 ǀ《圣经》笔记 10.md",
+    "2022/利非订的两道难关｜出埃及记 17.md",
+    "2022/该隐和亚伯 ǀ《圣经》笔记 4.md",
+    "2022/大洪水和挪亚方舟 ǀ《圣经》笔记 6.md",
+    "2022/巴别塔的启示 | 《圣经》笔记 9.md",
+    "2022/挪亚为什么要诅咒迦南？ ǀ《圣经》笔记 7.md",
+    "2022/摩西的两个难题｜出埃及记 5.md",
+    "2022/摩西的诞生｜出埃及记 2.md",
+    "2022/罗得和他的女儿们 ǀ《圣经》笔记 19.md",
+    "2022/旷野的试炼｜出埃及记 15.md",
+    "2022/关于信仰的条例｜出埃及记 29.md",
+    "2022/法老加倍虐待以色列人｜出埃及记 7.md",
+    "2022/出埃及的历史随想｜出埃及记 12.md",
+    "2022/约瑟为酒政、膳长解梦 ǀ《圣经》笔记 43.md",
+    "2022/约瑟为兄弟们设宴 ǀ《圣经》笔记 48.md",
+    "2022/约瑟与兄弟相认 ǀ《圣经》笔记 50.md",
+    "2022/约瑟在埃及被囚 ǀ《圣经》笔记 42.md",
+    "2022/再见，伊甸园 ǀ《圣经》笔记 3.md",
+    "2022/不想当领导的摩西｜出埃及记 6.md",
+    "2022/鹌鹑和吗哪｜出埃及记 16.md",
+    "2022/埃及十灾｜出埃及记 8.md",
+    "2022/埃及十灾（二）｜出埃及记 9.md",
+    "2022/《创世记》笔记合集.md"
+  ]
+}

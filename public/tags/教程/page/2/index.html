@@ -1,0 +1,70 @@
+<!doctype html><html lang=en dir=auto data-theme=auto><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>教程 | 低噪音</title>
+<meta name=keywords content><meta name=description content="世界很大，我们小声说话。"><meta name=author content="许仙人"><link rel=canonical href=http://localhost:1313/tags/%E6%95%99%E7%A8%8B/><link crossorigin=anonymous href=/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css integrity="sha256-2jIR5e+Ge/K3X9WmUVz+1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as=style><link rel=icon href=http://localhost:1313/favicon.ico><link rel=icon type=image/png sizes=16x16 href=http://localhost:1313/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=http://localhost:1313/favicon-32x32.png><link rel=apple-touch-icon href=http://localhost:1313/apple-touch-icon.png><link rel=mask-icon href=http://localhost:1313/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=http://localhost:1313/tags/%E6%95%99%E7%A8%8B/index.xml title=rss><link rel=alternate hreflang=en href=http://localhost:1313/tags/%E6%95%99%E7%A8%8B/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="http://localhost:1313/tags/%E6%95%99%E7%A8%8B/"><meta property="og:site_name" content="低噪音"><meta property="og:title" content="教程"><meta property="og:description" content="世界很大，我们小声说话。"><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="教程"><meta name=twitter:description content="世界很大，我们小声说话。"></head><body class=list id=top><header class=header><nav class=nav><div class=logo><a href=http://localhost:1313/ accesskey=h title="低噪音 (Alt + H)">低噪音</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=http://localhost:1313/search/ title="🔍 (Alt + /)" accesskey=/><span>🔍</span></a></li><li><a href=http://localhost:1313/archives/ title=文库><span>文库</span></a></li><li><a href=http://localhost:1313/about/ title=关于><span>关于</span></a></li></ul></nav></header><main class=main><header class=page-header><h1>教程</h1></header><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>Command Line 教程 04：删除、移动、复制</h2></header><div class=entry-content><p>有出生，就有死亡。 有生存，就有毁灭。 有新建，就有删除。
+上一期，我们学习了如何用命令行新建文件和文件夹。那么这一期，就来学习如何把它们移开、复制，以及删掉。
+rm 命令：删除一切 rm 是 remove 的缩写。
+如果你看哪个文件不顺眼，就用 rm 命令把它狠狠删掉吧。
+具体这么操作：rm 文件名称.文件类型。
+假如，你想删除的文件不在当前文件夹下面，就在命令中把文件路径加进去，比如 rm ~/xxx/xxx/文件夹名称.文件类型。
+要是你想一次性删一堆文件，就需要用到 * 全选符号。比如，我想把 Downloads 文件夹中的 jpg 图片全部删掉，就用 rm ~/downloads/*.jpg 命令。
+要是你想删除一个文件夹的话，单纯的 rm 命令起不到作用了，要在后面多加一个 -r，也就是 recursive，让它循环删除，直到删无可删。
+举个例子：
+rm -r hugo 删除一个名为 hugo 的文件夹 rm -r hugo/* 删除 hugo 文件夹里的所有内容，但不删文件夹本身 最后，大家在使用 rm 命令时，一定要谨慎，因为删了就彻底删了，连回收站不会进哦。
+mv 命令：转移一切 说实话，Command Line 这些命令，平时我基本用不上，但 mv 命令除外，它真的很实用。
+移动一个文件：mv 文件名称.文件类型 文件夹名称 该命令可以把让你把某一文件，移动到某一个文件夹中。
+移动一堆文件：mv *.文件类型 文件夹名 这是个人很喜欢用的一个命令。
+我经常在网上找一些资源，比如电子书。电子书主要有三种格式：mobi, epub 和 pdf，默认下载在 Download 的文件夹里。文件一多，就要整理，相比一个一个选中，拉去另一个文件夹，不如直接用 mv ~/downloads/*.mobi ~/documents/book/ 命令，瞬间就能把所有 mobi 格式的书，放在我想让它们待的文件夹。
+...</p></div><footer class=entry-footer><span title='2022-04-16 14:03:35.747 +0000 UTC'>2022-04-16</span>&nbsp;·&nbsp;<span>205 words</span>&nbsp;·&nbsp;<span>许仙人</span></footer><a class=entry-link aria-label="post link to Command Line 教程 04：删除、移动、复制" href=http://localhost:1313/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>Command Line 教程 03：新建文件和文件夹</h2></header><div class=entry-content><p>上一期我们学了三个命令：
+ls 查看当前目录下的文件和文件夹 cd 切换不同的文件目录 pwd 显示当前文件夹的路径 从此具备了在计算机的文件夹丛林里漫游的能力。
+好吧，走也走了，看也看了。现在就来动动手，学习怎么往计算机里加东西吧。
+mkdir 命令：新建文件夹 mkdir 即 make directory，新建文件夹（目录）的意思。
+在 Terminal 中输入 mkdir 文件夹名称，就可以在当前文件夹下，新建一个子文件夹。
+很简单对吧？感觉比用鼠标右键新建文件夹要更快呢。
+如果你想把文件夹建在别的地方，就这样来： mkdir ~/xxx/xxx/xxx/文件夹名称。~ 指的是根目录，那些 xxx 就是你目标文件夹的路径。
+touch 命令：新建文件 touch 命令跟 mkdir 的原理是一样的。只不过前者是新建文件，后者是新建文件夹。
+请注意，touch 命令只能新建纯文本文件，比如 txt 和 md 文件，其他类型的文件可是建不了的。
+举个例子，touch ~/desktop/note.md，便是在桌面新建一个名为 note 的 markdown 文档（~ 是根目录，桌面 desktop 是根目录的子文件夹）。
+对了，当新建一个文件的时候，一定不要忘记加上文件的后缀名。漏了后缀名，电脑可是不会搭理这个命令的哟。
+cat 命令：查看文件内容 在 Terminal 中，我们无需打开文件，就可以查看文件里的内容。
+我悄悄地在刚才新建的文件 note.md 中贴了一行诗，现在就去看看吧。
+输入命令 cat ~/desktop/note.md（如果你在 desktop 这个文件目录，输入 cat note.md 就行了）。
+然后你会看见：
+colarxu@MacBook-Air ~ % cat ~/desktop/note.md O friends, I am mad with love, and no one sees. See？不用真的打开文件，在 Terminal 里面就可以看到那句诗了。
+...</p></div><footer class=entry-footer><span title='2022-04-16 10:03:02.2 +0000 UTC'>2022-04-16</span>&nbsp;·&nbsp;<span>190 words</span>&nbsp;·&nbsp;<span>许仙人</span></footer><a class=entry-link aria-label="post link to Command Line 教程 03：新建文件和文件夹" href=http://localhost:1313/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>Command Line 教程 02：在计算机里散步</h2></header><div class=entry-content><p>一台电脑，就是一个巨大的文件夹。
+系统、软件、游戏、电影、文档、图片、音乐……不管什么东西，都是以文件和文件夹的形式，存放在电脑里。
+这一期，我们就学习一些简单的 Command Line 命令，一起去计算机的文件丛林里散个步。
+ls 命令：看看文件夹里都有啥 ls 是 lists 的缩写。
+输入 ls 命令，就能看到「当前所在文件夹」下的所有东西。
+每次打开 Terminal，我们默认所处的文件夹都是根目录，也就是整个计算机最大、最外层的那一个文件夹。 在 Terminal 中输入 ls，回车，就可以看到根目录下的所有文件夹。
+colarxu@MacBook-Air ~ % ls Applications Downloads Music Public Desktop Library Photo Framework hugo Documents Movies Pictures 看，我的根目录下面有 11 个文件夹。
+如果你想看得更仔细，还可以额外加点料：
+ls -a 显示所有文件和文件夹（包括隐藏起来的） ls -l 显示文件和文件夹的详细信息 ls -t 按修改时间排序 甚至还可以任意组合使用，比如 ls -alt，显示当前目录下的所有文件和文件夹，包括隐藏文件，包括详细信息，并按照修改时间排序。
+cd 命令：去各个文件夹串门 cd 是 change directory 的缩写，它的作用是切换不同的文件夹（目录）。
+我们出去坐地铁，有起点和终点。cd 命令也一样，起点是当前所在的文件夹，终点是你要去往的文件夹。
+假设我们在根目录，下面有这些文件夹：
+想去 Downloads 文件夹，直接在 Terminal 中输入 cd downloads 就行了。
+...</p></div><footer class=entry-footer><span title='2022-04-15 16:31:01.997 +0000 UTC'>2022-04-15</span>&nbsp;·&nbsp;<span>170 words</span>&nbsp;·&nbsp;<span>许仙人</span></footer><a class=entry-link aria-label="post link to Command Line 教程 02：在计算机里散步" href=http://localhost:1313/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>Command Line 教程 01：什么是 Command Line？</h2></header><div class=entry-content><p>你一定在电影上看过，黑客们是怎样用电脑的。
+跟我们拿着鼠标到处点点点不一样，他们通常会对着一个满是代码的屏幕，疯狂地敲击键盘。
+这种「使唤」电脑的方式，便涉及到本文的主角 Command Line。
+什么是 Command Line？ Command Line，也就是「命令行」，一行一行命令的意思。
+这些命令，指的是我们给计算机下的指令。比如播放音乐、打开文件夹、放大图片、退出软件……这些都是「命令」。
+电脑是个很聪明的玩意，但同时也很呆板，跟它们的祖先算盘一个德性——拨一下，才会动一下。如果没有人给电脑下命令，它们就会翘着脚，啥事都不干。
+平时我们用鼠标和手指，在屏幕上点这点那，便是在「指挥」电脑干这干那。近些年兴起的智能语音助手，比如 Siri、Cortana、Alexa，更是让我们可以直接「喊」电脑来做事。
+本文的主角 Command Line，则是一种最古早、最经典的命令手段，也是开发者经常使用的一种命令手段。
+但想要用好它，还得额外花一些力气：
+首先，你得用键盘敲一行命令，告诉电脑该去做什么事。 其次，由于电脑不会说人话，所以沟通的时候得使用「计算机语言」，也就是「代码」，电脑才能理解你想要它干嘛。 Command Line 有什么用？ 既然这么麻烦，为什么要学 Command Line 呢？
+首先必须得承认，如果你不是开发者，学习 Command Line 基本没啥用。就像不读柏拉图，不读孔老庄，依然可以毫无阻碍地过完自己的一生。
+但如果你对编程感兴趣，对计算机运行的原理感兴趣，或是想在疫情封闭期间，找根棍子来搅动自己死水一般的大脑的话，学习 Command Line 可能会是一种乐趣。一旦掌握了这种命令手段，你会发现，当批量处理文件时，用 Command Line 确实比用鼠标拖拽方便得多。
+前两年我搭了个博客，每次发布文章都需要敲几行代码，这是我跟 Command Line 接触的源起。
+现在这篇文章，主要也是写给自己——当以后忘掉 Command Line 怎么用时，还能知道去哪里重新捡起来。
+如果有人看了这篇文章，顺便学会了 Command Line 的一些基本操作，那便是我的荣幸了。
+准备工作 好了，在学习如何用 Command Line 给电脑「发命令」之前，我们先得知道去哪里发。
+以 Mac 为例，系统里专门有一个软件来做这件事，它的名字叫 Terminal（终端）。
+有两种方式可以找到它。
+方法一：打开 Lauchpad（启动台），在「其他」中，找到 Terminal。
+方法二：用 Spotlight（聚焦） 直接搜索 Terminal。
+这个黑不溜秋的 Terminal，就是能让我们跟电脑「聊天」的灵媒。
+...</p></div><footer class=entry-footer><span title='2022-04-13 14:38:18.382 +0000 UTC'>2022-04-13</span>&nbsp;·&nbsp;<span>70 words</span>&nbsp;·&nbsp;<span>许仙人</span></footer><a class=entry-link aria-label="post link to Command Line 教程 01：什么是 Command Line？" href=http://localhost:1313/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=http://localhost:1313/tags/%E6%95%99%E7%A8%8B/>«&nbsp;Prev&nbsp;</a></nav></footer></main><footer class=footer><span>&copy; 2026 <a href=http://localhost:1313/>低噪音</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
