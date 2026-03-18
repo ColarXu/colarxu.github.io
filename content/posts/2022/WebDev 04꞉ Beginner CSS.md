@@ -1,6 +1,4 @@
 ---
-description: CSS add styles to web page. Each element have several style properties.  Basic
-  Propeties  **font-famiy*css h1 {   font-f...
 lastmod: '2022-06-04T07:10:32.266Z'
 publishDate: '2022-06-04T06:17:08.960Z'
 tags:

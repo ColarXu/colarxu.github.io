@@ -1,6 +1,4 @@
 ---
-description: 'Henry 1: A Tragic King 亨利一世：一名悲催的国王  HENRY I was famous for his handwriting
-  and was therefore generally called Henry Bea...'
 lastmod: '2023-01-13T06:08:21.261Z'
 publishDate: '2023-01-13T14:23:51.934Z'
 tags:

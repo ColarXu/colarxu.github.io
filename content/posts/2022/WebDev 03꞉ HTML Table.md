@@ -1,6 +1,4 @@
 ---
-description: 'Table Code Structure  html                                                                   Table
-  Element  : contain al...'
 lastmod: '2022-06-03T15:55:34.965Z'
 publishDate: '2022-06-03T02:44:07.009Z'
 tags:

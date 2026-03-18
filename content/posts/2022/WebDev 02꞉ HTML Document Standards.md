@@ -1,6 +1,4 @@
 ---
-description: 'Document Type Declaration  : the declaration specifying the version
-  of HTML for the browser, put it on the first line of...'
 lastmod: '2022-06-03T15:55:14.724Z'
 publishDate: '2022-06-02T19:54:35.828Z'
 tags:

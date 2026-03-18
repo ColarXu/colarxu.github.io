@@ -1,6 +1,4 @@
 ---
-description: 'Richard I: A Wild King 理查一世：一名疯狂的国王  RICHARD I was a hairy King with
-  a Lion''s Heart; he went roaring about the Desert ma...'
 lastmod: '2023-02-09T02:29:33.099Z'
 publishDate: '2023-02-08T05:42:00.289Z'
 tags:

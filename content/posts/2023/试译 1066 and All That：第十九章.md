@@ -1,6 +1,4 @@
 ---
-description: Magna Charter 大宪章  THERE also happened in this reign the memorable Charta,
-  known as Magna Charter on account of the Lati...
 lastmod: '2023-04-11T02:22:02.246Z'
 publishDate: '2023-04-11T01:48:50.450Z'
 tags:

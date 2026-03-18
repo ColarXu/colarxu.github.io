@@ -1,6 +1,4 @@
 ---
-description: 'Henry II: A Just King 亨利二世：一名公正的国王  HENRY II was a great Lawgiver, and
-  it was he who laid down the great Legal Principle...'
 lastmod: '2023-02-06T03:30:48.642Z'
 publishDate: '2023-02-06T02:50:35.102Z'
 tags:

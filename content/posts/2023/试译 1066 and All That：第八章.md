@@ -1,6 +1,4 @@
 ---
-description: 'Ethelread the Unready: A Weak King  决策无方的埃塞尔雷德：一名软弱的国王  ETHELREAD THE
-  UNREADY was the first Weak King of England and was...'
 lastmod: '2022-12-16T07:01:24.129Z'
 publishDate: '2022-12-15T13:27:44.755Z'
 tags:

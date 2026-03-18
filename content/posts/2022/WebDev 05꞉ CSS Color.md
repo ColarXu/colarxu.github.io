@@ -1,6 +1,4 @@
 ---
-description: 'Hex and RGB  Hex value: #8FBC8F  RGB value: rgb(143, 188, 143)  These
-  two kinds of vuales are interchangeable, but it is...'
 lastmod: '2022-06-07T14:38:14.744Z'
 publishDate: '2022-06-04T07:29:01.242Z'
 tags:

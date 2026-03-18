@@ -1,6 +1,4 @@
 ---
-description: Up to the End of 1066  截止到 1066 年  1. Which do you consider were the
-  more alike, Caesar or Pompey, or vice versa? (Be br...
 lastmod: '2023-01-09T06:38:52.474Z'
 publishDate: '2023-01-09T04:23:59.657Z'
 tags:

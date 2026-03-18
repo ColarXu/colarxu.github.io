@@ -1,6 +1,4 @@
 ---
-description: Exgalahad and the British Navy 埃克斯加拉哈德[^1]和英国海军  ARTHUR invented Conferences
-  because he was secretly a Weak King and lik...
 lastmod: '2022-12-14T05:14:54.847Z'
 publishDate: '2022-12-14T08:51:44.236Z'
 tags:

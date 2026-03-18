@@ -1,6 +1,4 @@
 ---
-description: Alfred the Cake 蛋糕[^1]阿尔弗雷德  KING ALFRED was the first Good King, with
-  the exception of Good King Wenceslas, who, though...
 lastmod: '2022-12-16T03:42:04.028Z'
 publishDate: '2022-12-12T12:58:47.509Z'
 tags:

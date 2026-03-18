@@ -1,6 +1,4 @@
 ---
-description: Edward the Confessor  忏悔者爱德华  ON HIS DEATH Canute's Kingdom was divided
-  between two further sons, who had been previousl...
 lastmod: '2022-12-21T10:06:57.059Z'
 publishDate: '2022-12-20T15:05:20.079Z'
 tags:

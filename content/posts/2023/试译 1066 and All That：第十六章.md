@@ -1,6 +1,4 @@
 ---
-description: The Age of Piety 信仰时代  THE Chapters between William I (1066) and the
-  Tudors (Henry VIII, etc.) are always called the Mid...
 lastmod: '2023-02-07T03:44:39.863Z'
 publishDate: '2023-02-07T03:30:36.852Z'
 title: 试译 1066 and All That：第十六章

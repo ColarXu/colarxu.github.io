@@ -1,6 +1,4 @@
 ---
-description: 'John: An Awful King 约翰：一名糟糕的国王  WHEN John came to the throne he lost
-  his temper and flung himself on the floor, foaming...'
 lastmod: '2023-04-10T01:48:45.889Z'
 publishDate: '2023-02-09T02:29:11.991Z'
 tags:

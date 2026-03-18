@@ -1,6 +1,4 @@
 ---
-description: Britain Conquered Again 不列颠又被征服了  THE withdrawal of the Roman legions
-  to take part in Gibbon's Decline and Fall of the R...
 lastmod: '2022-12-14T04:40:50.549Z'
 publishDate: '2022-12-10T04:22:46.963Z'
 tags:
