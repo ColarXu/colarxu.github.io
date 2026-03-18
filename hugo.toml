@@ -53,7 +53,6 @@ enableRobotsTXT = true
 [params]
     env = "production"
     title = "低噪音"
-    description = "世界很大，我们小声说话。"
     author = "许仙人"
     dateFormat = "2006-01-02"
     defaultTheme = "auto"
