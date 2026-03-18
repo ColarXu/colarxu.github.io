@@ -7,6 +7,8 @@ hasCJKLanguage = true       # 核心：确保中文搜索和字数统计准确
 enableEmoji = true
 enableRobotsTXT = true
 
+googleAnalytics = "G-R637DHKY9E"
+
 [pagination]
   pagerSize = 5
 
@@ -94,7 +96,6 @@ enableRobotsTXT = true
     # ... 其他配置 ...
     [params.assets]
         favicon = "/favicon.ico"
-
 
 
 [markup]

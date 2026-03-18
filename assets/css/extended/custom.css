@@ -20,7 +20,7 @@
     line-height: 2.1 !important; 
     /* 稍微调整字号以配合大行距，建议在 17px - 18px */
     font-size: 1.05rem !important; 
-    color: #2c3e50 !important;
+    color: var(--content) !important;
 }
 
 /* 2. 调整段落间距（段与段之间的距离） */
@@ -105,10 +105,9 @@
 
 /* 1. 针对正文内的链接 */
 .post-content a {
-    /* 将模拟下划线的阴影颜色改为蓝色 */
-    /* 你可以根据喜好调整这个蓝色的深浅，例如 #0070f3 或 #2563eb */
-    box-shadow: 0 3px 0 #00bef3 !important; 
-    color: inherit; /* 保持文字颜色跟随正文，仅下划线变蓝 */
+    /* 使用 rgba 可以让蓝色在不同背景下都有一定的通透感 */
+    box-shadow: 0 3px 0 rgba(0, 190, 243, 0.4) !important; 
+    color: inherit;
     transition: all 0.2s ease;
 }
 
