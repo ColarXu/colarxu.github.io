@@ -86,7 +86,7 @@
 /* 针对正文内的有序和无序列表 */
 .post-content ul, 
 .post-content ol {
-    padding-inline-start: 4em !important; /* 核心：缩进两个字符距离 */
+    padding-inline-start: 2em !important; /* 核心：缩进两个字符距离 */
     margin-bottom: var(--content-gap);   /* 保持与主题一致的段落间距 */
 }
 
