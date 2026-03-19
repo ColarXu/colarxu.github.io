@@ -2,8 +2,8 @@
 lastmod: '2021-03-09T05:59:13.558Z'
 publishDate: '2021-03-08T02:32:02.377Z'
 tags:
-- 电影
-title: "娄烨 in \bShanghai"
+- 观影笔记
+title: "娄烨 in Shanghai"
 ---
 
 我不知道娄烨是上海人，直到看了他的[《在上海》](https://movie.douban.com/subject/4248231/)。

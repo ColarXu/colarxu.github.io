@@ -4,7 +4,7 @@ publishDate: '2022-04-16T10:03:02.200Z'
 tags:
 - Command Line
 - 教程
-title: "Command Line \b教程 03：新建文件和文件夹"
+title: "Command Line 教程 03：新建文件和文件夹"
 ---
 
 [上一期](https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/)我们学了三个命令：

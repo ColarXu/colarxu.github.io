@@ -4,7 +4,7 @@ publishDate: '2022-04-16T14:03:35.747Z'
 tags:
 - Command Line
 - 教程
-title: "Command Line \b教程 04：删除、移动、复制"
+title: "Command Line 教程 04：删除、移动、复制"
 ---
 
 有出生，就有死亡。

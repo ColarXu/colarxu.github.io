@@ -1,104 +1,113 @@
+# ==========================================
+# 1. 站点基础信息
+# ==========================================
 baseURL = "https://ColarXu.github.io/"
 title = "低噪音"
+author = "许仙人"
 theme = "PaperMod"
 languageCode = "zh-cn"
-
-hasCJKLanguage = true       # 核心：确保中文搜索和字数统计准确
+hasCJKLanguage = true      # 确保中文搜索和字数统计准确
 enableEmoji = true
 enableRobotsTXT = true
-
 googleAnalytics = "G-R637DHKY9E"
 
 [pagination]
-  pagerSize = 5
+pagerSize = 5
 
+# ==========================================
+# 2. 输出与性能配置 (针对 RSS 报错的专项修复)
+# ==========================================
 [minify]
-  disableXML = true
-  minifyOutput = true       # 性能：压缩输出文件
+# 核心修复：必须设为 false。
+# 否则压缩引擎会触发你旧文中的非法字符导致全站 RSS 崩溃。
+minifyOutput = false 
+disableXML = true
+
+[outputs]
+# 恢复全站 RSS 支持：首页、分类、标签页均生成 RSS
+home = ["HTML", "RSS", "JSON"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML", "RSS"]
+term = ["HTML", "RSS"]
 
 [permalinks]
-  posts = "/:title/"        # 极简：URL 只保留标题，去掉日期层级
+posts = "/:title/"         # 极简 URL 格式
 
-
+# ==========================================
+# 3. 导航菜单
+# ==========================================
 [[menu.main]]
-    identifier = "search"
     name = "🔍"
     url = "/search/"
     weight = 10
 
 [[menu.main]]
-    identifier = "archives"
     name = "文库"
     url = "/archives/"
     weight = 20
 
 [[menu.main]]
-    identifier = "tags"
     name = "标签"
     url = "/tags/"
     weight = 30
 
 [[menu.main]]
-    identifier = "about"
     name = "关于"
     url = "/about/"
     weight = 40
 
-
-[outputs]
-    home = ["HTML", "RSS", "JSON"] # 必须：生成搜索所需的 JSON 索引
-
+# ==========================================
+# 4. 搜索与渲染引擎
+# ==========================================
 [fuseOpts]
-    isCaseSensitive = false
-    shouldSort = true
-    location = 0
-    distance = 100
-    threshold = 0.4
-    minMatchCharLength = 0
-    keys = ["title", "permalink", "summary", "content"]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 100
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
 
+[markup.goldmark.renderer]
+unsafe = true              # 允许 Markdown 中使用 HTML
 
+# ==========================================
+# 5. PaperMod 深度定制
+# ==========================================
 [params]
-    env = "production"
-    title = "低噪音"
-    author = "许仙人"
-    dateFormat = "2006.01.02"
-    defaultTheme = "auto"
-    description = "许仙人的数字花园。记录边牧养育实录、书籍和电影感悟、历史人文随笔。践行数字极简主义，分享生活周刊与效率软件科普，连接理性思考与感性生活。"
-    keywords = ["许仙人", "博客", "边牧", "养狗", "游戏", "漫画推荐", "影评", "书籍推荐", "数字极简", "世说新语", "圣经笔记", "软件科普", "效率工具"]
+env = "production"
+dateFormat = "2006.01.02"
+defaultTheme = "auto"
+description = "许仙人的数字花园。记录边牧养育实录、书影感悟、历史随笔。践行数字极简，分享效率工具。"
+keywords = ["许仙人", "博客", "边牧", "数字极简", "效率工具"]
 
-    # 界面控制
-    ShowReadingTime = false
-    ShowWordCount = false
-    ShowCodeCopyButtons = true
-    ShowPostNavLinks = true
-    ShowLastMod = true
-    ShowShareButtons = false    # 隐私：关闭社交追踪插件
-    ShowBreadCrumbs = false
-    disableThemeToggle = false
-    UseHugoToc = true
-    ShowRssButtonInSectionTermList = true
-    
-    # 首页信息模式 (Home Info)
-    [params.homeInfoParams]
-        Title = "Hey 👋"
-        Content = "我是许仙人，很高兴认识你。世界很大，我们小声说话。"
+# 界面展示控制
+ShowReadingTime = false
+ShowWordCount = false
+ShowCodeCopyButtons = true
+ShowPostNavLinks = true
+ShowLastMod = true
+ShowShareButtons = false   # 隐私防护
+ShowBreadCrumbs = false
+UseHugoToc = true
 
-    # 社交图标 (推荐使用 Proton 别名或不显眼链接)
-    [[params.socialIcons]]
-        name = "email"
-        url = "mailto:colarxu@icloud.com" # 建议未来换成你的 Proton 别名
-    
-    [[params.socialIcons]]
-        name = "rss"
-        url = "/index.xml"
+# 核心：开启标签页面的 RSS 按钮
+ShowRssButtonInSectionTermList = true
+ShowFullTextContent = true
 
-    # ... 其他配置 ...
-    [params.assets]
-        favicon = "/favicon.ico"
+# 首页欢迎词
+[params.homeInfoParams]
+Title = "Hey 👋"
+Content = "我是许仙人，很高兴认识你。世界很大，我们小声说话。"
 
+# 社交图标
+[[params.socialIcons]]
+name = "email"
+url = "mailto:colarxu@icloud.com"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true  # 允许在 Markdown 中写 HTML
+[[params.socialIcons]]
+name = "rss"
+url = "/index.xml"
+
+[params.assets]
+favicon = "/favicon.ico"
