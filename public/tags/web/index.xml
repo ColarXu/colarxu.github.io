@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Web on 低噪音</title>
-    <link>https://ColarXu.github.io/tags/web/</link>
+    <link>http://localhost:1313/tags/web/</link>
     <description>Recent content in Web on 低噪音</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 07 Jun 2022 14:38:14 +0000</lastBuildDate>
-    <atom:link href="https://ColarXu.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WebDev 05: CSS Color</title>
-      <link>https://ColarXu.github.io/webdev-05-css-color/</link>
+      <link>http://localhost:1313/webdev-05-css-color/</link>
       <pubDate>Sat, 04 Jun 2022 07:29:01 +0000</pubDate>
-      <guid>https://ColarXu.github.io/webdev-05-css-color/</guid>
+      <guid>http://localhost:1313/webdev-05-css-color/</guid>
       <description>&lt;h2 id=&#34;hex-and-rgb&#34;&gt;Hex and RGB&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Hex value: #8FBC8F&lt;/li&gt;
@@ -30,12 +30,34 @@
 &lt;h2 id=&#34;opacity-and--alpha&#34;&gt;Opacity and  Alpha&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;hsla&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;34&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;%,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;50&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;%,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;0&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The fourth value &lt;code&gt;a&lt;/code&gt; alpha, means opacity. It ranges from 0 to 1, if the alpha is 0, the color will be completely transparent; if the alpha is 1, the color would be opaque.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="hex-and-rgb">Hex and RGB</h2>
+<ul>
+<li>Hex value: #8FBC8F</li>
+<li>RGB value: rgb(143, 188, 143)</li>
+</ul>
+<p>These two kinds of vuales are interchangeable, but it is wise to use just one value in coding.</p>
+<h2 id="hsl">HSL</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">color</span><span style="color:#f92672">:</span> <span style="color:#f92672">hsl</span><span style="color:#f92672">(</span><span style="color:#f92672">120</span><span style="color:#f92672">,</span> <span style="color:#f92672">60</span><span style="color:#f92672">%,</span> <span style="color:#f92672">70</span><span style="color:#f92672">%);</span>
+</span></span></code></pre></div><p>shorts for hue-saturation-lightness.</p>
+<ul>
+<li>Hue: the first number, represents the degree of the hue, between 0 and 360.</li>
+<li>Saturation: refers to the intensity or purity of the color, value ranges from 0% to 100%, the higher the color becomes richer, or grayer.</li>
+<li>Lightness: refers to the light or dark of color, value ranges from 0% to 100%, the higher the color becomes lighter, or dimmer.</li>
+</ul>
+<h2 id="opacity-and--alpha">Opacity and  Alpha</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">color</span><span style="color:#f92672">:</span> <span style="color:#f92672">hsla</span><span style="color:#f92672">(</span><span style="color:#f92672">34</span><span style="color:#f92672">,</span> <span style="color:#f92672">100</span><span style="color:#f92672">%,</span> <span style="color:#f92672">50</span><span style="color:#f92672">%,</span> <span style="color:#f92672">0</span>.<span style="color:#a6e22e">1</span><span style="color:#f92672">);</span>
+</span></span></code></pre></div><p>The fourth value <code>a</code> alpha, means opacity. It ranges from 0 to 1, if the alpha is 0, the color will be completely transparent; if the alpha is 1, the color would be opaque.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">color</span> <span style="color:#f92672">:</span> <span style="color:#f92672">rbga</span><span style="color:#f92672">(</span><span style="color:#f92672">234</span><span style="color:#f92672">,</span> <span style="color:#f92672">45</span><span style="color:#f92672">,</span> <span style="color:#f92672">98</span><span style="color:#f92672">,</span> <span style="color:#f92672">0</span>.<span style="color:#a6e22e">33</span><span style="color:#f92672">);</span>
+</span></span></code></pre></div><p>When it comes to RBG color, just add a fourth at the end of rbg value to represent opacity.</p>
+<p>When it comes to Hex color, you can add two-digit at the end of the value to represent opacity. It ranges from 00(transparent) to FF(opaque).</p>
+<p>Alpha can only be used with HSL, GRB and hex colors. We cannot add the alpha value to name colors like green.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>WebDev 04: Beginner CSS</title>
-      <link>https://ColarXu.github.io/webdev-04-beginner-css/</link>
+      <link>http://localhost:1313/webdev-04-beginner-css/</link>
       <pubDate>Sat, 04 Jun 2022 06:17:08 +0000</pubDate>
-      <guid>https://ColarXu.github.io/webdev-04-beginner-css/</guid>
+      <guid>http://localhost:1313/webdev-04-beginner-css/</guid>
       <description>&lt;p&gt;CSS add styles to web page. Each element have several style properties.&lt;/p&gt;
 &lt;h2 id=&#34;basic-propeties&#34;&gt;Basic Propeties&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;font-famiy&lt;/strong&gt;&lt;/p&gt;
@@ -55,12 +77,77 @@
 &lt;li&gt;&lt;code&gt;px&lt;/code&gt; means pixels&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;font-weight&lt;/strong&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>CSS add styles to web page. Each element have several style properties.</p>
+<h2 id="basic-propeties">Basic Propeties</h2>
+<p><strong>font-famiy</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">h1</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-family</span>: Georgia;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>the specific font must be installed</li>
+<li>use <a href="https://www.cssfontstack.com/">Web safe fonts</a>, or the font you choose may not appear the same between all browsers and operating system.</li>
+<li>when the name of a typeface consists of more than one word, enclose the name in quotes, like &lsquo;Courier New&rsquo;.</li>
+</ul>
+<p><strong>font-size</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">p</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">18</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li><code>px</code> means pixels</li>
+</ul>
+<p><strong>font-weight</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">p</span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>normal or bold.</li>
+</ul>
+<p><strong>text-align</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">h1</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">right</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>left, right, center, justify(两端对齐)</li>
+</ul>
+<p><strong>color</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">h1</span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">red</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">blue</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li><code>color</code>: the color of the element itself.</li>
+<li><code>backgound-color</code>: the background color of the element.</li>
+</ul>
+<p><strong>opacity</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">overlay</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">0.5</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>1 represent 100%, fully visible.</li>
+<li>0 represent 0%, fully invisible.</li>
+</ul>
+<p><strong>background-image</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">main-banner</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-image</span>: url(<span style="color:#e6db74">&#39;https://www.example.com/image.jpg&#39;</span>); 
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>set the background of an element to display an image.</li>
+<li>you can use relative path as well.</li>
+</ul>
+<p><strong>important</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">p</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">blue</span> <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>override other any style.</li>
+</ul>
+]]></content:encoded>
     </item>
     <item>
       <title>WebDev 03: HTML Table</title>
-      <link>https://ColarXu.github.io/webdev-03-html-table/</link>
+      <link>http://localhost:1313/webdev-03-html-table/</link>
       <pubDate>Fri, 03 Jun 2022 02:44:07 +0000</pubDate>
-      <guid>https://ColarXu.github.io/webdev-03-html-table/</guid>
+      <guid>http://localhost:1313/webdev-03-html-table/</guid>
       <description>&lt;h2 id=&#34;table-code-structure&#34;&gt;Table Code Structure&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;table&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;thead&lt;/span&gt;&amp;gt;
@@ -88,12 +175,40 @@
 &lt;li&gt;&lt;code&gt;&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;&lt;/code&gt;: add table data. &lt;code&gt;&amp;lt;td colspan=&amp;quot;number&amp;quot;&amp;gt;&lt;/code&gt; let table data across several columns, &lt;code&gt;&amp;lt;td rowspan=&amp;quot;number&amp;quot;&amp;gt;&lt;/code&gt; let table data across several rows.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;&amp;lt;tfoot&amp;gt;&amp;lt;/tfoot&amp;gt;&lt;/code&gt;: the bottom part of a long table.&lt;/li&gt;
 &lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<h2 id="table-code-structure">Table Code Structure</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">table</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">thead</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">th</span> <span style="color:#a6e22e">scope</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col&#34;</span>&gt;&lt;/<span style="color:#f92672">th</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">td</span>&gt;&lt;/<span style="color:#f92672">td</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">thead</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">tbody</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">tbody</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">tfoot</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">tfoot</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">table</span>&gt;
+</span></span></code></pre></div><h2 id="table-element">Table Element</h2>
+<ul>
+<li><code>&lt;table&gt;&lt;/table&gt;</code>: contain all the tabular data.</li>
+<li><code>&lt;thead&gt;&lt;/thead&gt;</code>: the heading of a long table.</li>
+<li><code>&lt;tbody&gt;&lt;/tbady&gt;</code>: the body of the long table.</li>
+<li><code>&lt;tr&gt;&lt;/tr&gt;</code>: add table rows.</li>
+<li><code>&lt;th&gt;&lt;/th&gt;</code>: add table heading. <code>&lt;th scope=&quot;col&quot;&gt;colum heading&lt;/th&gt;</code>, <code>&lt;th scope=&quot;row&gt;row heading&lt;/th&gt;</code>, <code>&lt;th&gt;&lt;/th&gt;</code> blank heading.</li>
+<li><code>&lt;td&gt;&lt;/td&gt;</code>: add table data. <code>&lt;td colspan=&quot;number&quot;&gt;</code> let table data across several columns, <code>&lt;td rowspan=&quot;number&quot;&gt;</code> let table data across several rows.</li>
+<li><code>&lt;tfoot&gt;&lt;/tfoot&gt;</code>: the bottom part of a long table.</li>
+</ul>
+]]></content:encoded>
     </item>
     <item>
       <title>WebDev 02: HTML Document Standards</title>
-      <link>https://ColarXu.github.io/webdev-02-html-document-standards/</link>
+      <link>http://localhost:1313/webdev-02-html-document-standards/</link>
       <pubDate>Thu, 02 Jun 2022 19:54:35 +0000</pubDate>
-      <guid>https://ColarXu.github.io/webdev-02-html-document-standards/</guid>
+      <guid>http://localhost:1313/webdev-02-html-document-standards/</guid>
       <description>&lt;h2 id=&#34;document-type-declaration&#34;&gt;Document Type Declaration&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/code&gt;: the declaration specifying the version of HTML for the browser, put it on the first line of code to tell the browser what type of document to expect.&lt;/p&gt;
 &lt;h2 id=&#34;html-structure&#34;&gt;HTML Structure&lt;/h2&gt;
@@ -121,12 +236,42 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;&amp;lt;!-- comments --&amp;gt;&lt;/code&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="document-type-declaration">Document Type Declaration</h2>
+<p><code>&lt;!DOCTYPE html&gt;</code>: the declaration specifying the version of HTML for the browser, put it on the first line of code to tell the browser what type of document to expect.</p>
+<h2 id="html-structure">HTML Structure</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">title</span>&gt;&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>    content that displayed to the screen.
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt; 
+</span></span></code></pre></div><ul>
+<li><code>&lt;html&gt;&lt;/html&gt;</code>: enclose all the HTML code.</li>
+<li><code>&lt;head&gt;&lt;/head&gt;</code>: metadata, tell the browser about the page itself, not displayed on the webpage.</li>
+<li><code>&lt;title&gt;&lt;/title&gt;</code>: the title of the web page.</li>
+<li><code>&lt;body&gt;&lt;/body&gt;</code>: only content inside the opening and closing body tags can be displayed to the screen.</li>
+</ul>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>absolute links</strong>: linking to other website <code>&lt;a href=&quot;URL&quot; target=&quot;_blank&quot;&gt;text&lt;/a&gt;</code> href refers to hyperlink reference, <code>target=&quot;_blank&quot;</code> means opening the link in a new tab.</li>
+<li><strong>relative links</strong>: linking to internal path in the same folder <code>&lt;a href=&quot;internal path(./contact.html&quot;&gt;Contact&lt;/a&gt;</code>.</li>
+<li><strong>turn image into link</strong>: <code>&lt;a href=&quot;link&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;image-location&quot; alt=&quot;image despriction&quot;/&gt;&lt;/a&gt;</code></li>
+<li><strong>linking to same page</strong>: target <code>&lt;div id=&quot;name&quot;&gt;</code>, then <code>&lt;a href=&quot;#name&quot;&gt;&lt;/a&gt;</code>, click the link then scroll to the section you target.</li>
+</ul>
+<h3 id="comments">Comments</h3>
+<p><code>&lt;!-- comments --&gt;</code></p>
+<hr>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML Element Reference</a></p>
+]]></content:encoded>
     </item>
     <item>
       <title>WebDev 01: Introduction to HTML</title>
-      <link>https://ColarXu.github.io/webdev-01-introduction-to-html/</link>
+      <link>http://localhost:1313/webdev-01-introduction-to-html/</link>
       <pubDate>Thu, 02 Jun 2022 18:50:47 +0000</pubDate>
-      <guid>https://ColarXu.github.io/webdev-01-introduction-to-html/</guid>
+      <guid>http://localhost:1313/webdev-01-introduction-to-html/</guid>
       <description>&lt;h2 id=&#34;what-is-html&#34;&gt;What is HTML?&lt;/h2&gt;
 &lt;p&gt;HTML stands for HypeText Markup Language, it provides structure to the content appearing on a website.&lt;/p&gt;
 &lt;h2 id=&#34;html-elements&#34;&gt;HTML Elements&lt;/h2&gt;
@@ -172,6 +317,52 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;intro&amp;quot;&amp;gt;&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<h2 id="what-is-html">What is HTML?</h2>
+<p>HTML stands for HypeText Markup Language, it provides structure to the content appearing on a website.</p>
+<h2 id="html-elements">HTML Elements</h2>
+<p><strong>tag</strong>: <code>&lt;h1&gt;&lt;/h1&gt;</code>
+<strong>element</strong>: <code>&lt;h1&gt;Colar&lt;/h1&gt;</code></p>
+<h3 id="basic-ones">basic ones</h3>
+<ul>
+<li><code>&lt;body&gt;&lt;/body&gt;</code>: only content inside the opening and closing body tags can be displayed to the screen.</li>
+<li><code>&lt;h1&gt;&lt;/h1&gt; &lt;h6&gt;&lt;/h6&gt;</code>: six different headings.</li>
+<li><code>&lt;div&gt;&lt;/div&gt;</code>: short for division, a container that divides the page into sections.</li>
+<li><code>&lt;p&gt;&lt;/p&gt;</code>: plain text.</li>
+<li><code>&lt;span&gt;&lt;/span&gt;</code>: separate a piece of content form other content. <code>&lt;p&gt;&lt;span&gt;Self-driving cars&lt;/span&gt; are anticipated to replace up to 2 million jobs over the next two decades.&lt;/p&gt;</code></li>
+</ul>
+<h3 id="styling-text">styling text</h3>
+<ul>
+<li><code>&lt;em&gt;&lt;/em&gt;</code>: emphasize text, italic</li>
+<li><code>&lt;strong&gt;&lt;/strong&gt;</code>: highlight text</li>
+<li><code>&lt;br&gt;</code>: line break.</li>
+</ul>
+<h3 id="lists">lists</h3>
+<ul>
+<li><strong>unordered lists</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;apple&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;pineapple&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;watermelon&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span></code></pre></div><ul>
+<li><strong>ordered lists</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">ol</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;one&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;two&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;three&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">ol</span>&gt;
+</span></span></code></pre></div><h3 id="other-content">other content</h3>
+<ul>
+<li><strong>image</strong>: <code>&lt;img src=&quot;image-location&quot; alt=&quot;image-description&quot; /&gt;</code>, src is short for source, alt is short for alternative text.</li>
+<li><strong>video</strong>: <code>&lt;video src=&quot;video-location&quot; width=&quot;320&quot; height=&quot;240&quot; controls&gt; Video not supported &lt;/video&gt;</code> controls instruct the browser to include basic video controls such as pausing and playing.</li>
+</ul>
+<h3 id="attribute">attribute</h3>
+<ul>
+<li><code>&lt;div id=&quot;intro&quot;&gt;</code></li>
+</ul>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

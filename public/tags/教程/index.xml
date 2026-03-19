@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>教程 on 低噪音</title>
-    <link>https://ColarXu.github.io/tags/%E6%95%99%E7%A8%8B/</link>
+    <link>http://localhost:1313/tags/%E6%95%99%E7%A8%8B/</link>
     <description>Recent content in 教程 on 低噪音</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 07 Jun 2022 14:38:14 +0000</lastBuildDate>
-    <atom:link href="https://ColarXu.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WebDev 05: CSS Color</title>
-      <link>https://ColarXu.github.io/webdev-05-css-color/</link>
+      <link>http://localhost:1313/webdev-05-css-color/</link>
       <pubDate>Sat, 04 Jun 2022 07:29:01 +0000</pubDate>
-      <guid>https://ColarXu.github.io/webdev-05-css-color/</guid>
+      <guid>http://localhost:1313/webdev-05-css-color/</guid>
       <description>&lt;h2 id=&#34;hex-and-rgb&#34;&gt;Hex and RGB&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Hex value: #8FBC8F&lt;/li&gt;
@@ -30,12 +30,34 @@
 &lt;h2 id=&#34;opacity-and--alpha&#34;&gt;Opacity and  Alpha&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;hsla&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;34&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;%,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;50&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;%,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;0&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The fourth value &lt;code&gt;a&lt;/code&gt; alpha, means opacity. It ranges from 0 to 1, if the alpha is 0, the color will be completely transparent; if the alpha is 1, the color would be opaque.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="hex-and-rgb">Hex and RGB</h2>
+<ul>
+<li>Hex value: #8FBC8F</li>
+<li>RGB value: rgb(143, 188, 143)</li>
+</ul>
+<p>These two kinds of vuales are interchangeable, but it is wise to use just one value in coding.</p>
+<h2 id="hsl">HSL</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">color</span><span style="color:#f92672">:</span> <span style="color:#f92672">hsl</span><span style="color:#f92672">(</span><span style="color:#f92672">120</span><span style="color:#f92672">,</span> <span style="color:#f92672">60</span><span style="color:#f92672">%,</span> <span style="color:#f92672">70</span><span style="color:#f92672">%);</span>
+</span></span></code></pre></div><p>shorts for hue-saturation-lightness.</p>
+<ul>
+<li>Hue: the first number, represents the degree of the hue, between 0 and 360.</li>
+<li>Saturation: refers to the intensity or purity of the color, value ranges from 0% to 100%, the higher the color becomes richer, or grayer.</li>
+<li>Lightness: refers to the light or dark of color, value ranges from 0% to 100%, the higher the color becomes lighter, or dimmer.</li>
+</ul>
+<h2 id="opacity-and--alpha">Opacity and  Alpha</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">color</span><span style="color:#f92672">:</span> <span style="color:#f92672">hsla</span><span style="color:#f92672">(</span><span style="color:#f92672">34</span><span style="color:#f92672">,</span> <span style="color:#f92672">100</span><span style="color:#f92672">%,</span> <span style="color:#f92672">50</span><span style="color:#f92672">%,</span> <span style="color:#f92672">0</span>.<span style="color:#a6e22e">1</span><span style="color:#f92672">);</span>
+</span></span></code></pre></div><p>The fourth value <code>a</code> alpha, means opacity. It ranges from 0 to 1, if the alpha is 0, the color will be completely transparent; if the alpha is 1, the color would be opaque.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">color</span> <span style="color:#f92672">:</span> <span style="color:#f92672">rbga</span><span style="color:#f92672">(</span><span style="color:#f92672">234</span><span style="color:#f92672">,</span> <span style="color:#f92672">45</span><span style="color:#f92672">,</span> <span style="color:#f92672">98</span><span style="color:#f92672">,</span> <span style="color:#f92672">0</span>.<span style="color:#a6e22e">33</span><span style="color:#f92672">);</span>
+</span></span></code></pre></div><p>When it comes to RBG color, just add a fourth at the end of rbg value to represent opacity.</p>
+<p>When it comes to Hex color, you can add two-digit at the end of the value to represent opacity. It ranges from 00(transparent) to FF(opaque).</p>
+<p>Alpha can only be used with HSL, GRB and hex colors. We cannot add the alpha value to name colors like green.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>WebDev 04: Beginner CSS</title>
-      <link>https://ColarXu.github.io/webdev-04-beginner-css/</link>
+      <link>http://localhost:1313/webdev-04-beginner-css/</link>
       <pubDate>Sat, 04 Jun 2022 06:17:08 +0000</pubDate>
-      <guid>https://ColarXu.github.io/webdev-04-beginner-css/</guid>
+      <guid>http://localhost:1313/webdev-04-beginner-css/</guid>
       <description>&lt;p&gt;CSS add styles to web page. Each element have several style properties.&lt;/p&gt;
 &lt;h2 id=&#34;basic-propeties&#34;&gt;Basic Propeties&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;font-famiy&lt;/strong&gt;&lt;/p&gt;
@@ -55,12 +77,77 @@
 &lt;li&gt;&lt;code&gt;px&lt;/code&gt; means pixels&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;font-weight&lt;/strong&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>CSS add styles to web page. Each element have several style properties.</p>
+<h2 id="basic-propeties">Basic Propeties</h2>
+<p><strong>font-famiy</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">h1</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-family</span>: Georgia;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>the specific font must be installed</li>
+<li>use <a href="https://www.cssfontstack.com/">Web safe fonts</a>, or the font you choose may not appear the same between all browsers and operating system.</li>
+<li>when the name of a typeface consists of more than one word, enclose the name in quotes, like &lsquo;Courier New&rsquo;.</li>
+</ul>
+<p><strong>font-size</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">p</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">18</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li><code>px</code> means pixels</li>
+</ul>
+<p><strong>font-weight</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">p</span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>normal or bold.</li>
+</ul>
+<p><strong>text-align</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">h1</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">right</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>left, right, center, justify(两端对齐)</li>
+</ul>
+<p><strong>color</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">h1</span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">red</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">blue</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li><code>color</code>: the color of the element itself.</li>
+<li><code>backgound-color</code>: the background color of the element.</li>
+</ul>
+<p><strong>opacity</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">overlay</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">0.5</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>1 represent 100%, fully visible.</li>
+<li>0 represent 0%, fully invisible.</li>
+</ul>
+<p><strong>background-image</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">main-banner</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-image</span>: url(<span style="color:#e6db74">&#39;https://www.example.com/image.jpg&#39;</span>); 
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>set the background of an element to display an image.</li>
+<li>you can use relative path as well.</li>
+</ul>
+<p><strong>important</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">p</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">blue</span> <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>override other any style.</li>
+</ul>
+]]></content:encoded>
     </item>
     <item>
       <title>WebDev 03: HTML Table</title>
-      <link>https://ColarXu.github.io/webdev-03-html-table/</link>
+      <link>http://localhost:1313/webdev-03-html-table/</link>
       <pubDate>Fri, 03 Jun 2022 02:44:07 +0000</pubDate>
-      <guid>https://ColarXu.github.io/webdev-03-html-table/</guid>
+      <guid>http://localhost:1313/webdev-03-html-table/</guid>
       <description>&lt;h2 id=&#34;table-code-structure&#34;&gt;Table Code Structure&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;table&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;thead&lt;/span&gt;&amp;gt;
@@ -88,12 +175,40 @@
 &lt;li&gt;&lt;code&gt;&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;&lt;/code&gt;: add table data. &lt;code&gt;&amp;lt;td colspan=&amp;quot;number&amp;quot;&amp;gt;&lt;/code&gt; let table data across several columns, &lt;code&gt;&amp;lt;td rowspan=&amp;quot;number&amp;quot;&amp;gt;&lt;/code&gt; let table data across several rows.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;&amp;lt;tfoot&amp;gt;&amp;lt;/tfoot&amp;gt;&lt;/code&gt;: the bottom part of a long table.&lt;/li&gt;
 &lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<h2 id="table-code-structure">Table Code Structure</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">table</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">thead</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">th</span> <span style="color:#a6e22e">scope</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col&#34;</span>&gt;&lt;/<span style="color:#f92672">th</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">td</span>&gt;&lt;/<span style="color:#f92672">td</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">thead</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">tbody</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">tbody</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">tfoot</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">tfoot</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">table</span>&gt;
+</span></span></code></pre></div><h2 id="table-element">Table Element</h2>
+<ul>
+<li><code>&lt;table&gt;&lt;/table&gt;</code>: contain all the tabular data.</li>
+<li><code>&lt;thead&gt;&lt;/thead&gt;</code>: the heading of a long table.</li>
+<li><code>&lt;tbody&gt;&lt;/tbady&gt;</code>: the body of the long table.</li>
+<li><code>&lt;tr&gt;&lt;/tr&gt;</code>: add table rows.</li>
+<li><code>&lt;th&gt;&lt;/th&gt;</code>: add table heading. <code>&lt;th scope=&quot;col&quot;&gt;colum heading&lt;/th&gt;</code>, <code>&lt;th scope=&quot;row&gt;row heading&lt;/th&gt;</code>, <code>&lt;th&gt;&lt;/th&gt;</code> blank heading.</li>
+<li><code>&lt;td&gt;&lt;/td&gt;</code>: add table data. <code>&lt;td colspan=&quot;number&quot;&gt;</code> let table data across several columns, <code>&lt;td rowspan=&quot;number&quot;&gt;</code> let table data across several rows.</li>
+<li><code>&lt;tfoot&gt;&lt;/tfoot&gt;</code>: the bottom part of a long table.</li>
+</ul>
+]]></content:encoded>
     </item>
     <item>
       <title>WebDev 02: HTML Document Standards</title>
-      <link>https://ColarXu.github.io/webdev-02-html-document-standards/</link>
+      <link>http://localhost:1313/webdev-02-html-document-standards/</link>
       <pubDate>Thu, 02 Jun 2022 19:54:35 +0000</pubDate>
-      <guid>https://ColarXu.github.io/webdev-02-html-document-standards/</guid>
+      <guid>http://localhost:1313/webdev-02-html-document-standards/</guid>
       <description>&lt;h2 id=&#34;document-type-declaration&#34;&gt;Document Type Declaration&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/code&gt;: the declaration specifying the version of HTML for the browser, put it on the first line of code to tell the browser what type of document to expect.&lt;/p&gt;
 &lt;h2 id=&#34;html-structure&#34;&gt;HTML Structure&lt;/h2&gt;
@@ -121,12 +236,42 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;&amp;lt;!-- comments --&amp;gt;&lt;/code&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="document-type-declaration">Document Type Declaration</h2>
+<p><code>&lt;!DOCTYPE html&gt;</code>: the declaration specifying the version of HTML for the browser, put it on the first line of code to tell the browser what type of document to expect.</p>
+<h2 id="html-structure">HTML Structure</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">title</span>&gt;&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>    content that displayed to the screen.
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt; 
+</span></span></code></pre></div><ul>
+<li><code>&lt;html&gt;&lt;/html&gt;</code>: enclose all the HTML code.</li>
+<li><code>&lt;head&gt;&lt;/head&gt;</code>: metadata, tell the browser about the page itself, not displayed on the webpage.</li>
+<li><code>&lt;title&gt;&lt;/title&gt;</code>: the title of the web page.</li>
+<li><code>&lt;body&gt;&lt;/body&gt;</code>: only content inside the opening and closing body tags can be displayed to the screen.</li>
+</ul>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>absolute links</strong>: linking to other website <code>&lt;a href=&quot;URL&quot; target=&quot;_blank&quot;&gt;text&lt;/a&gt;</code> href refers to hyperlink reference, <code>target=&quot;_blank&quot;</code> means opening the link in a new tab.</li>
+<li><strong>relative links</strong>: linking to internal path in the same folder <code>&lt;a href=&quot;internal path(./contact.html&quot;&gt;Contact&lt;/a&gt;</code>.</li>
+<li><strong>turn image into link</strong>: <code>&lt;a href=&quot;link&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;image-location&quot; alt=&quot;image despriction&quot;/&gt;&lt;/a&gt;</code></li>
+<li><strong>linking to same page</strong>: target <code>&lt;div id=&quot;name&quot;&gt;</code>, then <code>&lt;a href=&quot;#name&quot;&gt;&lt;/a&gt;</code>, click the link then scroll to the section you target.</li>
+</ul>
+<h3 id="comments">Comments</h3>
+<p><code>&lt;!-- comments --&gt;</code></p>
+<hr>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML Element Reference</a></p>
+]]></content:encoded>
     </item>
     <item>
       <title>WebDev 01: Introduction to HTML</title>
-      <link>https://ColarXu.github.io/webdev-01-introduction-to-html/</link>
+      <link>http://localhost:1313/webdev-01-introduction-to-html/</link>
       <pubDate>Thu, 02 Jun 2022 18:50:47 +0000</pubDate>
-      <guid>https://ColarXu.github.io/webdev-01-introduction-to-html/</guid>
+      <guid>http://localhost:1313/webdev-01-introduction-to-html/</guid>
       <description>&lt;h2 id=&#34;what-is-html&#34;&gt;What is HTML?&lt;/h2&gt;
 &lt;p&gt;HTML stands for HypeText Markup Language, it provides structure to the content appearing on a website.&lt;/p&gt;
 &lt;h2 id=&#34;html-elements&#34;&gt;HTML Elements&lt;/h2&gt;
@@ -172,12 +317,58 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;intro&amp;quot;&amp;gt;&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<h2 id="what-is-html">What is HTML?</h2>
+<p>HTML stands for HypeText Markup Language, it provides structure to the content appearing on a website.</p>
+<h2 id="html-elements">HTML Elements</h2>
+<p><strong>tag</strong>: <code>&lt;h1&gt;&lt;/h1&gt;</code>
+<strong>element</strong>: <code>&lt;h1&gt;Colar&lt;/h1&gt;</code></p>
+<h3 id="basic-ones">basic ones</h3>
+<ul>
+<li><code>&lt;body&gt;&lt;/body&gt;</code>: only content inside the opening and closing body tags can be displayed to the screen.</li>
+<li><code>&lt;h1&gt;&lt;/h1&gt; &lt;h6&gt;&lt;/h6&gt;</code>: six different headings.</li>
+<li><code>&lt;div&gt;&lt;/div&gt;</code>: short for division, a container that divides the page into sections.</li>
+<li><code>&lt;p&gt;&lt;/p&gt;</code>: plain text.</li>
+<li><code>&lt;span&gt;&lt;/span&gt;</code>: separate a piece of content form other content. <code>&lt;p&gt;&lt;span&gt;Self-driving cars&lt;/span&gt; are anticipated to replace up to 2 million jobs over the next two decades.&lt;/p&gt;</code></li>
+</ul>
+<h3 id="styling-text">styling text</h3>
+<ul>
+<li><code>&lt;em&gt;&lt;/em&gt;</code>: emphasize text, italic</li>
+<li><code>&lt;strong&gt;&lt;/strong&gt;</code>: highlight text</li>
+<li><code>&lt;br&gt;</code>: line break.</li>
+</ul>
+<h3 id="lists">lists</h3>
+<ul>
+<li><strong>unordered lists</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;apple&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;pineapple&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;watermelon&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span></code></pre></div><ul>
+<li><strong>ordered lists</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">ol</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;one&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;two&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;three&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">ol</span>&gt;
+</span></span></code></pre></div><h3 id="other-content">other content</h3>
+<ul>
+<li><strong>image</strong>: <code>&lt;img src=&quot;image-location&quot; alt=&quot;image-description&quot; /&gt;</code>, src is short for source, alt is short for alternative text.</li>
+<li><strong>video</strong>: <code>&lt;video src=&quot;video-location&quot; width=&quot;320&quot; height=&quot;240&quot; controls&gt; Video not supported &lt;/video&gt;</code> controls instruct the browser to include basic video controls such as pausing and playing.</li>
+</ul>
+<h3 id="attribute">attribute</h3>
+<ul>
+<li><code>&lt;div id=&quot;intro&quot;&gt;</code></li>
+</ul>
+]]></content:encoded>
     </item>
     <item>
       <title>Command Line 教程 04：删除、移动、复制</title>
-      <link>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</link>
+      <link>http://localhost:1313/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</link>
       <pubDate>Sat, 16 Apr 2022 14:03:35 +0000</pubDate>
-      <guid>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</guid>
+      <guid>http://localhost:1313/command-line-%E6%95%99%E7%A8%8B-04%E5%88%A0%E9%99%A4%E7%A7%BB%E5%8A%A8%E5%A4%8D%E5%88%B6/</guid>
       <description>&lt;p&gt;有出生，就有死亡。
 有生存，就有毁灭。
 有新建，就有删除。&lt;/p&gt;
@@ -186,12 +377,65 @@
 &lt;p&gt;&lt;code&gt;rm&lt;/code&gt; 是 remove 的缩写。&lt;/p&gt;
 &lt;p&gt;如果你看哪个文件不顺眼，就用 &lt;code&gt;rm&lt;/code&gt; 命令把它狠狠删掉吧。&lt;/p&gt;
 &lt;p&gt;具体这么操作：&lt;code&gt;rm 文件名称.文件类型&lt;/code&gt;。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>有出生，就有死亡。
+有生存，就有毁灭。
+有新建，就有删除。</p>
+<p><a href="https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E4%BD%A0%E7%9A%84%E6%96%87%E4%BB%B6/">上一期</a>，我们学习了如何用命令行新建文件和文件夹。那么这一期，就来学习如何把它们移开、复制，以及删掉。</p>
+<h2 id="rm-命令删除一切">rm 命令：删除一切</h2>
+<p><code>rm</code> 是 remove 的缩写。</p>
+<p>如果你看哪个文件不顺眼，就用 <code>rm</code> 命令把它狠狠删掉吧。</p>
+<p>具体这么操作：<code>rm 文件名称.文件类型</code>。</p>
+<p>假如，你想删除的文件不在当前文件夹下面，就在命令中把文件路径加进去，比如 <code>rm ~/xxx/xxx/文件夹名称.文件类型</code>。</p>
+<p>要是你想一次性删一堆文件，就需要用到 <code>*</code> 全选符号。比如，我想把 Downloads 文件夹中的 jpg 图片全部删掉，就用 <code>rm ~/downloads/*.jpg</code> 命令。</p>
+<p><strong>要是你想删除一个文件夹的话</strong>，单纯的 <code>rm</code> 命令起不到作用了，要在后面多加一个 <code>-r</code>，也就是 recursive，让它循环删除，直到删无可删。</p>
+<p>举个例子：</p>
+<ul>
+<li><code>rm -r hugo</code> 删除一个名为 hugo 的文件夹</li>
+<li><code>rm -r hugo/*</code> 删除 hugo 文件夹里的所有内容，但不删文件夹本身</li>
+</ul>
+<p>最后，大家在使用 <code>rm</code> 命令时，一定要谨慎，因为删了就彻底删了，连回收站不会进哦。</p>
+<h2 id="mv-命令转移一切">mv 命令：转移一切</h2>
+<p>说实话，Command Line 这些命令，平时我基本用不上，但 <code>mv</code> 命令除外，它真的很实用。</p>
+<p><strong>移动一个文件</strong>：<code>mv 文件名称.文件类型 文件夹名称</code> 该命令可以把让你把某一文件，移动到某一个文件夹中。</p>
+<p><strong>移动一堆文件</strong>：<code>mv *.文件类型 文件夹名</code> 这是个人很喜欢用的一个命令。</p>
+<p>我经常在网上找一些资源，比如电子书。电子书主要有三种格式：mobi, epub 和 pdf，默认下载在 Download 的文件夹里。文件一多，就要整理，相比一个一个选中，拉去另一个文件夹，不如直接用 <code>mv ~/downloads/*.mobi ~/documents/book/</code> 命令，瞬间就能把所有 mobi 格式的书，放在我想让它们待的文件夹。</p>
+<p>你可以用 <code>mv</code> 命令来重命名文件。比如，输入 <code>mv xxx.png yyy.png</code>，当前文件夹中那张名为 xxx 的 png 图片，就改名成了 yyy。</p>
+<h2 id="cp-命令克隆一切">cp 命令：克隆一切</h2>
+<p>我们很习惯用 ctrl + c 和 ctrl + v 来复制粘贴。其实，用命令行也可以操作，一个 <code>cp</code> 命令就搞定。</p>
+<p><code>cp cat.png ~/pictures</code> 即把一张猫片复制到 pictures 文件夹。</p>
+<p>你也可以批量操作，一次复制很多张，比如 <code>cp cat.png dog.png. rat.png ~/pictures</code> 一次性把当前文件夹下的猫片、狗片和鼠片，都复制去 pictures 文件夹。</p>
+<p>如果你还记得上面教的 <code>*</code> 符号，还可以玩出各种花：</p>
+<ul>
+<li><code>cp *.txt</code> 复制所有 txt 文档</li>
+<li><code>cp m*.txt</code> 复制所有文件名以 m 开头的 txt 文档。</li>
+</ul>
+<p>总而言之，学会 Command Line，就可以根据自己的需求，离开鼠标，用键盘给电脑下命令了。</p>
+<h2 id="小结">小结</h2>
+<p>这一期，我们学了 3 个命令：</p>
+<h3 id="rm-删除命令">rm 删除命令</h3>
+<ul>
+<li><code>rm xxx.txt</code> 删除名为 xxx 的 txt 文档</li>
+<li><code>rm -r xxx</code> 删除名为 xxx 的文件夹</li>
+<li><code>rm -r xxx/*</code> 删除名为 xxx 的文件夹下的内容，但不删除文件夹本身</li>
+</ul>
+<h3 id="mv-移动命令">mv 移动命令</h3>
+<ul>
+<li><code>mv xxx.txt yyy</code> 将名为 xxx 的 txt 文档，移动至 yyy 文件夹</li>
+<li><code>mv xxx.txt yyy.txt</code> 将名为 xxx 的 txt 文档重命名为 yyy</li>
+</ul>
+<h3 id="cp-复制命令">cp 复制命令</h3>
+<ul>
+<li><code>cp xxx.txt yyy</code> 将名为 xxx 的 txt 文档复制到 yyy 文件夹</li>
+<li><code>cp xx.txt xxx.txt yyy</code> 将名为 xx 和 xxx 的 txt 文档复制到 yyy 文件夹</li>
+</ul>
+<p>看起来很头晕，但上手起来很简单。来，你也来试一试吧！</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Command Line 教程 03：新建文件和文件夹</title>
-      <link>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</link>
+      <link>http://localhost:1313/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</link>
       <pubDate>Sat, 16 Apr 2022 10:03:02 +0000</pubDate>
-      <guid>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</guid>
+      <guid>http://localhost:1313/command-line-%E6%95%99%E7%A8%8B-03%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/&#34;&gt;上一期&lt;/a&gt;我们学了三个命令：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;ls&lt;/code&gt; 查看当前目录下的文件和文件夹&lt;/li&gt;
@@ -200,24 +444,169 @@
 &lt;/ul&gt;
 &lt;p&gt;从此具备了在计算机的文件夹丛林里漫游的能力。&lt;/p&gt;
 &lt;p&gt;好吧，走也走了，看也看了。现在就来动动手，学习怎么往计算机里加东西吧。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><a href="https://colarxu.github.io/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/">上一期</a>我们学了三个命令：</p>
+<ul>
+<li><code>ls</code> 查看当前目录下的文件和文件夹</li>
+<li><code>cd</code> 切换不同的文件目录</li>
+<li><code>pwd</code> 显示当前文件夹的路径</li>
+</ul>
+<p>从此具备了在计算机的文件夹丛林里漫游的能力。</p>
+<p>好吧，走也走了，看也看了。现在就来动动手，学习怎么往计算机里加东西吧。</p>
+<h2 id="mkdir-命令新建文件夹">mkdir 命令：新建文件夹</h2>
+<p><code>mkdir</code> 即 make directory，新建文件夹（目录）的意思。</p>
+<p>在 Terminal 中输入 <code>mkdir 文件夹名称</code>，就可以在当前文件夹下，新建一个子文件夹。</p>
+<p>很简单对吧？感觉比用鼠标右键新建文件夹要更快呢。</p>
+<p>如果你想把文件夹建在别的地方，就这样来： <code>mkdir ~/xxx/xxx/xxx/文件夹名称</code>。<code>~</code> 指的是根目录，那些 xxx 就是你目标文件夹的路径。</p>
+<h2 id="touch-命令新建文件">touch 命令：新建文件</h2>
+<p><code>touch</code> 命令跟 <code>mkdir</code> 的原理是一样的。只不过前者是新建文件，后者是新建文件夹。</p>
+<p>请注意，<code>touch</code> 命令只能新建<strong>纯文本文件</strong>，比如 txt 和 md 文件，其他类型的文件可是建不了的。</p>
+<p>举个例子，<code>touch ~/desktop/note.md</code>，便是在桌面新建一个名为 note 的 markdown 文档（<code>~</code> 是根目录，桌面 desktop 是根目录的子文件夹）。</p>
+<p>对了，<strong>当新建一个文件的时候，一定不要忘记加上文件的后缀名</strong>。漏了后缀名，电脑可是不会搭理这个命令的哟。</p>
+<h2 id="cat-命令查看文件内容">cat 命令：查看文件内容</h2>
+<p>在 Terminal 中，我们无需打开文件，就可以查看文件里的内容。</p>
+<p>我悄悄地在刚才新建的文件 note.md 中贴了一行诗，现在就去看看吧。</p>
+<p>输入命令 <code>cat ~/desktop/note.md</code>（如果你在 desktop 这个文件目录，输入 <code>cat note.md</code> 就行了）。</p>
+<p>然后你会看见：</p>
+<pre tabindex="0"><code>colarxu@MacBook-Air ~ % cat ~/desktop/note.md
+
+O friends, I am mad with love, and no one sees.    
+</code></pre><p>See？不用真的打开文件，在 Terminal 里面就可以看到那句诗了。</p>
+<h2 id="echo-命令往文件里加内容">echo 命令：往文件里加内容</h2>
+<p>既然可以在 Terminal 里查看文件内容，那可不可以在里面写东西呢？</p>
+<p>当然是可以的，用 <code>echo</code> 命令就行了。</p>
+<p>比如，我想在 note.md 文档里加一段文字的话，输入 <code>echo &quot;This is not true.” &gt;&gt; ~/desktop/note.md</code> 就行了。</p>
+<pre tabindex="0"><code>colarxu@MacBook-Air ~ % echo &#34;This is not true.&#34; &gt;&gt; ~/desktop/note.md 
+colarxu@MacBook-Air ~ % cat ~/desktop/note.md 
+
+O friends, I am mad with love, and no one sees.This is not true.
+</code></pre><p>在 <code>echo</code> 后面的双引号 <code>“”</code> 里写下要添加的内容，后面跟上 <code>&gt;&gt;</code>，再输入目标文件的路径，那句话就写进去了。</p>
+<p>注意，如果命令中间，你用的是 <code>&gt;</code> 而不是 <code>&gt;&gt;</code> 的话，<strong>你新添加的内容，会把原有的内容给覆盖掉</strong>。</p>
+<p>除了 <code>echo</code> 命令，你还可以用 <code>cat</code> 命令来往文件里添加内容。</p>
+<p>举个例子：</p>
+<ul>
+<li><code>cat note.md &gt; poem.md</code> 用 note 里的内容「覆盖」poem 的内容。</li>
+<li><code>cat note.md &gt;&gt; poem.md</code> 把 note 的内容添加到 poem 里面。</li>
+</ul>
+<p>你们注意到没有？<code>echo</code> 命令是把一段文本添加到一个文件里面去，而 <code>cat</code> 命令是把一个文件的内容，添加到另一个文件里去。如果被添加的对象文件不存在，则会自动新建一个。</p>
+<h2 id="小结">小结</h2>
+<p>好了，一次学这么多就够了。照例回顾一下。</p>
+<p>这一期，我们学了四组命令：</p>
+<ul>
+<li><code>mkdir 文件夹名称</code> 在当前文件夹内部，新建一个子文件夹。</li>
+<li><code>touch 文件名称.文件类型（如 txt、md）</code> 在当前文件夹内部，新建一个文件。</li>
+<li><code>cat 文件名称.文件类型</code> 显示该文件的内容。</li>
+<li><code>echo “想增加的内容” &gt;&gt; 文件名称.文件类型</code> 在文件中新增内容。</li>
+</ul>
+<p>下一期，我们将学习如何删除、移动和复制文件。再会再会~</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Command Line 教程 02：在计算机里散步</title>
-      <link>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</link>
+      <link>http://localhost:1313/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</link>
       <pubDate>Fri, 15 Apr 2022 16:31:01 +0000</pubDate>
-      <guid>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</guid>
+      <guid>http://localhost:1313/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/</guid>
       <description>&lt;p&gt;&lt;strong&gt;一台电脑，就是一个巨大的文件夹&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;系统、软件、游戏、电影、文档、图片、音乐……不管什么东西，都是以文件和文件夹的形式，存放在电脑里。&lt;/p&gt;
 &lt;p&gt;这一期，我们就学习一些简单的 Command Line 命令，一起去计算机的文件丛林里散个步。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>一台电脑，就是一个巨大的文件夹</strong>。</p>
+<p>系统、软件、游戏、电影、文档、图片、音乐……不管什么东西，都是以文件和文件夹的形式，存放在电脑里。</p>
+<p>这一期，我们就学习一些简单的 Command Line 命令，一起去计算机的文件丛林里散个步。</p>
+<h2 id="ls-命令看看文件夹里都有啥">ls 命令：看看文件夹里都有啥</h2>
+<p><code>ls</code> 是 lists 的缩写。</p>
+<p>输入 <code>ls</code> 命令，就能看到「当前所在文件夹」下的所有东西。</p>
+<p>每次打开 Terminal，我们默认所处的文件夹都是<strong>根目录，也就是整个计算机最大、最外层的那一个文件夹</strong>。 在 Terminal 中输入 <code>ls</code>，回车，就可以看到根目录下的所有文件夹。</p>
+<pre tabindex="0"><code>colarxu@MacBook-Air ~ % ls
+
+Applications	Downloads	Music		Public
+Desktop		Library		Photo Framework	hugo
+Documents	Movies		Pictures
+</code></pre><p>看，我的根目录下面有 11 个文件夹。</p>
+<p>如果你想看得更仔细，还可以额外加点料：</p>
+<ul>
+<li><code>ls -a</code> 显示所有文件和文件夹（包括隐藏起来的）</li>
+<li><code>ls -l</code> 显示文件和文件夹的详细信息</li>
+<li><code>ls -t</code> 按修改时间排序</li>
+</ul>
+<p>甚至还可以任意组合使用，比如 <code>ls -alt</code>，显示当前目录下的所有文件和文件夹，包括隐藏文件，包括详细信息，并按照修改时间排序。</p>
+<h2 id="cd-命令去各个文件夹串门">cd 命令：去各个文件夹串门</h2>
+<p><code>cd</code> 是 change directory 的缩写，<strong>它的作用是切换不同的文件夹（目录）</strong>。</p>
+<p>我们出去坐地铁，有起点和终点。<code>cd</code> 命令也一样，起点是当前所在的文件夹，终点是你要去往的文件夹。</p>
+<p>假设我们在根目录，下面有这些文件夹：</p>
+<p><img alt="根目录下的文件夹" loading="lazy" src="https://s3.bmp.ovh/imgs/2022/04/16/ed7229119a941312.png"></p>
+<p>想去 Downloads 文件夹，直接在 Terminal 中输入 <code>cd downloads</code> 就行了。</p>
+<pre tabindex="0"><code>colarxu@MacBook-Air ~ % cd downloads
+colarxu@MacBook-Air downloads % 
+</code></pre><p>大家看到上面的 <code>%</code> 符号了吗？</p>
+<p>符号左侧那一串 <code>colarxu@MacBook-Air</code> 是我的电脑账户名称，后面跟着的是「当前文件的位置」。第一行代码中的 <code>~</code>，指的是根目录，而第二行代码中的 <code>downloads</code> 则表示我已经在 Downloads 文件夹了。</p>
+<p>俗话说，饭要一口一口地吃，<code>cd 文件夹名称</code> 这个命令，也<strong>只能一步一步地走，不能乱飞</strong>。</p>
+<p>正因为 Downloads 文件夹在根目录的下一级，才能直接使用 <code>cd downloads</code> 命令。假设我想从根目录出发，去到 Downloads 下面的 Book 文件夹，用 <code>cd book</code> 命令是穿不去的，<strong>得老老实实地列出每一站的路线</strong> <code>cd downloads/book</code> 才行。</p>
+<p>那么，<strong>怎么走回头路呢</strong>？很简单，输入 <code>cd ..</code> 就可以返回上一级文件夹，输入 <code>cd ../..</code> 则可以返回上上一级的文件夹。</p>
+<p>假如玩累了，想<strong>回到最初的起点（根目录）</strong>，输入 <code>cd ~</code> 就好了。不管你在哪里，这个命令都能让你瞬间穿越回根目录。</p>
+<h2 id="pwd-命令我是谁我在哪">pwd 命令：我是谁？我在哪？</h2>
+<p>有时候走得太远，就会忘了来时的路。</p>
+<p>在计算机的世界也一样，虽然我们已经学会识别当前所在的文件夹（<code>%</code> 符号左侧），但这个文件夹具体在什么位置，它的上级和上上级是谁，我们并不知道。</p>
+<p>这个时候，就得靠 <code>pwd</code> 命令来找回初心了。</p>
+<p><code>pwd</code> 是 print working directory 的缩写。当你在 Terminal 感到迷惘的时候，输入 <code>pwd</code> 命令，就能看到<strong>从根目录一直延伸过来的路径</strong>。</p>
+<pre tabindex="0"><code>colarxu@MacBook-Air 2022 % pwd
+/Users/colarxu/hugo/content/posts/2022
+</code></pre><h2 id="小结">小结</h2>
+<p>这一期，我们学了三组命令：</p>
+<p><code>ls</code> 显示「当前文件夹」下的所有文件、文件夹。</p>
+<ul>
+<li><code>ls -a</code> 显示所有文件和文件夹（包括隐藏文件和文件夹）</li>
+<li><code>ls -l</code> 显示文件和文件夹的详细信息</li>
+<li><code>ls -t</code> 按修改时间排序</li>
+<li><code>ls -alt</code> 显示当前目录下的所有文件和文件夹，包括隐藏文件，包括详细信息，并按照修改时间排序。</li>
+</ul>
+<p><code>cd</code> 切换文件目录。</p>
+<ul>
+<li><code>cd ..</code> 返回上一级文件目录</li>
+<li><code>cd ~</code> 返回根目录</li>
+</ul>
+<p><code>pwd</code> 显示当前文件夹的路径。</p>
+<p>怎样，是不是很简单？自己在电脑上试一试吧。</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Command Line 教程 01：什么是 Command Line？</title>
-      <link>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</link>
+      <link>http://localhost:1313/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</link>
       <pubDate>Wed, 13 Apr 2022 14:38:18 +0000</pubDate>
-      <guid>https://ColarXu.github.io/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</guid>
+      <guid>http://localhost:1313/command-line-%E6%95%99%E7%A8%8B-01%E4%BB%80%E4%B9%88%E6%98%AF-command-line/</guid>
       <description>&lt;p&gt;你一定在电影上看过，&lt;strong&gt;黑客们是怎样用电脑的&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;跟我们拿着鼠标到处点点点不一样，他们通常会对着一个满是代码的屏幕，疯狂地敲击键盘。&lt;/p&gt;
 &lt;p&gt;这种「使唤」电脑的方式，便涉及到本文的主角 Command Line。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>你一定在电影上看过，<strong>黑客们是怎样用电脑的</strong>。</p>
+<p>跟我们拿着鼠标到处点点点不一样，他们通常会对着一个满是代码的屏幕，疯狂地敲击键盘。</p>
+<p>这种「使唤」电脑的方式，便涉及到本文的主角 Command Line。</p>
+<h2 id="什么是-command-line">什么是 Command Line？</h2>
+<p>Command Line，也就是「命令行」，一行一行命令的意思。</p>
+<p>这些命令，指的是<strong>我们给计算机下的指令</strong>。比如播放音乐、打开文件夹、放大图片、退出软件……这些都是「命令」。</p>
+<p>电脑是个很聪明的玩意，但同时也很呆板，跟它们的祖先算盘一个德性——<strong>拨一下，才会动一下</strong>。如果没有人给电脑下命令，它们就会翘着脚，啥事都不干。</p>
+<p>平时我们用鼠标和手指，在屏幕上点这点那，便是在「指挥」电脑干这干那。近些年兴起的智能语音助手，比如 Siri、Cortana、Alexa，更是让我们可以直接「喊」电脑来做事。</p>
+<p>本文的主角 <strong>Command Line，则是一种最古早、最经典的命令手段</strong>，也是开发者经常使用的一种命令手段。</p>
+<p>但想要用好它，还得额外花一些力气：</p>
+<ul>
+<li>首先，你得用键盘敲一行命令，告诉电脑该去做什么事。</li>
+<li>其次，由于电脑不会说人话，所以沟通的时候得使用「计算机语言」，也就是「代码」，电脑才能理解你想要它干嘛。</li>
+</ul>
+<h2 id="command-line-有什么用">Command Line 有什么用？</h2>
+<p>既然这么麻烦，为什么要学 Command Line 呢？</p>
+<p>首先必须得承认，<strong>如果你不是开发者，学习 Command Line 基本没啥用</strong>。就像不读柏拉图，不读孔老庄，依然可以毫无阻碍地过完自己的一生。</p>
+<p>但如果你对编程感兴趣，对计算机运行的原理感兴趣，或是想在疫情封闭期间，找根棍子来搅动自己死水一般的大脑的话，学习 Command Line 可能会是一种乐趣。一旦掌握了这种命令手段，你会发现，<strong>当批量处理文件时，用 Command Line 确实比用鼠标拖拽方便得多</strong>。</p>
+<p>前两年我搭了个博客，每次发布文章都需要敲几行代码，这是我跟 Command Line 接触的源起。</p>
+<p><strong>现在这篇文章，主要也是写给自己</strong>——当以后忘掉 Command Line 怎么用时，还能知道去哪里重新捡起来。</p>
+<p>如果有人看了这篇文章，顺便学会了 Command Line 的一些基本操作，那便是我的荣幸了。</p>
+<h2 id="准备工作">准备工作</h2>
+<p>好了，在学习如何用 Command Line 给电脑「发命令」之前，我们先得知道去哪里发。</p>
+<p>以 Mac 为例，系统里专门有一个软件来做这件事，它的名字叫 <strong>Terminal（终端）</strong>。</p>
+<p>有两种方式可以找到它。</p>
+<p><strong>方法一</strong>：打开 Lauchpad（启动台），在「其他」中，找到 Terminal。</p>
+<p><img alt="启动台找终端" loading="lazy" src="https://s3.bmp.ovh/imgs/2022/04/15/436298661ee28ea1.jpg"></p>
+<p><strong>方法二</strong>：用 Spotlight（聚焦） 直接搜索 Terminal。</p>
+<p><img alt="聚焦搜索终端" loading="lazy" src="https://pic.dogimg.com/2022/04/16/625a711e218c7.png"></p>
+<p>这个黑不溜秋的 Terminal，就是能让我们跟电脑「聊天」的灵媒。</p>
+<p>第一期就讲这么多吧，<a href="http://localhost:1313/posts/2022/command-line-%E6%95%99%E7%A8%8B-02%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%87%8C%E6%95%A3%E6%AD%A5/">下一期</a>我们开始实战。</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

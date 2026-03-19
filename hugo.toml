@@ -93,7 +93,7 @@ UseHugoToc = true
 
 # 核心：开启标签页面的 RSS 按钮
 ShowRssButtonInSectionTermList = true
-ShowFullTextContent = true
+ShowFullTextinRSS = true # 保持这个主题特有开关开启
 
 # 首页欢迎词
 [params.homeInfoParams]
@@ -111,3 +111,12 @@ url = "/index.xml"
 
 [params.assets]
 favicon = "/favicon.ico"
+
+# ==========================================
+# 6. RSS 服务深度配置 (确保全文抓取)
+# ==========================================
+[services.rss]
+    limit = 20          # 限制 RSS 里的文章数量，防止 170 篇一次性加载太慢
+    fullContent = true  # 强制 RSS 服务输出全文内容
+
+   
